@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">d3</title>
+  <style>
+  body{
+    background: #333;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    color: #fff
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>3322</div>
+    <div>1122</div>
+    <div>322</div>
+  </div>
+  <script src="./d3.min.js"></script>
+  <script type="text/javascript">
+
+  var div = d3.select('.container')
+    .selectAll('div')
+    .data([4, 8, 15, 16, 23, 42])
+    .text(function(v) { 
+      return v;
+    });
+
+  div.enter()
+    .append('div')
+    .text(function(v) { 
+      return v;
+    })
+
+  div.exit().remove();
+
+  // var div = d3.select('.container')
+  //   .selectAll('div')
+  //   .data([4, 8, 15], function(d, i){
+  //     return 5;
+  //   })
+  //   .enter()
+  //   .exit()
+  //   .remove()
+
+
+  </script>
+</body>
+</html>

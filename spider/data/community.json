@@ -1,0 +1,8001 @@
+[{
+  "address": "西藏南路1501弄",
+  "community_name": "弘辉名苑",
+  "community_id": "5011000015162"
+}, {
+  "address": "西岗威华街南石道街附近",
+  "community_name": "天源秀景",
+  "community_id": "2911055374445"
+}, {
+  "address": "零陵路250弄1-59号",
+  "community_name": "枫林新村",
+  "community_id": "5011000011589"
+}, {
+  "address": "浦东大道路666号",
+  "community_name": "教师大楼",
+  "community_id": "5011000013510"
+}, {
+  "address": "静丹苑",
+  "community_name": "静丹苑",
+  "community_id": "3611099924577"
+}, {
+  "address": "金华路2号",
+  "community_name": "裕兴苑",
+  "community_id": "1811043637071"
+}, {
+  "address": "马连洼1号院",
+  "community_name": "马连洼1号院",
+  "community_id": "1111027378352"
+}, {
+  "address": "淮安路705号",
+  "community_name": "淮安路705号",
+  "community_id": "5011000000545"
+}, {
+  "address": "长江道与向阳路交口",
+  "community_name": "瑞湾花园",
+  "community_id": "1211045297507"
+}, {
+  "address": "威宁路339弄",
+  "community_name": "威宁花苑",
+  "community_id": "5011000014404"
+}, {
+  "address": "奉浦大道99号",
+  "community_name": "绿地智尊",
+  "community_id": "5011102206856"
+}, {
+  "address": " 奉浦大道97号",
+  "community_name": "绿地智尊",
+  "community_id": "5011102206856"
+}, {
+  "address": "双桥农场六号井",
+  "community_name": "双桥六号井",
+  "community_id": "1111027379532"
+}, {
+  "address": "卫零路148弄",
+  "community_name": "石化四村",
+  "community_id": "5011000002926"
+}, {
+  "address": "柴棒胡同",
+  "community_name": "柴棒胡同",
+  "community_id": "1111027376325"
+}, {
+  "address": "葑门西街",
+  "community_name": "西街弄",
+  "community_id": "2310998986059233"
+}, {
+  "address": "赤峰路404弄",
+  "community_name": "双东小区",
+  "community_id": "5011000014946"
+}, {
+  "address": "东体育会路671-699号（单号）",
+  "community_name": "双东小区",
+  "community_id": "5011000014946"
+}, {
+  "address": "中山南二路925弄",
+  "community_name": "宛龙小区",
+  "community_id": "5011000014309"
+}, {
+  "address": "中山南二路937弄",
+  "community_name": "宛龙小区",
+  "community_id": "5011000014309"
+}, {
+  "address": "银都路688弄",
+  "community_name": "银虹花苑",
+  "community_id": "5011000013810"
+}, {
+  "address": "万年泉路222、浮山路224号",
+  "community_name": "万年泉路222、浮山路224号",
+  "community_id": "4011055866142"
+}, {
+  "address": "十三经路12号",
+  "community_name": "十三经路12号院",
+  "community_id": "1211100821590"
+}, {
+  "address": "芥园道与复兴路交口",
+  "community_name": "康华里",
+  "community_id": "1211045364073"
+}, {
+  "address": "红星路四段9号",
+  "community_name": "建银大厦",
+  "community_id": "1611043099580"
+}, {
+  "address": "丰福路599弄",
+  "community_name": "长兴家园",
+  "community_id": "5011000001119"
+}, {
+  "address": "淞发路25弄",
+  "community_name": "鎏园",
+  "community_id": "5011000012701"
+}, {
+  "address": "安波路567弄",
+  "community_name": "海上硕和城",
+  "community_id": "5011000010028"
+}, {
+  "address": "大黄路6号",
+  "community_name": "竟地花园",
+  "community_id": "3611099920100"
+}, {
+  "address": "淮安路800号",
+  "community_name": "淮安路800号",
+  "community_id": "5011000007467"
+}, {
+  "address": "泡崖金玛超市前后",
+  "community_name": "泡崖六区",
+  "community_id": "1311047787294"
+}, {
+  "address": "中山区民生街希尔顿酒店后身方位",
+  "community_name": "民生松竹苑",
+  "community_id": "1311042544851"
+}, {
+  "address": "密云路453号",
+  "community_name": "密云路453号",
+  "community_id": "5011000020492"
+}, {
+  "address": "普杰路100弄",
+  "community_name": "锦乐馨苑",
+  "community_id": "5011102207133"
+}, {
+  "address": "昭化东路82弄",
+  "community_name": "昭化东路82弄",
+  "community_id": "5011000006630"
+}, {
+  "address": "人民北路71弄",
+  "community_name": "松石苑",
+  "community_id": "5011000000315"
+}, {
+  "address": "漕东三路25号",
+  "community_name": "漕东三路25号",
+  "community_id": "5011000001194"
+}, {
+  "address": "浦明路1228弄",
+  "community_name": "雍江星座香园",
+  "community_id": "5011000017300"
+}, {
+  "address": "浦明路1269弄",
+  "community_name": "雍江星座香园",
+  "community_id": "5011000017300"
+}, {
+  "address": "梅川路888弄",
+  "community_name": "中星海上名庭（公寓）",
+  "community_id": "5011000016679"
+}, {
+  "address": "梅岭北路1258弄",
+  "community_name": "中星海上名庭（公寓）",
+  "community_id": "5011000016679"
+}, {
+  "address": "城南路550弄1-37号",
+  "community_name": "妙城公寓",
+  "community_id": "5011000013222"
+}, {
+  "address": "妙境路623弄",
+  "community_name": "妙城公寓",
+  "community_id": "5011000013222"
+}, {
+  "address": "光谷街3号",
+  "community_name": "世界城尚都",
+  "community_id": "3711063252336"
+}, {
+  "address": "西祠堂巷5号",
+  "community_name": "西祠堂巷",
+  "community_id": "1411046950811"
+}, {
+  "address": "绍兴三路",
+  "community_name": "绍兴三路",
+  "community_id": "1511041359262"
+}, {
+  "address": "新建中路604弄",
+  "community_name": "新建中路604弄",
+  "community_id": "5011102206728"
+}, {
+  "address": "首体南路1号院",
+  "community_name": "首体南路1号院",
+  "community_id": "1111027379577"
+}, {
+  "address": "书院西街50号",
+  "community_name": "书院西街50号",
+  "community_id": "1612498225081575"
+}, {
+  "address": "滨河街27号",
+  "community_name": "水晶之星",
+  "community_id": "1111027379385"
+}, {
+  "address": "南湖南路8号院",
+  "community_name": "风格雅园",
+  "community_id": "1111027374221"
+}, {
+  "address": "行南路900弄",
+  "community_name": "南新东园",
+  "community_id": "5011000000332"
+}, {
+  "address": "建新村",
+  "community_name": "建新村",
+  "community_id": "5011000002276"
+}, {
+  "address": "兴华中路",
+  "community_name": "老区委宿舍",
+  "community_id": "3611100405477"
+}, {
+  "address": "城中路43弄",
+  "community_name": "城中路43弄",
+  "community_id": "5011000019615"
+}, {
+  "address": "复兴西路62号",
+  "community_name": "修道院公寓",
+  "community_id": "5011000000075"
+}, {
+  "address": "大格巷",
+  "community_name": "大格巷",
+  "community_id": "1111027376886"
+}, {
+  "address": "安定门东大街28号",
+  "community_name": "雍和大厦",
+  "community_id": "1111027381695"
+}, {
+  "address": "德平路",
+  "community_name": "怡景苑",
+  "community_id": "3711058323963"
+}, {
+  "address": "西二旗西路2号院",
+  "community_name": "领秀新硅谷2号院",
+  "community_id": "1111046327190"
+}, {
+  "address": "车站北里",
+  "community_name": "车站北里",
+  "community_id": "1111027376693"
+}, {
+  "address": "关山路139号",
+  "community_name": "东上海中心",
+  "community_id": "5011000014862"
+}, {
+  "address": "黄兴路1818号",
+  "community_name": "东上海中心",
+  "community_id": "5011000014862"
+}, {
+  "address": "关山路169号",
+  "community_name": "东上海中心",
+  "community_id": "5011000014862"
+}, {
+  "address": "溪翔路8附近",
+  "community_name": "越城新村",
+  "community_id": "2310342523482909"
+}, {
+  "address": "崧文路399弄",
+  "community_name": "新城盛景园",
+  "community_id": "5011000012108"
+}, {
+  "address": "崧文路299弄",
+  "community_name": "新城盛景园",
+  "community_id": "5011000012108"
+}, {
+  "address": "崧文路288弄",
+  "community_name": "新城盛景园",
+  "community_id": "5011000012108"
+}, {
+  "address": "崧文路388弄",
+  "community_name": "新城盛景园",
+  "community_id": "5011000012108"
+}, {
+  "address": "天祥东路欢东路东南角",
+  "community_name": "广厦天都城天月苑",
+  "community_id": "2711054753268"
+}, {
+  "address": "西二道街23号",
+  "community_name": "西二道街23号",
+  "community_id": "1611099450636"
+}, {
+  "address": "皂君庙甲2号院",
+  "community_name": "皂君庙甲2号院",
+  "community_id": "1111027382537"
+}, {
+  "address": "北关东里",
+  "community_name": "城北社区",
+  "community_id": "1111027375800"
+}, {
+  "address": "芳林路951弄19-67号",
+  "community_name": "金地格林世界（元墅）",
+  "community_id": "5011000014837"
+}, {
+  "address": "扬子四村",
+  "community_name": "扬子四村",
+  "community_id": "2511053447486"
+}, {
+  "address": "珠江南路与丹枫路交汇处",
+  "community_name": "康悦家园",
+  "community_id": "239821887923034"
+}, {
+  "address": "渭南路185号",
+  "community_name": "渭南路185号",
+  "community_id": "5011102208562"
+}, {
+  "address": "华油路29号",
+  "community_name": "华油路29号",
+  "community_id": "3011056117572"
+}, {
+  "address": "新中街199弄",
+  "community_name": "新乐名苑",
+  "community_id": "5011000013576"
+}, {
+  "address": "宛平南路521号",
+  "community_name": "恒昌花园",
+  "community_id": "5011000017752"
+}, {
+  "address": "云景东路488号院",
+  "community_name": "云景豪庭",
+  "community_id": "1111027381785"
+}, {
+  "address": "雨花玉兰路与宁南大道交汇处宁南大道9号",
+  "community_name": "花神美境",
+  "community_id": "1411041483721"
+}, {
+  "address": "诗情路1号",
+  "community_name": "东海阿特豪斯",
+  "community_id": "3611057978806"
+}, {
+  "address": "石湖东路159号",
+  "community_name": "吴中花园",
+  "community_id": "239821887922940"
+}, {
+  "address": "隆昌路与利民道交口北侧",
+  "community_name": "品水园",
+  "community_id": "1211046122562"
+}, {
+  "address": "梅北路9",
+  "community_name": "阳光天下花园",
+  "community_id": "2411049883398"
+}, {
+  "address": "福田区梅林二路北侧���看地图",
+  "community_name": "阳光天下花园",
+  "community_id": "2411049883398"
+}, {
+  "address": "华山路303弄",
+  "community_name": "华山路303弄",
+  "community_id": "5011000008931"
+}, {
+  "address": "水香街266号",
+  "community_name": "吴中村",
+  "community_id": "239821887922822"
+}, {
+  "address": "渔乐路500弄",
+  "community_name": "凤凰花苑",
+  "community_id": "5011000002111"
+}, {
+  "address": "桂花路",
+  "community_name": "桂花路",
+  "community_id": "2110925921284739"
+}, {
+  "address": "锦西路185号",
+  "community_name": "爱联大厦",
+  "community_id": "5011000014116"
+}, {
+  "address": "鼓楼区东至旭日景城，南至幕府东路",
+  "community_name": "白云雅居",
+  "community_id": "1411100861237"
+}, {
+  "address": "瑞安路80弄",
+  "community_name": "桃园新城中城苑",
+  "community_id": "5011102206915"
+}, {
+  "address": "嘉宾路4018号",
+  "community_name": "爵士大厦",
+  "community_id": "2411048454693"
+}, {
+  "address": "紫云路53号",
+  "community_name": "紫云路53号",
+  "community_id": "5011000002698"
+}, {
+  "address": "天泰定福苑",
+  "community_name": "天泰定福苑",
+  "community_id": "1111027380012"
+}, {
+  "address": "平城路388弄",
+  "community_name": "嘉华居（别墅）",
+  "community_id": "5011000004667"
+}, {
+  "address": "永靖路501弄",
+  "community_name": "嘉华居（别墅）",
+  "community_id": "5011000004667"
+}, {
+  "address": "延长中路420号",
+  "community_name": "延长中路420号",
+  "community_id": "5011000001621"
+}, {
+  "address": "御青路918弄",
+  "community_name": "和合新村",
+  "community_id": "5011000013631"
+}, {
+  "address": "御青路1051弄",
+  "community_name": "和合新村",
+  "community_id": "5011000013631"
+}, {
+  "address": "阳曲路400弄",
+  "community_name": "阳曲路400弄",
+  "community_id": "5011000001294"
+}, {
+  "address": "龙柏四村154-232号",
+  "community_name": "龙柏四村三小区",
+  "community_id": "5011000018708"
+}, {
+  "address": "芳华街1号",
+  "community_name": "玉林苑一期",
+  "community_id": "1611042033008"
+}, {
+  "address": "国年路102弄",
+  "community_name": "国年路102弄",
+  "community_id": "5011000019197"
+}, {
+  "address": "秦淮集庆路88号",
+  "community_name": "一品丽庭",
+  "community_id": "2511053550286"
+}, {
+  "address": "乔家路133弄",
+  "community_name": "乔家路133弄",
+  "community_id": "5011000005283"
+}, {
+  "address": "水西门大街291号附近",
+  "community_name": "万达金街西区",
+  "community_id": "1411047248232"
+}, {
+  "address": "滨文路与江晖路交叉口",
+  "community_name": "白马湖小区鸿雁苑",
+  "community_id": "2711051361491"
+}, {
+  "address": "吴北路199号",
+  "community_name": "东鑫鑫海花城西区",
+  "community_id": "3711056857246"
+}, {
+  "address": "人民路与阳澄湖西路叉口",
+  "community_name": "合景峰汇一期",
+  "community_id": "239821887922849"
+}, {
+  "address": "地铁楼",
+  "community_name": "地铁楼",
+  "community_id": "1111027373938"
+}, {
+  "address": "长阳镇京良路北侧",
+  "community_name": "首创新悦都",
+  "community_id": "1111056093957"
+}, {
+  "address": "武侯大道双楠段118号",
+  "community_name": "武侯山庄",
+  "community_id": "168512811578045"
+}, {
+  "address": "宝南路531弄",
+  "community_name": "交大农学院家属楼",
+  "community_id": "5011000002033"
+}, {
+  "address": "圃园路8号",
+  "community_name": "圃园路8号",
+  "community_id": "1611061547185"
+}, {
+  "address": "香港东路128号",
+  "community_name": "双龙园",
+  "community_id": "1511041262370"
+}, {
+  "address": "乌鲁木齐中路15弄",
+  "community_name": "乌鲁木齐中路15弄",
+  "community_id": "5011000009565"
+}, {
+  "address": "朝阳门内大街",
+  "community_name": "朝阳门内大街",
+  "community_id": "1111027376667"
+}, {
+  "address": "花牌坊街8号",
+  "community_name": "双城",
+  "community_id": "1611059503380"
+}, {
+  "address": "北沟沿",
+  "community_name": "北沟沿",
+  "community_id": "1111027375830"
+}, {
+  "address": "庆云北街21号",
+  "community_name": "庆云北街21号",
+  "community_id": "1612588051606805"
+}, {
+  "address": "银盆南路247号",
+  "community_name": "岳麓现代城",
+  "community_id": "3511057421589"
+}, {
+  "address": "南丰路与西湖道交口",
+  "community_name": "兴泰北里",
+  "community_id": "1211045265761"
+}, {
+  "address": "桂花园路73号",
+  "community_name": "桂花大厦",
+  "community_id": "3611100046469"
+}, {
+  "address": "白兰路5弄15支弄1-15号",
+  "community_name": "长发白玉公寓",
+  "community_id": "5011000015973"
+}, {
+  "address": "红山路曹后村28号",
+  "community_name": "凤凰山庄",
+  "community_id": "1411062579498"
+}, {
+  "address": "中山西路1030弄1-53号",
+  "community_name": "虹一小区",
+  "community_id": "5011000015492"
+}, {
+  "address": "花牌坊95、97号",
+  "community_name": "花牌坊95、97号",
+  "community_id": "3011056513517"
+}, {
+  "address": "塘沽京津塘高速公路延长线与威海路交口",
+  "community_name": "中建滨海壹号",
+  "community_id": "1211063553095"
+}, {
+  "address": "合肥路590号",
+  "community_name": "合肥路590号",
+  "community_id": "509977363956203"
+}, {
+  "address": "桐梓坡西路138号",
+  "community_name": "长房时代城",
+  "community_id": "3511056645650"
+}, {
+  "address": "欧阳路331号",
+  "community_name": "欧阳路331号",
+  "community_id": "5011102208671"
+}, {
+  "address": "建设大道",
+  "community_name": "中海金沙湾",
+  "community_id": "2111103318062"
+}, {
+  "address": "海桐路336弄",
+  "community_name": "建华钻石公寓",
+  "community_id": "5011000011988"
+}, {
+  "address": "虹桥路2290号",
+  "community_name": "温莎公寓",
+  "community_id": "5011000018586"
+}, {
+  "address": "建豪路99号",
+  "community_name": "圣太企业园",
+  "community_id": "5011063908572"
+}, {
+  "address": "年家浜东路159弄",
+  "community_name": "印象生活广场",
+  "community_id": "5011063202424"
+}, {
+  "address": "人民路3158号（人民路与平河路交汇处）",
+  "community_name": "万融国际大厦",
+  "community_id": "2311142990934962"
+}, {
+  "address": "卫国道",
+  "community_name": "世纪泰豪酒店公寓",
+  "community_id": "1211046734659"
+}, {
+  "address": "华亭路11号",
+  "community_name": "华亭路11号",
+  "community_id": "5011000007543"
+}, {
+  "address": "丰庄西路480弄",
+  "community_name": "丰庄十三街坊",
+  "community_id": "5011000012722"
+}, {
+  "address": "邯郸路20弄",
+  "community_name": "邯郸小区",
+  "community_id": "5011000013670"
+}, {
+  "address": "斜土路448号",
+  "community_name": "蒙自大楼",
+  "community_id": "5011000014098"
+}, {
+  "address": "福元西路99号",
+  "community_name": "珠江郦城",
+  "community_id": "3511060764320"
+}, {
+  "address": "黄 陂一中盘 龙校区正对面",
+  "community_name": "F学府",
+  "community_id": "3711063875073"
+}, {
+  "address": "府青路一段34号附1号",
+  "community_name": "府青路一段34号附1号",
+  "community_id": "1613289146036761"
+}, {
+  "address": "武康路274号",
+  "community_name": "武康路274号",
+  "community_id": "5011000008971"
+}, {
+  "address": "佛心桥54号",
+  "community_name": "馨园公寓",
+  "community_id": "1411043431769"
+}, {
+  "address": "清河东路",
+  "community_name": "石基城市花园",
+  "community_id": "2111103316920"
+}, {
+  "address": "百龙新村",
+  "community_name": "百龙新村",
+  "community_id": "5011000011613"
+}, {
+  "address": "老沪闵路3196弄",
+  "community_name": "颛桥教师楼",
+  "community_id": "5011102207020"
+}, {
+  "address": "长乐路892号",
+  "community_name": "长乐路892号",
+  "community_id": "5011102207859"
+}, {
+  "address": "光华大道1969号",
+  "community_name": "塞纳河畔",
+  "community_id": "3011056331000"
+}, {
+  "address": "航华三村227-367号",
+  "community_name": "航华三村四街坊",
+  "community_id": "5010022184563016"
+}, {
+  "address": "嘉雨路21号",
+  "community_name": "银港水晶城",
+  "community_id": "3511060826676"
+}, {
+  "address": "马连道东街",
+  "community_name": "马连道东街",
+  "community_id": "1111027378324"
+}, {
+  "address": "昆山路120号",
+  "community_name": "昆山路120号",
+  "community_id": "5011000005800"
+}, {
+  "address": "翠微路甲9号院",
+  "community_name": "翠微路甲9号院",
+  "community_id": "1111027376595"
+}, {
+  "address": "沙河口鞍山路",
+  "community_name": "丽景春天",
+  "community_id": "1311041951552"
+}, {
+  "address": "狮子林大街与金纬路交口",
+  "community_name": "嘉海花园",
+  "community_id": "1211045645004"
+}, {
+  "address": "交大东路25号院",
+  "community_name": "交大东路25号院",
+  "community_id": "1111041160031"
+}, {
+  "address": "环市东路",
+  "community_name": "邮电新村青龙坊",
+  "community_id": "2110343238599298"
+}, {
+  "address": "凌兆路379弄",
+  "community_name": "凌兆新村（凌兆路379弄）",
+  "community_id": "5011000001729"
+}, {
+  "address": "文一路395号--文一路452号",
+  "community_name": "翠苑四区",
+  "community_id": "1811043641798"
+}, {
+  "address": "安达路3号",
+  "community_name": "安达公寓",
+  "community_id": "1511063977762"
+}, {
+  "address": "双流路188弄1-6号",
+  "community_name": "宝地新品居",
+  "community_id": "5011000013932"
+}, {
+  "address": "康沈路633弄",
+  "community_name": "中邦大都会",
+  "community_id": "5011000000377"
+}, {
+  "address": "湘江北路三段1200号",
+  "community_name": "北辰三角洲奥城E3区",
+  "community_id": "3511063935278"
+}, {
+  "address": "建国西路136号",
+  "community_name": "建国西路136号",
+  "community_id": "5011000009883"
+}, {
+  "address": "大连西路195弄",
+  "community_name": "大西小区",
+  "community_id": "5011000013507"
+}, {
+  "address": "大连西路165弄",
+  "community_name": "大西小区",
+  "community_id": "5011000013507"
+}, {
+  "address": "天宝西路231弄",
+  "community_name": "大西小区",
+  "community_id": "5011000013507"
+}, {
+  "address": "洛川路12号",
+  "community_name": "洛川路12号",
+  "community_id": "5011000005745"
+}, {
+  "address": "南山路161-246号",
+  "community_name": "康乐新村二期",
+  "community_id": "3911057327103"
+}, {
+  "address": "首图东路5号院",
+  "community_name": "御景园",
+  "community_id": "1111027381829"
+}, {
+  "address": "晋宁道与澄江路交口",
+  "community_name": "昌宁南里",
+  "community_id": "1211045232850"
+}, {
+  "address": "青山路614号",
+  "community_name": "福林苑二期",
+  "community_id": "1511041984416"
+}, {
+  "address": "桂花路260号",
+  "community_name": "佳天瑞宁花园",
+  "community_id": "3511063268447"
+}, {
+  "address": "德胜门内大街265号",
+  "community_name": "德胜门内大街265号",
+  "community_id": "1111027373867"
+}, {
+  "address": "平利路21弄",
+  "community_name": "甘泉苑",
+  "community_id": "5011000018054"
+}, {
+  "address": "灵石路1082弄",
+  "community_name": "甘泉苑",
+  "community_id": "5011000018054"
+}, {
+  "address": "志丹路501弄",
+  "community_name": "甘泉苑",
+  "community_id": "5011000018054"
+}, {
+  "address": "平利路41弄",
+  "community_name": "甘泉苑",
+  "community_id": "5011000018054"
+}, {
+  "address": "平利路87弄",
+  "community_name": "甘泉苑",
+  "community_id": "5011000018054"
+}, {
+  "address": "宝杨路555弄",
+  "community_name": "宝林新苑",
+  "community_id": "5011000013425"
+}, {
+  "address": "月罗路2333弄",
+  "community_name": "金辉兰湖美域",
+  "community_id": "5011000018552"
+}, {
+  "address": "辽阳西路（210~216号）",
+  "community_name": "洪山坡小区（辽阳西路）",
+  "community_id": "1511054695546"
+}, {
+  "address": "宣化路149号",
+  "community_name": "宣化路149号",
+  "community_id": "5011000008421"
+}, {
+  "address": "金丰路55弄（东区）",
+  "community_name": "凯德林茵湖畔（公寓）",
+  "community_id": "5011000004256"
+}, {
+  "address": "幸乐路500弄（西区）",
+  "community_name": "凯德林茵湖畔（公寓）",
+  "community_id": "5011000004256"
+}, {
+  "address": "虹中路796弄",
+  "community_name": "延虹公寓",
+  "community_id": "5011000016921"
+}, {
+  "address": "新川路742弄",
+  "community_name": "新川路742弄",
+  "community_id": "5011000019517"
+}, {
+  "address": "丹徒路210弄",
+  "community_name": "丹徒路210弄",
+  "community_id": "5011000000129"
+}, {
+  "address": "泾波路999弄",
+  "community_name": "中冶枫郡苑",
+  "community_id": "5011000002145"
+}, {
+  "address": "思贤路1855弄",
+  "community_name": "昌鑫花园（别墅）",
+  "community_id": "5011000012574"
+}, {
+  "address": "清江南街4号",
+  "community_name": "草堂晓筑",
+  "community_id": "3011056020004"
+}, {
+  "address": "中山西路1265弄18号",
+  "community_name": "湘江大厦",
+  "community_id": "5011000018060"
+}, {
+  "address": "巨鹿路546弄",
+  "community_name": "巨鹿路546弄",
+  "community_id": "5011000011314"
+}, {
+  "address": "华腾路555弄",
+  "community_name": "华腾苑",
+  "community_id": "5011102208164"
+}, {
+  "address": "海潮路222弄",
+  "community_name": "雅士公寓",
+  "community_id": "5011000016416"
+}, {
+  "address": "西市街89号",
+  "community_name": "西市街89号",
+  "community_id": "509821540057760"
+}, {
+  "address": "宋园路58号",
+  "community_name": "领尚国际酒店公寓",
+  "community_id": "5011000009413"
+}, {
+  "address": "松江区中山街道新城主城",
+  "community_name": "信达蓝尊",
+  "community_id": "5010841081262470"
+}, {
+  "address": "复兴中路455弄",
+  "community_name": "花园公寓（卢湾）",
+  "community_id": "5011000014482"
+}, {
+  "address": "华阳路60号",
+  "community_name": "华阳路60号",
+  "community_id": "5011000004482"
+}, {
+  "address": "云雾山路9弄",
+  "community_name": "云雾山路9弄",
+  "community_id": "5011000005587"
+}, {
+  "address": "光明西里",
+  "community_name": "光明西里",
+  "community_id": "1111027374671"
+}, {
+  "address": "殷行路650弄",
+  "community_name": "闸二小区",
+  "community_id": "5011000004915"
+}, {
+  "address": "马鹦路与马沧湖路交汇处",
+  "community_name": "江欣苑",
+  "community_id": "3711057030881"
+}, {
+  "address": "海农公路1668弄",
+  "community_name": "英伦都市",
+  "community_id": "5011102206463"
+}, {
+  "address": "胜古庄2号院",
+  "community_name": "冶金设备研究院",
+  "community_id": "1111027381803"
+}, {
+  "address": "田州路99号",
+  "community_name": "新茂大楼",
+  "community_id": "5011000015058"
+}, {
+  "address": "北翟路2000弄51支弄",
+  "community_name": "虹桥1号",
+  "community_id": "5011000011924"
+}, {
+  "address": "延庆路38号",
+  "community_name": "延庆路38号",
+  "community_id": "5011000011073"
+}, {
+  "address": "拱北路399弄29支弄",
+  "community_name": "华钜御庭（三期）（公寓）",
+  "community_id": "5011102206891"
+}, {
+  "address": "友谊路99号",
+  "community_name": "安顺佳园",
+  "community_id": "3711059442583"
+}, {
+  "address": "洞泾镇路596弄",
+  "community_name": "铁砂花苑",
+  "community_id": "5011000010023"
+}, {
+  "address": "富春街道大桥北路",
+  "community_name": "融创富春壹号院",
+  "community_id": "188121722875742"
+}, {
+  "address": "嵩山路109号",
+  "community_name": "嵩山路109号",
+  "community_id": "509821540319430"
+}, {
+  "address": "王家厍路55弄",
+  "community_name": "紫薇茗庭",
+  "community_id": "5011000019930"
+}, {
+  "address": "桃花大道69号",
+  "community_name": "香山美地",
+  "community_id": "3611100429302"
+}, {
+  "address": "中山二路303号",
+  "community_name": "中山二路303号",
+  "community_id": "5011000019868"
+}, {
+  "address": "淮海中路927弄1-146号",
+  "community_name": "淮海坊",
+  "community_id": "5011000015642"
+}, {
+  "address": "石人巷8号",
+  "community_name": "石人巷8号",
+  "community_id": "3011056038086"
+}, {
+  "address": "金枫路268号",
+  "community_name": "合景领峰",
+  "community_id": "2311054288353"
+}, {
+  "address": "控江路1452号",
+  "community_name": "控江路1452号",
+  "community_id": "5011102208899"
+}, {
+  "address": "高丽营镇于庄村春晖园温泉度假酒店北侧300米",
+  "community_name": "春晖园随园",
+  "community_id": "1111063141174"
+}, {
+  "address": "虹莘路3799弄",
+  "community_name": "金虹桥井亭苑",
+  "community_id": "5011000011230"
+}, {
+  "address": "石皮路61弄",
+  "community_name": "石皮路61弄",
+  "community_id": "5011000003216"
+}, {
+  "address": "渭南路143号",
+  "community_name": "渭南路143号",
+  "community_id": "5011102208498"
+}, {
+  "address": "浦雪路351弄",
+  "community_name": "景舒苑七村",
+  "community_id": "5011000001868"
+}, {
+  "address": "宾友道与文静路交口，儿童医院对面",
+  "community_name": "新闻西里",
+  "community_id": "1211046153382"
+}, {
+  "address": "淡水路276号",
+  "community_name": "淡水路276号",
+  "community_id": "5011000002895"
+}, {
+  "address": "川南奉公路8077弄",
+  "community_name": "天棚小区",
+  "community_id": "5011000014887"
+}, {
+  "address": "五原路252弄",
+  "community_name": "五原路252弄",
+  "community_id": "5011000010501"
+}, {
+  "address": "天目路11号",
+  "community_name": "天目路11号",
+  "community_id": "1411041190213"
+}, {
+  "address": "大石镇城西路",
+  "community_name": "富丽家园富昌花园",
+  "community_id": "2110343238861551"
+}, {
+  "address": "航头路1137弄",
+  "community_name": "金色航城",
+  "community_id": "5011000013761"
+}, {
+  "address": "航头路1174弄",
+  "community_name": "金色航城",
+  "community_id": "5011000013761"
+}, {
+  "address": "航头路1275弄",
+  "community_name": "金色航城",
+  "community_id": "5011000013761"
+}, {
+  "address": "航头路1675弄",
+  "community_name": "金色航城",
+  "community_id": "5011000013761"
+}, {
+  "address": "航头路1027弄",
+  "community_name": "金色航城",
+  "community_id": "5011000013761"
+}, {
+  "address": "延长中路415弄",
+  "community_name": "延长中路415弄",
+  "community_id": "5011000011335"
+}, {
+  "address": "大德路233号",
+  "community_name": "富华商贸大厦",
+  "community_id": "2111103319124"
+}, {
+  "address": "古田四路",
+  "community_name": "西江月厦",
+  "community_id": "3711058856188"
+}, {
+  "address": "太平路34号",
+  "community_name": "太平路34号院",
+  "community_id": "1111027379946"
+}, {
+  "address": "碧江路501弄",
+  "community_name": "凤庆小区",
+  "community_id": "5011000012733"
+}, {
+  "address": "老重庆中路64弄",
+  "community_name": "渔阳里",
+  "community_id": "5011000015314"
+}, {
+  "address": "淮海中路567弄",
+  "community_name": "渔阳里",
+  "community_id": "5011000015314"
+}, {
+  "address": "后沙峪顺鑫花语",
+  "community_name": "顺鑫花语",
+  "community_id": "1111027379605"
+}, {
+  "address": "淡水路225弄",
+  "community_name": "慈寿里",
+  "community_id": "5011000003010"
+}, {
+  "address": "高阳路109号",
+  "community_name": "外滩109",
+  "community_id": "5011102208506"
+}, {
+  "address": "劳动东路139号",
+  "community_name": "新城新世界",
+  "community_id": "3511100131928"
+}, {
+  "address": "碧新路（龙岗段）2066号",
+  "community_name": "叠翠新峰花园",
+  "community_id": "2411099620112"
+}, {
+  "address": "上园129号院",
+  "community_name": "日化二厂宿舍",
+  "community_id": "1111027379010"
+}, {
+  "address": "湖滨二里58-59号",
+  "community_name": "湖滨二里58-59号院",
+  "community_id": "3911057693988"
+}, {
+  "address": "四平路621弄",
+  "community_name": "邮电新村",
+  "community_id": "5011000017664"
+}, {
+  "address": "浦口区江浦街道珠海路1号",
+  "community_name": "领域花园",
+  "community_id": "147759949475810"
+}, {
+  "address": "锦州道与南京路交口北侧",
+  "community_name": "康乐里",
+  "community_id": "1211046324727"
+}, {
+  "address": "洛川中路600弄",
+  "community_name": "新理想家园",
+  "community_id": "5011000015401"
+}, {
+  "address": "江阴路166弄",
+  "community_name": "江阴路166弄",
+  "community_id": "509821540319567"
+}, {
+  "address": "淞滨路666号",
+  "community_name": "同济大厦",
+  "community_id": "5011102210363"
+}, {
+  "address": "卫岗纬五路",
+  "community_name": "银城东苑揽翠苑",
+  "community_id": "1411045170618"
+}, {
+  "address": "人民新村",
+  "community_name": "人民新村",
+  "community_id": "5011000000469"
+}, {
+  "address": "抚远路538弄",
+  "community_name": "万科琥珀臻园",
+  "community_id": "5011000011782"
+}, {
+  "address": "奥体中心乐山路189号",
+  "community_name": "碧瑶花园一期",
+  "community_id": "1411000000050"
+}, {
+  "address": "祥凝浜路258弄",
+  "community_name": "祥平公寓",
+  "community_id": "5011000003960"
+}, {
+  "address": "湖滨路118号",
+  "community_name": "绅园",
+  "community_id": "5011000005105"
+}, {
+  "address": "延庆路92号",
+  "community_name": "延庆路92号",
+  "community_id": "5011000006710"
+}, {
+  "address": "文昌巷大杨村28",
+  "community_name": "文泽园",
+  "community_id": "1411046357861"
+}, {
+  "address": "塘桥新路182弄",
+  "community_name": "茂兴大厦",
+  "community_id": "5011000015027"
+}, {
+  "address": "中山大道东",
+  "community_name": "金碧世纪花园",
+  "community_id": "2111103317968"
+}, {
+  "address": "沂南路42弄",
+  "community_name": "沂南路42弄",
+  "community_id": "5011000019454"
+}, {
+  "address": "万兴街三潭路和西湖道交口",
+  "community_name": "飞云东里",
+  "community_id": "1211045238997"
+}, {
+  "address": "红星鸡场",
+  "community_name": "红星养鸡场宿舍楼",
+  "community_id": "1111027375406"
+}, {
+  "address": "竹塘中路378号",
+  "community_name": "金蕾大厦",
+  "community_id": "3511606248664735"
+}, {
+  "address": "太原路234弄",
+  "community_name": "太原路234弄",
+  "community_id": "5011000009083"
+}, {
+  "address": "普惠路与惠成街交汇处",
+  "community_name": "淞泽家园（四区）",
+  "community_id": "2311052793174"
+}, {
+  "address": "邓府巷24号",
+  "community_name": "邓府巷24号",
+  "community_id": "1411000000104"
+}, {
+  "address": "香樟路778号",
+  "community_name": "金房万树丹堤",
+  "community_id": "358345071923410"
+}, {
+  "address": "新市路405号",
+  "community_name": "画锦坊",
+  "community_id": "2310456754302186"
+}, {
+  "address": "襄阳北路44弄",
+  "community_name": "襄阳北路44弄",
+  "community_id": "5011000007904"
+}, {
+  "address": "会展南里166-173号",
+  "community_name": "至尊门第",
+  "community_id": "3911059637529"
+}, {
+  "address": "棋盘路1110弄",
+  "community_name": "嘉康坊",
+  "community_id": "5011000001798"
+}, {
+  "address": "韶山中路489号",
+  "community_name": "万博汇名邸",
+  "community_id": "3511063294037"
+}, {
+  "address": "齐齐哈尔路800号",
+  "community_name": "齐齐哈尔路800号",
+  "community_id": "5011000000782"
+}, {
+  "address": "恒丰路31号",
+  "community_name": "金峰大厦",
+  "community_id": "5011000018000"
+}, {
+  "address": "海乐路12号",
+  "community_name": "合景睿峰L7",
+  "community_id": "2111103318654"
+}, {
+  "address": "杜鹃路150弄",
+  "community_name": "杏花新苑",
+  "community_id": "5011000013993"
+}, {
+  "address": " 龙东路150弄",
+  "community_name": "杏花新苑",
+  "community_id": "5011000013993"
+}, {
+  "address": "兴华东路",
+  "community_name": "杭富品山水",
+  "community_id": "3611100380943"
+}, {
+  "address": "金水路1038号",
+  "community_name": "裕丰小区",
+  "community_id": "1511041750339"
+}, {
+  "address": "雨花区新湖大道附近",
+  "community_name": "义德西苑",
+  "community_id": "1411060313747"
+}, {
+  "address": "育英路18",
+  "community_name": "御城",
+  "community_id": "3011056120497"
+}, {
+  "address": "金鸡湖路1250号",
+  "community_name": "金湖阁",
+  "community_id": "239821887922292"
+}, {
+  "address": "将军大道8号",
+  "community_name": "玛斯兰德辣椒街区",
+  "community_id": "1411050455791"
+}, {
+  "address": "韶山中路421号",
+  "community_name": "阳光锦城",
+  "community_id": "3511063295941"
+}, {
+  "address": "福元西路99号",
+  "community_name": "珠江花城三期",
+  "community_id": "3511060763546"
+}, {
+  "address": "奉贤兰博路3069弄2-7、9-14号（近邮电路）",
+  "community_name": "佳源名人公馆",
+  "community_id": "5011063661255"
+}, {
+  "address": "劳动东路380号",
+  "community_name": "都市兰亭汇峰苑",
+  "community_id": "3511099647283"
+}, {
+  "address": "将府家园北里",
+  "community_name": "上东三角洲",
+  "community_id": "1111027379180"
+}, {
+  "address": "群和街7号",
+  "community_name": "群和街7号",
+  "community_id": "1611043466050"
+}, {
+  "address": "静修路66弄",
+  "community_name": "静修路66弄",
+  "community_id": "5011000000712"
+}, {
+  "address": "弘翔路556弄",
+  "community_name": "辰弘佳苑",
+  "community_id": "5011000000473"
+}, {
+  "address": "淮海中路1176号",
+  "community_name": "淮海中路1176号",
+  "community_id": "5011000010174"
+}, {
+  "address": "瞿溪路129弄",
+  "community_name": "瞿溪路129弄",
+  "community_id": "5011000006183"
+}, {
+  "address": "江南西路",
+  "community_name": "润汇大厦",
+  "community_id": "2111103317446"
+}, {
+  "address": "枫林一路491号",
+  "community_name": "省人防办宿舍",
+  "community_id": "3513493679961021"
+}, {
+  "address": "塔城东路255弄",
+  "community_name": "塔城东路255弄",
+  "community_id": "5011000001657"
+}, {
+  "address": "天通庵路683号",
+  "community_name": "天通庵路683号",
+  "community_id": "5011102208777"
+}, {
+  "address": "元件四村",
+  "community_name": "元件四村",
+  "community_id": "5011000018861"
+}, {
+  "address": "罗沙路2018号",
+  "community_name": "万科东方尊峪",
+  "community_id": "2411049335517"
+}, {
+  "address": "江宁区湖熟镇灵顺北路318号",
+  "community_name": "绿野枫景花园",
+  "community_id": "147008005139995"
+}, {
+  "address": "上南路6881弄",
+  "community_name": "上南路6881弄",
+  "community_id": "5011000020115"
+}, {
+  "address": "大连西路15号",
+  "community_name": "大连西路15号",
+  "community_id": "5011102208813"
+}, {
+  "address": "浦建路1288弄",
+  "community_name": "锦绣苑",
+  "community_id": "5011000015913"
+}, {
+  "address": "成龙路东山国际大道1号",
+  "community_name": "传世家宝",
+  "community_id": "1611099740629"
+}, {
+  "address": "富岩路230弄",
+  "community_name": "富岩路230弄",
+  "community_id": "5011000019611"
+}, {
+  "address": "林萃东路1号院、林翠东路2号院",
+  "community_name": "国奥村",
+  "community_id": "1111027374466"
+}, {
+  "address": "东小口镇蓝天园小区",
+  "community_name": "蓝天园",
+  "community_id": "1111027378109"
+}, {
+  "address": "杨东路临芳苑四区",
+  "community_name": "临芳苑四区",
+  "community_id": "2311053715519"
+}, {
+  "address": "江 津客运中心旁",
+  "community_name": "竹宛小区",
+  "community_id": "3611100119720"
+}, {
+  "address": "山东南路38弄",
+  "community_name": "山东南路38弄",
+  "community_id": "5011000000918"
+}, {
+  "address": "四平路180弄",
+  "community_name": "庆阳小区",
+  "community_id": "5011000004861"
+}, {
+  "address": "韶山南路658号 ",
+  "community_name": "湘林小区",
+  "community_id": "3511099534562"
+}, {
+  "address": "广元路155号",
+  "community_name": "广元路155号",
+  "community_id": "5011000000085"
+}, {
+  "address": "和睦路9号",
+  "community_name": "和睦路9号",
+  "community_id": "2711052785494"
+}, {
+  "address": "玄武门街道大树根",
+  "community_name": "前大树根",
+  "community_id": "1411042657650"
+}, {
+  "address": "梅陇路130号",
+  "community_name": "华理苑",
+  "community_id": "5011000012016"
+}, {
+  "address": "梅陇路华理苑",
+  "community_name": "华理苑",
+  "community_id": "5011000012016"
+}, {
+  "address": "方德路201弄",
+  "community_name": "方德路201弄",
+  "community_id": "5011000019770"
+}, {
+  "address": "仙境路29号",
+  "community_name": "诚品城",
+  "community_id": "2511051425261"
+}, {
+  "address": "柳州东路201号",
+  "community_name": "威尼斯水城第五街区",
+  "community_id": "2511052787690"
+}, {
+  "address": "白樟路350弄",
+  "community_name": "龙兴苑",
+  "community_id": "5011000010641"
+}, {
+  "address": "双龙路",
+  "community_name": "318步行街",
+  "community_id": "3611100065640"
+}, {
+  "address": "南店新村",
+  "community_name": "南店新村",
+  "community_id": "1111027378476"
+}, {
+  "address": "槐树店路40号",
+  "community_name": "槐树苑二期宏苑",
+  "community_id": "3011054200393"
+}, {
+  "address": "迎宾大道166号（地铁2号线迎宾大道C出口旁）",
+  "community_name": "仁和香榭广场",
+  "community_id": "3011055362806"
+}, {
+  "address": "经天路25号",
+  "community_name": "皇经苑",
+  "community_id": "3011052869627"
+}, {
+  "address": "温州路11弄",
+  "community_name": "福海小区",
+  "community_id": "5011000013731"
+}, {
+  "address": "温州路41弄",
+  "community_name": "福海小区",
+  "community_id": "5011000013731"
+}, {
+  "address": "温州路49弄",
+  "community_name": "福海小区",
+  "community_id": "5011000013731"
+}, {
+  "address": "黄河路238弄",
+  "community_name": "福海小区",
+  "community_id": "5011000013731"
+}, {
+  "address": "黄河路240-244号",
+  "community_name": "福海小区",
+  "community_id": "5011000013731"
+}, {
+  "address": "跃进路19号",
+  "community_name": "缤纷时代",
+  "community_id": "3611059457101"
+}, {
+  "address": "河间路827弄",
+  "community_name": "珠江香樟园",
+  "community_id": "5011000017776"
+}, {
+  "address": "广益路15弄",
+  "community_name": "东港花苑",
+  "community_id": "5011000000159"
+}, {
+  "address": "解放东路202号",
+  "community_name": "茶厂宿舍",
+  "community_id": "2711051538219"
+}, {
+  "address": "新乐路33号",
+  "community_name": "新乐路33号",
+  "community_id": "5011000011851"
+}, {
+  "address": "东光街4号",
+  "community_name": "东光街4号",
+  "community_id": "3011054482073"
+}, {
+  "address": "北滨路艾尔眼科旁",
+  "community_name": "绿湾佳景苑",
+  "community_id": "3611099802979"
+}, {
+  "address": "大东线与高王路交口京津高速泗村店出口西侧",
+  "community_name": "燕云小镇",
+  "community_id": "1211100266953"
+}, {
+  "address": "菜户营58号",
+  "community_name": "财富西环",
+  "community_id": "1111027376391"
+}, {
+  "address": "宛南二村",
+  "community_name": "宛南二村",
+  "community_id": "5011000014195"
+}, {
+  "address": "中山南二路941号",
+  "community_name": "宛南二村",
+  "community_id": "5011000014195"
+}, {
+  "address": "中山南二路945弄",
+  "community_name": "宛南二村",
+  "community_id": "5011000014195"
+}, {
+  "address": "场中路3300弄",
+  "community_name": "东寅公寓",
+  "community_id": "5011000016944"
+}, {
+  "address": "内江路482号",
+  "community_name": "内江路482号",
+  "community_id": "5011102209388"
+}, {
+  "address": "合肥路289弄",
+  "community_name": "复兴苑",
+  "community_id": "5011000017896"
+}, {
+  "address": "鹦鹉小道29号",
+  "community_name": "东星公寓",
+  "community_id": "3711056809235"
+}, {
+  "address": "仙林大道与凯旋路交叉处",
+  "community_name": "朗诗钟山绿郡",
+  "community_id": "146984826891915"
+}, {
+  "address": "唐家湾路158号",
+  "community_name": "金色黄浦",
+  "community_id": "5011000016472"
+}, {
+  "address": "大坪正街160号",
+  "community_name": "万科锦程",
+  "community_id": "3611060815213"
+}, {
+  "address": "筼筜路",
+  "community_name": "武夷花园",
+  "community_id": "3911056393186"
+}, {
+  "address": "杨柳青新华路",
+  "community_name": "新华里(西青区)",
+  "community_id": "2811053368120"
+}, {
+  "address": "宜白路与均胜路交口，铁东路盐驼桥附近",
+  "community_name": "宝利新苑",
+  "community_id": "1211045693161"
+}, {
+  "address": "曙光中路248号",
+  "community_name": "东方新世界",
+  "community_id": "3511063288453"
+}, {
+  "address": "田园牧歌公寓",
+  "community_name": "绿城西子田园牧歌",
+  "community_id": "1811100054869"
+}, {
+  "address": "林萃西里",
+  "community_name": "澳林春天三期",
+  "community_id": "1111027375622"
+}, {
+  "address": "民政街",
+  "community_name": "79中学区万岁公寓",
+  "community_id": "1311041954025"
+}, {
+  "address": "东沟三村1-23号",
+  "community_name": "东沟三村",
+  "community_id": "5011000014772"
+}, {
+  "address": "建国新路77弄",
+  "community_name": "公馆77",
+  "community_id": "5011000014613"
+}, {
+  "address": "镇宁路55弄",
+  "community_name": "镇宁路55弄",
+  "community_id": "5011000007975"
+}, {
+  "address": "广灵一路39弄",
+  "community_name": "海虹苑",
+  "community_id": "5011000013724"
+}, {
+  "address": "大华街8号",
+  "community_name": "楠逸苑",
+  "community_id": "1611041462367"
+}, {
+  "address": "锦江路28号",
+  "community_name": "清江公寓",
+  "community_id": "1411000000531"
+}, {
+  "address": "建新北路60号",
+  "community_name": "龙湖枫香庭",
+  "community_id": "3611060219352"
+}, {
+  "address": "石鼓路176号",
+  "community_name": "轮机工程学院",
+  "community_id": "3912788237610934"
+}, {
+  "address": "愚园路581号",
+  "community_name": "中实新村",
+  "community_id": "5011000017147"
+}, {
+  "address": "愚园路579弄",
+  "community_name": "中实新村",
+  "community_id": "5011000017147"
+}, {
+  "address": "津塘公路与东江路交口西北侧",
+  "community_name": "福达苑",
+  "community_id": "2811053047713"
+}, {
+  "address": "成寿寺路",
+  "community_name": "鑫源国际",
+  "community_id": "1111027381348"
+}, {
+  "address": "漕宝路1467弄",
+  "community_name": "静安新城（九区）",
+  "community_id": "5011000003670"
+}, {
+  "address": "沙河镇巩华新村",
+  "community_name": "巩华新村",
+  "community_id": "1111041861938"
+}, {
+  "address": "建国中路109号",
+  "community_name": "建国中路109号",
+  "community_id": "5011000003639"
+}, {
+  "address": "古宜路170弄1-25号",
+  "community_name": "徐虹公寓",
+  "community_id": "5011000017966"
+}, {
+  "address": "青羊北路11号",
+  "community_name": "青羊北路11号",
+  "community_id": "3011055569519"
+}, {
+  "address": "鼓楼南街174号",
+  "community_name": "鼓楼南街174号",
+  "community_id": "1611062402152"
+}, {
+  "address": "英雄路51弄",
+  "community_name": "英雄路51弄",
+  "community_id": "509821540057700"
+}, {
+  "address": "新村路3193弄",
+  "community_name": "新村路3193弄",
+  "community_id": "5011000011766"
+}, {
+  "address": "葛布店东里",
+  "community_name": "葛布店东里",
+  "community_id": "1111027374495"
+}, {
+  "address": "福城路98号",
+  "community_name": "顺天黄金海岸",
+  "community_id": "3511060760938"
+}, {
+  "address": "公园东路1590号",
+  "community_name": "富绅国际",
+  "community_id": "5011102207404"
+}, {
+  "address": "卫津路94号南开大学",
+  "community_name": "南开大学西南村",
+  "community_id": "1211045308000"
+}, {
+  "address": "瑞金南路271弄",
+  "community_name": "瑞金南路271弄",
+  "community_id": "5011000020159"
+}, {
+  "address": "坑口路",
+  "community_name": "一品灏景3座观澜雅舍",
+  "community_id": "2110343238599560"
+}, {
+  "address": "丹山路9号",
+  "community_name": "丹山路小区",
+  "community_id": "4011055417738"
+}, {
+  "address": " 丹山路11号",
+  "community_name": "丹山路小区",
+  "community_id": "4011055417738"
+}, {
+  "address": " 丹山路13号",
+  "community_name": "丹山路小区",
+  "community_id": "4011055417738"
+}, {
+  "address": " 丹山路15号",
+  "community_name": "丹山路小区",
+  "community_id": "4011055417738"
+}, {
+  "address": "雷锋大道501号",
+  "community_name": "金科东方大院五期",
+  "community_id": "3511063654638"
+}, {
+  "address": "复兴路30号",
+  "community_name": "复兴路30号院",
+  "community_id": "1111027374387"
+}, {
+  "address": "虎泉街99号",
+  "community_name": "教师小区",
+  "community_id": "3711060000533"
+}, {
+  "address": "望岳南路29号",
+  "community_name": "嘉逸名庭",
+  "community_id": "3511057159038"
+}, {
+  "address": "秀泉路551弄",
+  "community_name": "崧涵庭",
+  "community_id": "5011000001263"
+}, {
+  "address": "吉庆道",
+  "community_name": "地丰里",
+  "community_id": "1211062031993"
+}, {
+  "address": "黄金城道717弄",
+  "community_name": "强生古北花园",
+  "community_id": "5011000016955"
+}, {
+  "address": "蜀信东路19号",
+  "community_name": "龙湖弗莱明戈二期",
+  "community_id": "3011056598209"
+}, {
+  "address": "尚博路366弄",
+  "community_name": "金地湾流域（别墅）",
+  "community_id": "5011000004066"
+}, {
+  "address": "尚博路518弄",
+  "community_name": "金地湾流域（别墅）",
+  "community_id": "5011000004066"
+}, {
+  "address": "尚博路569弄",
+  "community_name": "金地湾流域（别墅）",
+  "community_id": "5011000004066"
+}, {
+  "address": "漳浦路29号",
+  "community_name": "银城花园",
+  "community_id": "1511041237919"
+}, {
+  "address": "岳麓区含光路与观沙岭路交汇处西南角",
+  "community_name": "当代滨江MOMA",
+  "community_id": "3511063775143"
+}, {
+  "address": "福州路701号",
+  "community_name": "福州路701号",
+  "community_id": "5011000003638"
+}, {
+  "address": "金钟路767弄2号",
+  "community_name": "中锐大厦",
+  "community_id": "5011102208005"
+}, {
+  "address": "环城路600弄",
+  "community_name": "菊园嘉邦",
+  "community_id": "5011000001376"
+}, {
+  "address": "东海三村",
+  "community_name": "东海三村",
+  "community_id": "5011000002150"
+}, {
+  "address": "南六公路578弄",
+  "community_name": "建德南郊别墅",
+  "community_id": "5011000015113"
+}, {
+  "address": "曹安公路4908弄",
+  "community_name": "曹安景林苑",
+  "community_id": "5011000004033"
+}, {
+  "address": "丁香路999弄",
+  "community_name": "联洋花园（二期）",
+  "community_id": "5011000018271"
+}, {
+  "address": "玉林街",
+  "community_name": "玉林街",
+  "community_id": "3011053151979"
+}, {
+  "address": "罗岗路58",
+  "community_name": "信义荔山公馆",
+  "community_id": "2411051128118"
+}, {
+  "address": "布吉罗岗路与荣华路交汇处",
+  "community_name": "信义荔山公馆",
+  "community_id": "2411051128118"
+}, {
+  "address": "国权北路351弄",
+  "community_name": "国权北路351弄",
+  "community_id": "5011000005591"
+}, {
+  "address": "彭浦新村301-411号",
+  "community_name": "彭五小区",
+  "community_id": "5011000018333"
+}, {
+  "address": "江明路36弄",
+  "community_name": "江明路36弄",
+  "community_id": "5011102207442"
+}, {
+  "address": "共江路166-215弄",
+  "community_name": "通河六村",
+  "community_id": "5011000017146"
+}, {
+  "address": "嘉定路47号",
+  "community_name": "嘉定路",
+  "community_id": "159075827159239"
+}, {
+  "address": "西堤头镇东堤头村环龙商贸城北侧",
+  "community_name": "枫水湾二期",
+  "community_id": "1211099951612"
+}, {
+  "address": "长逸路58号",
+  "community_name": "淞南七村",
+  "community_id": "5011000013512"
+}, {
+  "address": "进贤路168弄1-6号",
+  "community_name": "贤居苑",
+  "community_id": "5011000001741"
+}, {
+  "address": "程家桥路185号",
+  "community_name": "顺安公寓",
+  "community_id": "5011000011226"
+}, {
+  "address": "藕花洲大街西段212号",
+  "community_name": "太平家园",
+  "community_id": "2711054739100"
+}, {
+  "address": "谷里街道悦湖路16号",
+  "community_name": "碧桂园湖光山色",
+  "community_id": "1411020565753963"
+}, {
+  "address": "东丽开发区津塘路与五经路交口处",
+  "community_name": "帝达东谷国际",
+  "community_id": "127510273044477"
+}, {
+  "address": "闸桥北路与西青道交口",
+  "community_name": "金丰公寓",
+  "community_id": "129661375327342"
+}, {
+  "address": "海昌街120号",
+  "community_name": "海昌阁",
+  "community_id": "2411049501009"
+}, {
+  "address": "共和新路4828弄",
+  "community_name": "康德公寓",
+  "community_id": "5011000016124"
+}, {
+  "address": "定慧西里",
+  "community_name": "定慧西里",
+  "community_id": "1111027373697"
+}, {
+  "address": "杭州经济技术开发区天城东路252号",
+  "community_name": "上沙永裕大厦",
+  "community_id": "2711051183713"
+}, {
+  "address": "浣纱四村",
+  "community_name": "浣纱四村",
+  "community_id": "5011000005393"
+}, {
+  "address": "普惠路靠近新平街",
+  "community_name": "淞泽家园（六区）",
+  "community_id": "2311052766715"
+}, {
+  "address": "静安天地",
+  "community_name": "静安天地",
+  "community_id": "169892717408080"
+}, {
+  "address": "王家厍路775弄",
+  "community_name": "百鸟苑",
+  "community_id": "5011000019929"
+}, {
+  "address": "白广路",
+  "community_name": "白广路",
+  "community_id": "1111027375808"
+}, {
+  "address": "延安二路、桑梓路",
+  "community_name": "延安二路、桑梓路",
+  "community_id": "4011059770551"
+}, {
+  "address": "水洞港路69弄",
+  "community_name": "顾路公寓",
+  "community_id": "5011000003498"
+}, {
+  "address": "青屿蓝",
+  "community_name": "红星海五期青屿蓝",
+  "community_id": "1311099638516"
+}, {
+  "address": "建设北路三段88号",
+  "community_name": "麦理基银座",
+  "community_id": "1611061169165"
+}, {
+  "address": "景田南路1号",
+  "community_name": "橄榄绿洲",
+  "community_id": "2411049519256"
+}, {
+  "address": "雨花台区梅山医院对面",
+  "community_name": "永安花苑",
+  "community_id": "147329568272154"
+}, {
+  "address": "阜盛东街59号院",
+  "community_name": "金地朗悦朗园",
+  "community_id": "1111047879553"
+}, {
+  "address": "辽源西路116号",
+  "community_name": "辽源西路116号",
+  "community_id": "5011000002659"
+}, {
+  "address": "华阴路27弄",
+  "community_name": "华阴小区",
+  "community_id": "5011000012737"
+}, {
+  "address": "山阴路69弄32-108号",
+  "community_name": "恒丰里",
+  "community_id": "5011000003200"
+}, {
+  "address": "斜土路734弄",
+  "community_name": "斜土路734弄",
+  "community_id": "5011000006433"
+}, {
+  "address": "泾园路（扬东路与泾园路交接处东侧）",
+  "community_name": "泾园二村北区",
+  "community_id": "2311052841015"
+}, {
+  "address": "运河北路1296弄",
+  "community_name": "运河北路1296弄",
+  "community_id": "509821540057740"
+}, {
+  "address": "红旗路",
+  "community_name": "桃园里",
+  "community_id": "1211045396848"
+}, {
+  "address": "三林路711弄",
+  "community_name": "凌兆新村（三林路711弄）",
+  "community_id": "5011000001890"
+}, {
+  "address": "辽源西路190弄",
+  "community_name": "辽源一村",
+  "community_id": "5011000005192"
+}, {
+  "address": "辽源一村",
+  "community_name": "辽源一村",
+  "community_id": "5011000005192"
+}, {
+  "address": "中山北路1297弄",
+  "community_name": "中山北路1297弄",
+  "community_id": "5011000006284"
+}, {
+  "address": "凤凰西街",
+  "community_name": "凤凰花园城福安园",
+  "community_id": "1411000000151"
+}, {
+  "address": "黑牛城道与环湖中路交口",
+  "community_name": "富锦里",
+  "community_id": "1211046345891"
+}, {
+  "address": "富祥酒楼对面",
+  "community_name": "富锦里",
+  "community_id": "1211046345891"
+}, {
+  "address": "开发区五一路",
+  "community_name": "新青年印象",
+  "community_id": "2911050675859"
+}, {
+  "address": "福元西路199号",
+  "community_name": "万国城MOMA一期",
+  "community_id": "3511063243858"
+}, {
+  "address": "唐丰路328号",
+  "community_name": "港湾公寓",
+  "community_id": "509977363956161"
+}, {
+  "address": "乐都支路85弄",
+  "community_name": "嘉禾名邸",
+  "community_id": "5011000001808"
+}, {
+  "address": "临平路256弄",
+  "community_name": "临平路256弄",
+  "community_id": "5011000003365"
+}, {
+  "address": "天宝路902号",
+  "community_name": "建二公寓",
+  "community_id": "5011000013976"
+}, {
+  "address": "江汉北路66号",
+  "community_name": "江汉北路建银小区",
+  "community_id": "378076684177580"
+}, {
+  "address": "枫荷园",
+  "community_name": "枫荷园",
+  "community_id": "1111027374246"
+}, {
+  "address": "韶山路中段香樟路469号",
+  "community_name": "融科东南海",
+  "community_id": "356946183197442"
+}, {
+  "address": "南海路333号",
+  "community_name": "上海华府",
+  "community_id": "5011102210257"
+}, {
+  "address": "吴中230省道以南一箭河以西",
+  "community_name": "山合院",
+  "community_id": "2310292717433186"
+}, {
+  "address": "淮海中路1252号",
+  "community_name": "淮海中路1252号",
+  "community_id": "5011000009688"
+}, {
+  "address": "阁游路389弄",
+  "community_name": "中信泰富朱家角新城（别墅）",
+  "community_id": "5011000013356"
+}, {
+  "address": " 珠湖路669弄",
+  "community_name": "中信泰富朱家角新城（别墅）",
+  "community_id": "5011000013356"
+}, {
+  "address": " 阁游路999弄",
+  "community_name": "中信泰富朱家角新城（别墅）",
+  "community_id": "5011000013356"
+}, {
+  "address": " 张家圩路588弄",
+  "community_name": "中信泰富朱家角新城（别墅）",
+  "community_id": "5011000013356"
+}, {
+  "address": "舟山路390号",
+  "community_name": "舟山路390号",
+  "community_id": "5011000004520"
+}, {
+  "address": "安福路193号",
+  "community_name": "安福路193号",
+  "community_id": "5011000000680"
+}, {
+  "address": "新兴中巷",
+  "community_name": "新兴中巷",
+  "community_id": "1111027381332"
+}, {
+  "address": "松江荣乐中路18弄",
+  "community_name": "谷水苑",
+  "community_id": "5011000000875"
+}, {
+  "address": "胡家木桥路35弄",
+  "community_name": "胡家木桥路35弄",
+  "community_id": "5011000002544"
+}, {
+  "address": "张江路1616弄",
+  "community_name": "虹御公寓",
+  "community_id": "5011000009239"
+}, {
+  "address": "蒙自路212号",
+  "community_name": "蒙自路212号",
+  "community_id": "5011000004851"
+}, {
+  "address": "中山路317号",
+  "community_name": "现代大厦",
+  "community_id": "378736714535701"
+}, {
+  "address": "东兰路591弄",
+  "community_name": "和嘉公寓",
+  "community_id": "5011000004465"
+}, {
+  "address": "海伦路1-92",
+  "community_name": "实验小区",
+  "community_id": "1511062976131"
+}, {
+  "address": " 望奎路1-52",
+  "community_name": "实验小区",
+  "community_id": "1511062976131"
+}, {
+  "address": " 拜泉路2-87",
+  "community_name": "实验小区",
+  "community_id": "1511062976131"
+}, {
+  "address": " 庆安路23-66",
+  "community_name": "实验小区",
+  "community_id": "1511062976131"
+}, {
+  "address": " 海伦一路1-28",
+  "community_name": "实验小区",
+  "community_id": "1511062976131"
+}, {
+  "address": " 海伦二路1-15",
+  "community_name": "实验小区",
+  "community_id": "1511062976131"
+}, {
+  "address": " 海伦支路1-10号",
+  "community_name": "实验小区",
+  "community_id": "1511062976131"
+}, {
+  "address": "樱花西路8号",
+  "community_name": "樱海公寓",
+  "community_id": "1411057018296"
+}, {
+  "address": "华阳路166号",
+  "community_name": "华阳路166号",
+  "community_id": "5011000005977"
+}, {
+  "address": "茶陵路195弄",
+  "community_name": "茶陵路195弄",
+  "community_id": "5011000005656"
+}, {
+  "address": "茸平路515弄",
+  "community_name": "锋尚99",
+  "community_id": "5011000003514"
+}, {
+  "address": "真南路822弄510支弄",
+  "community_name": "真南路822弄510支弄",
+  "community_id": "5011000012255"
+}, {
+  "address": "中兴路699号",
+  "community_name": "万科翡翠雅宾利",
+  "community_id": "509821540057948"
+}, {
+  "address": "金沙江路751号",
+  "community_name": "金沙江路751号",
+  "community_id": "5011063203076"
+}, {
+  "address": "姑嫂树路51号",
+  "community_name": "园丁苑",
+  "community_id": "3711056625288"
+}, {
+  "address": "金溪三村",
+  "community_name": "金溪三村",
+  "community_id": "5011000019439"
+}, {
+  "address": "七贤路",
+  "community_name": "学府士家",
+  "community_id": "1311041994909"
+}, {
+  "address": "曙光新村",
+  "community_name": "曙光新村（南桥）",
+  "community_id": "5011000001230"
+}, {
+  "address": "淮海中路1270弄",
+  "community_name": "淮海中路1270弄",
+  "community_id": "5011000007551"
+}, {
+  "address": "涞寅路1200弄",
+  "community_name": "上海源花城",
+  "community_id": "5011000004375"
+}, {
+  "address": "海笛路333弄",
+  "community_name": "招商海德名门（别墅）",
+  "community_id": "5011000003609"
+}, {
+  "address": "昭化东路309号",
+  "community_name": "昭化东路309号",
+  "community_id": "5011000007859"
+}, {
+  "address": "中兴段87号",
+  "community_name": "城市印象",
+  "community_id": "3611099800840"
+}, {
+  "address": "黄寺大街2号院",
+  "community_name": "黄寺大街2号院",
+  "community_id": "1111027375259"
+}, {
+  "address": "百万庄南街10号院",
+  "community_name": "侨办大院",
+  "community_id": "1111027378779"
+}, {
+  "address": "逸仙路288弄",
+  "community_name": "逸虹景苑",
+  "community_id": "5011000004481"
+}, {
+  "address": "天宝园二里二区",
+  "community_name": "浉城百丽",
+  "community_id": "1111027379098"
+}, {
+  "address": "半壁店",
+  "community_name": "半壁店商业广场",
+  "community_id": "1111027375705"
+}, {
+  "address": "友谊路与围堤道交口",
+  "community_name": "友城名居",
+  "community_id": "1211046828235"
+}, {
+  "address": "东亭路10号",
+  "community_name": "东亭花园",
+  "community_id": "3711058806923"
+}, {
+  "address": "局门后路7号",
+  "community_name": "局门后路7号",
+  "community_id": "5011000008117"
+}, {
+  "address": "东篱路103号",
+  "community_name": "东篱路103号院",
+  "community_id": "3011056113918"
+}, {
+  "address": "罗秀路1175弄",
+  "community_name": "陇南小区",
+  "community_id": "5011000012818"
+}, {
+  "address": "虹梅南路680弄",
+  "community_name": "陇南小区",
+  "community_id": "5011000012818"
+}, {
+  "address": "北塘经济区北塘大街南侧",
+  "community_name": "海泰华塘名邸",
+  "community_id": "1211100663223"
+}, {
+  "address": "转塘街道回龙村",
+  "community_name": "回龙雅苑",
+  "community_id": "1811064013967"
+}, {
+  "address": "望州路",
+  "community_name": "华星商住楼",
+  "community_id": "3611100363731"
+}, {
+  "address": "凉城路465弄",
+  "community_name": "秀苑小区",
+  "community_id": "5011000015452"
+}, {
+  "address": "凉城路539弄",
+  "community_name": "秀苑小区",
+  "community_id": "5011000015452"
+}, {
+  "address": "广灵四路572弄",
+  "community_name": "秀苑小区",
+  "community_id": "5011000015452"
+}, {
+  "address": "新市镇",
+  "community_name": "广州富力城",
+  "community_id": "2111103317500"
+}, {
+  "address": "北中路328弄07号",
+  "community_name": "北中路328弄",
+  "community_id": "5011000011960"
+}, {
+  "address": "零陵路350弄",
+  "community_name": "零陵路350弄",
+  "community_id": "5011000008464"
+}, {
+  "address": "新华路669弄",
+  "community_name": "新华路669弄",
+  "community_id": "5011000006809"
+}, {
+  "address": "中春路99号",
+  "community_name": "莘庄商务楼",
+  "community_id": "5011102206938"
+}, {
+  "address": "绥化路260弄",
+  "community_name": "宝莲湖景园",
+  "community_id": "5011000004735"
+}, {
+  "address": "泰通嘉园",
+  "community_name": "泰通嘉园",
+  "community_id": "1111027380026"
+}, {
+  "address": "延安西路394弄",
+  "community_name": "延安西路394弄",
+  "community_id": "5011000007530"
+}, {
+  "address": "肇嘉浜路107弄",
+  "community_name": "肇嘉浜路107弄",
+  "community_id": "5011000000083"
+}, {
+  "address": "凌庄子道与红旗南路交口",
+  "community_name": "仁爱濠景庄园天景园",
+  "community_id": "1211046042165"
+}, {
+  "address": "北大街31弄",
+  "community_name": "北大街31弄",
+  "community_id": "5010592198864683"
+}, {
+  "address": "九水东路37号",
+  "community_name": "东李新苑",
+  "community_id": "4011055301500"
+}, {
+  "address": "四牌楼路29号",
+  "community_name": "四牌楼路29号",
+  "community_id": "5011000000292"
+}, {
+  "address": "南丹东路99弄",
+  "community_name": "天际花园",
+  "community_id": "5011000015036"
+}, {
+  "address": "永福路",
+  "community_name": "金悦东山国际公馆",
+  "community_id": "2111103318693"
+}, {
+  "address": "真南路3407弄",
+  "community_name": "新扬雅苑",
+  "community_id": "5011000001083"
+}, {
+  "address": "开阳里三区",
+  "community_name": "开阳里三区",
+  "community_id": "1111027377695"
+}, {
+  "address": "旧宫镇南海子公园西侧",
+  "community_name": "中国铁建兴盛馨苑",
+  "community_id": "1111063610250"
+}, {
+  "address": "朝阳北路万象新天家园",
+  "community_name": "万象新天四区",
+  "community_id": "1111027380516"
+}, {
+  "address": "游泳场北路21号院",
+  "community_name": "游泳场北路21号院",
+  "community_id": "1111047155510"
+}, {
+  "address": "复兴中路482号",
+  "community_name": "复兴中路482号",
+  "community_id": "5011000006861"
+}, {
+  "address": "通河七村",
+  "community_name": "通河七村",
+  "community_id": "5011000000486"
+}, {
+  "address": "南大路106弄",
+  "community_name": "南大路106弄",
+  "community_id": "5011000019296"
+}, {
+  "address": "政府路61弄",
+  "community_name": "金信公寓",
+  "community_id": "5011000002779"
+}, {
+  "address": "大木桥路485弄",
+  "community_name": "航建大楼",
+  "community_id": "5011000003906"
+}, {
+  "address": "天宝路849弄",
+  "community_name": "天宝路849弄",
+  "community_id": "5011000003633"
+}, {
+  "address": "西营南路518弄",
+  "community_name": "合生时代锦苑（公寓）",
+  "community_id": "5011000002727"
+}, {
+  "address": "永嘉路21弄",
+  "community_name": "永嘉路21弄",
+  "community_id": "5011000011869"
+}, {
+  "address": "大观街160号",
+  "community_name": "花香苑三区",
+  "community_id": "3011053381683"
+}, {
+  "address": "五四农场中港二村",
+  "community_name": "中港新村",
+  "community_id": "5011000001270"
+}, {
+  "address": "无棣二路17、21、23",
+  "community_name": "无棣二路17、21、23",
+  "community_id": "4011056065226"
+}, {
+  "address": "甜爱路128弄1-4号",
+  "community_name": "晶钻博华（公寓）",
+  "community_id": "5011000015268"
+}, {
+  "address": "南湖园",
+  "community_name": "南湖园",
+  "community_id": "1111027378518"
+}, {
+  "address": "水上北路与水上公园西路交口",
+  "community_name": "翠园里",
+  "community_id": "1211046002285"
+}, {
+  "address": "南岸路",
+  "community_name": "荔港南湾蓝钻水岸",
+  "community_id": "2110343238861010"
+}, {
+  "address": "曹杨路1040弄1号",
+  "community_name": "中友大厦",
+  "community_id": "5011000015225"
+}, {
+  "address": "金河路188号",
+  "community_name": "府河金庐",
+  "community_id": "1611061148471"
+}, {
+  "address": "洪武路111号",
+  "community_name": "洪武路111号",
+  "community_id": "1411000000290"
+}, {
+  "address": "晨辉路33号",
+  "community_name": "致瑞雅苑B区",
+  "community_id": "168480461959337"
+}, {
+  "address": "小营西路1号",
+  "community_name": "小营西路1号",
+  "community_id": "1111027381409"
+}, {
+  "address": "韶山南路633号",
+  "community_name": "上海城",
+  "community_id": "3511059844961"
+}, {
+  "address": "盈港路899弄",
+  "community_name": "盈湖三岛（别墅）",
+  "community_id": "5011000002351"
+}, {
+  "address": "新市南路1137弄",
+  "community_name": "新市南路1137弄",
+  "community_id": "5011000018954"
+}, {
+  "address": "淮海中路1950弄",
+  "community_name": "淮海中路1950弄",
+  "community_id": "5011000005289"
+}, {
+  "address": "云台路255弄",
+  "community_name": "云台路255弄",
+  "community_id": "5011000005336"
+}, {
+  "address": "新源路788弄",
+  "community_name": "欧韵艺墅（公寓）",
+  "community_id": "5011000004626"
+}, {
+  "address": "长安路550弄",
+  "community_name": "安丰小区",
+  "community_id": "5011000017197"
+}, {
+  "address": "青岛嘉园",
+  "community_name": "青岛嘉园",
+  "community_id": "1111027378794"
+}, {
+  "address": "石湖东路100-12号",
+  "community_name": "丽都国际",
+  "community_id": "2311053275827"
+}, {
+  "address": "长顺街139号（新城市广场对面）",
+  "community_name": "天越",
+  "community_id": "1611100689756"
+}, {
+  "address": "金桥路1399号",
+  "community_name": "医贸大厦",
+  "community_id": "5011000011242"
+}, {
+  "address": "大统路958弄",
+  "community_name": "协诚中心大厦",
+  "community_id": "5011000017101"
+}, {
+  "address": "马鞍山1号",
+  "community_name": "马鞍山1号",
+  "community_id": "147284211856349"
+}, {
+  "address": "小天西街6号",
+  "community_name": "小天西街6号",
+  "community_id": "1611060392938"
+}, {
+  "address": "新建西路101弄",
+  "community_name": "新建西路101弄",
+  "community_id": "509821540057808"
+}, {
+  "address": "江川南路25弄",
+  "community_name": "绿波苑",
+  "community_id": "5011000011996"
+}, {
+  "address": "咸水沽镇津沽大街与新兴南路交口",
+  "community_name": "新兴南里",
+  "community_id": "2811055488917"
+}, {
+  "address": "杨树浦路隆昌路",
+  "community_name": "合生滨江苑",
+  "community_id": "5011102208755"
+}, {
+  "address": "富民广场东50米",
+  "community_name": "中信御园",
+  "community_id": "1311063554549"
+}, {
+  "address": "育麟桥路188弄",
+  "community_name": "明珠花苑（崇明）",
+  "community_id": "5011000003791"
+}, {
+  "address": "建国巷4号附1号",
+  "community_name": "建国巷4号附1号",
+  "community_id": "1613219016224983"
+}, {
+  "address": "联航路1399弄",
+  "community_name": "浦江智汇园",
+  "community_id": "5011000014444"
+}, {
+  "address": "香江路3号",
+  "community_name": "盛世香江公馆",
+  "community_id": "1511099402215"
+}, {
+  "address": "南边路",
+  "community_name": "南边路",
+  "community_id": "219051395601072"
+}, {
+  "address": "应天大街",
+  "community_name": "江苏城市学院职工宿舍",
+  "community_id": "1411044541769"
+}, {
+  "address": "金水路772号",
+  "community_name": "伟东幸福之城三期",
+  "community_id": "1511046367190"
+}, {
+  "address": "南汇路22弄",
+  "community_name": "南汇路22弄",
+  "community_id": "5011000010903"
+}, {
+  "address": "府村路115弄",
+  "community_name": "府村苑",
+  "community_id": "5011000011220"
+}, {
+  "address": "新昌路315弄",
+  "community_name": "新昌路315弄",
+  "community_id": "5011000005573"
+}, {
+  "address": "秀龙路178弄",
+  "community_name": "华宛小区",
+  "community_id": "5011102207011"
+}, {
+  "address": "佛城西路11号",
+  "community_name": "江南青年城蓝水苑",
+  "community_id": "1411050006412"
+}, {
+  "address": "东门南路1021-15号",
+  "community_name": "阳光新干线家园",
+  "community_id": "2411048993634"
+}, {
+  "address": "前马厂胡同60号",
+  "community_name": "龙岳洲",
+  "community_id": "1111027378216"
+}, {
+  "address": "斜土路2096弄",
+  "community_name": "锦蝶苑",
+  "community_id": "5011000015667"
+}, {
+  "address": "龙华路2381弄1-27号",
+  "community_name": "东航小区",
+  "community_id": "5011000012518"
+}, {
+  "address": "威宁路123弄",
+  "community_name": "西郊紫薇花园",
+  "community_id": "5011000002311"
+}, {
+  "address": "三间房南里5号院",
+  "community_name": "三间房南里5号院",
+  "community_id": "1111046322923"
+}, {
+  "address": "四平路421弄",
+  "community_name": "四平路421弄",
+  "community_id": "5011000004363"
+}, {
+  "address": "杭州路28号",
+  "community_name": "中海临安府",
+  "community_id": "1511063164992"
+}, {
+  "address": "环市东路",
+  "community_name": "华侨新村原道路",
+  "community_id": "2110343238337464"
+}, {
+  "address": "成山路963弄",
+  "community_name": "昌七小区",
+  "community_id": "5011000011349"
+}, {
+  "address": "成山路1035弄",
+  "community_name": "昌七小区",
+  "community_id": "5011000011349"
+}, {
+  "address": "南码头路1621弄",
+  "community_name": "昌七小区",
+  "community_id": "5011000011349"
+}, {
+  "address": "南码头路1675弄",
+  "community_name": "昌七小区",
+  "community_id": "5011000011349"
+}, {
+  "address": "南码头路1521弄",
+  "community_name": "昌七小区",
+  "community_id": "5011000011349"
+}, {
+  "address": "白云大道",
+  "community_name": "依云小镇",
+  "community_id": "2111103318310"
+}, {
+  "address": "解放东路",
+  "community_name": "江枫雅筑",
+  "community_id": "3611060671940"
+}, {
+  "address": "江虹南路与规划支路交界处",
+  "community_name": "白马湖小区孔雀苑",
+  "community_id": "2711051237884"
+}, {
+  "address": "华阴路152弄",
+  "community_name": "华阴路152弄",
+  "community_id": "5011000006021"
+}, {
+  "address": "白堤路与西湖道交口",
+  "community_name": "南丰里",
+  "community_id": "1211045245993"
+}, {
+  "address": "临江大道59号",
+  "community_name": "天銮",
+  "community_id": "219161663066551"
+}, {
+  "address": "真北路与金华路交汇处西北角",
+  "community_name": "华通花园六区",
+  "community_id": "2310678051548689"
+}, {
+  "address": "南车站路67弄",
+  "community_name": "南车站路67弄",
+  "community_id": "5011000002856"
+}, {
+  "address": "芙蓉路2-136号",
+  "community_name": "芙蓉路",
+  "community_id": "4011056198889"
+}, {
+  "address": "建国西路382号",
+  "community_name": "建国西路382号",
+  "community_id": "5011000009890"
+}, {
+  "address": "镇宁路9号2-3幢",
+  "community_name": "东方雅苑",
+  "community_id": "5011000018107"
+}, {
+  "address": "长岛路1066弄",
+  "community_name": "碧云新天地（三期）",
+  "community_id": "5011102208411"
+}, {
+  "address": "良渚街道瑷颐湾",
+  "community_name": "融科瑷颐湾",
+  "community_id": "1811060422681"
+}, {
+  "address": "集庆门大街36号",
+  "community_name": "云河湾七号公馆",
+  "community_id": "1413465485062981"
+}, {
+  "address": "莘朱路1924弄",
+  "community_name": "朱行四村",
+  "community_id": "5011000005706"
+}, {
+  "address": "余姚路566弄",
+  "community_name": "静安均泰丽轩",
+  "community_id": "5011000012772"
+}, {
+  "address": "志新西路一号院",
+  "community_name": "志新西路一号院",
+  "community_id": "1111027382719"
+}, {
+  "address": "长阳路1315弄",
+  "community_name": "申通公寓",
+  "community_id": "5011000015733"
+}, {
+  "address": "太湖西路",
+  "community_name": "津滨滨海国际1期",
+  "community_id": "1211062796098"
+}, {
+  "address": "汤公胡同",
+  "community_name": "汤公街胡同",
+  "community_id": "1111041361407"
+}, {
+  "address": "北京东路220弄",
+  "community_name": "北京东路220弄",
+  "community_id": "5011000007183"
+}, {
+  "address": "工农四村105-121号",
+  "community_name": "工农四村五街坊",
+  "community_id": "5011000012054"
+}, {
+  "address": "工农四村125-127号",
+  "community_name": "工农四村五街坊",
+  "community_id": "5011000012054"
+}, {
+  "address": "工农四村130-133号",
+  "community_name": "工农四村五街坊",
+  "community_id": "5011000012054"
+}, {
+  "address": "北城壕路153弄",
+  "community_name": "北城壕路153弄",
+  "community_id": "5011000020133"
+}, {
+  "address": "新德西路508弄",
+  "community_name": "舒馨北苑",
+  "community_id": "5011000006713"
+}, {
+  "address": "广灵四路341弄1号",
+  "community_name": "虹华大楼",
+  "community_id": "5011000018272"
+}, {
+  "address": "淮海西路183弄",
+  "community_name": "汇宁花园",
+  "community_id": "5011000017898"
+}, {
+  "address": "浣花西路",
+  "community_name": "金兰苑剑兰街",
+  "community_id": "2110343238860975"
+}, {
+  "address": "龙岗区坑梓街道锦绣东路与金辉路交汇处西北角",
+  "community_name": "深业御园",
+  "community_id": "2411312182340621"
+}, {
+  "address": "湖西街",
+  "community_name": "湖西街4号",
+  "community_id": "1411179852049438"
+}, {
+  "address": "户部街",
+  "community_name": "户部街",
+  "community_id": "1411041969110"
+}, {
+  "address": "南苏州路999号",
+  "community_name": "象屿集团大厦",
+  "community_id": "5011000013947"
+}, {
+  "address": "妙境路627弄",
+  "community_name": "妙境路627弄",
+  "community_id": "5011102207566"
+}, {
+  "address": "大沽南路与复兴河交口处",
+  "community_name": "复兴门家园",
+  "community_id": "1211046553605"
+}, {
+  "address": "乐都路59号",
+  "community_name": "乐都路59号",
+  "community_id": "509821540057976"
+}, {
+  "address": "仓上小区",
+  "community_name": "仓上家园",
+  "community_id": "1111027376548"
+}, {
+  "address": "海伦路69弄5号",
+  "community_name": "海伦路69弄5号",
+  "community_id": "5011000002531"
+}, {
+  "address": "天钥桥路380弄36-38号",
+  "community_name": "南溪公寓",
+  "community_id": "5011000015887"
+}, {
+  "address": "观象二路",
+  "community_name": "观象二路",
+  "community_id": "157690910708649"
+}, {
+  "address": "东高地",
+  "community_name": "东高地",
+  "community_id": "1111027376875"
+}, {
+  "address": "一环路北三段100号（益友商业广场斜对面）",
+  "community_name": "飞大壹号广场",
+  "community_id": "1611063626366"
+}, {
+  "address": "马泾桥四村",
+  "community_name": "马泾桥四村",
+  "community_id": "5011000001534"
+}, {
+  "address": "马连道北里",
+  "community_name": "马连道北里",
+  "community_id": "1111027378323"
+}, {
+  "address": "机场西路",
+  "community_name": "中意花园",
+  "community_id": "2111103317008"
+}, {
+  "address": "延平路482弄",
+  "community_name": "延平路482弄",
+  "community_id": "5011000007326"
+}, {
+  "address": "银山路187弄",
+  "community_name": "银山路187弄",
+  "community_id": "5011000020321"
+}, {
+  "address": "城中东路311号",
+  "community_name": "城中东路311号",
+  "community_id": "5011000020083"
+}, {
+  "address": "中新路8号",
+  "community_name": "中新路8号",
+  "community_id": "3011055592027"
+}, {
+  "address": "仙山东路28-2号",
+  "community_name": "鑫江水青木华四期",
+  "community_id": "1511100848076"
+}, {
+  "address": "大安西路58号",
+  "community_name": "上河新城",
+  "community_id": "3011053889173"
+}, {
+  "address": "人兴路303号",
+  "community_name": "华夏城三区",
+  "community_id": "3611062394056"
+}, {
+  "address": "二马路与二纬路交口南行150米路西",
+  "community_name": "昆裕里",
+  "community_id": "1211046341878"
+}, {
+  "address": "光荣北路8号",
+  "community_name": "光荣北路8号",
+  "community_id": "3011055218011"
+}, {
+  "address": "栖霞道与詹安路交口",
+  "community_name": "詹安里",
+  "community_id": "2811051091999"
+}, {
+  "address": "凯旋北路1888号",
+  "community_name": "中山润园",
+  "community_id": "5011000001517"
+}, {
+  "address": "东体育会路77号",
+  "community_name": "东体育会路77号",
+  "community_id": "5011063202553"
+}, {
+  "address": "广粤路617弄",
+  "community_name": "文粤家园",
+  "community_id": "5011000004364"
+}, {
+  "address": "肖家河巷4号",
+  "community_name": "肖家河巷4号",
+  "community_id": "1611042677842"
+}, {
+  "address": "银城中路168号",
+  "community_name": "上海银行大厦",
+  "community_id": "5011000013696"
+}, {
+  "address": "清凉门大街298号",
+  "community_name": "长阳花园",
+  "community_id": "1411000000090"
+}, {
+  "address": "司前街31号",
+  "community_name": "司前街31号",
+  "community_id": "239821887922916"
+}, {
+  "address": "华林路777弄",
+  "community_name": "华林路777弄",
+  "community_id": "5011102207389"
+}, {
+  "address": "湖西街48号",
+  "community_name": "湖西街48号",
+  "community_id": "1411000000299"
+}, {
+  "address": "栖林路178弄",
+  "community_name": "金地格林世界（圣莫尼卡）",
+  "community_id": "5011000014364"
+}, {
+  "address": "芙蓉中路一段88号",
+  "community_name": "天健芙蓉盛世",
+  "community_id": "3511060703969"
+}, {
+  "address": "文二路110号",
+  "community_name": "西溪公寓",
+  "community_id": "1811043641887"
+}, {
+  "address": "长沙路169号",
+  "community_name": "长沙路169号",
+  "community_id": "5011000010702"
+}, {
+  "address": "大通路139弄",
+  "community_name": "大通路139弄",
+  "community_id": "5011000001364"
+}, {
+  "address": "兴华中路",
+  "community_name": "世贵双星",
+  "community_id": "3611100730343"
+}, {
+  "address": "中山南路1887弄",
+  "community_name": "金中苑",
+  "community_id": "5011000015553"
+}, {
+  "address": "常德路958弄",
+  "community_name": "常德路958弄",
+  "community_id": "5011000006438"
+}, {
+  "address": "北京路",
+  "community_name": "尚峰酒店公寓",
+  "community_id": "2111103318565"
+}, {
+  "address": "建材城富力桃园",
+  "community_name": "富力桃园A区",
+  "community_id": "1111027374290"
+}, {
+  "address": "永定路70弄",
+  "community_name": "永定路70弄",
+  "community_id": "5011000002655"
+}, {
+  "address": "凉城路357弄",
+  "community_name": "中虹花园丽都苑",
+  "community_id": "5011000016943"
+}, {
+  "address": "真南路3717号",
+  "community_name": "溢盈河畔别墅",
+  "community_id": "5011000017064"
+}, {
+  "address": "安德里北街24号院",
+  "community_name": "安德里北街24号院",
+  "community_id": "1111027375576"
+}, {
+  "address": "武清天和城天和路与藕甸道交口",
+  "community_name": "南湖红星国际广场",
+  "community_id": "1211100676928"
+}, {
+  "address": "友谊路与宾友道交口",
+  "community_name": "新闻里",
+  "community_id": "1211046073577"
+}, {
+  "address": "华夏二路1500弄",
+  "community_name": "心园西苑",
+  "community_id": "5011000009000"
+}, {
+  "address": "海秀路与宝兴路21交叉口",
+  "community_name": "万骏经贸大厦",
+  "community_id": "2411100543709"
+}, {
+  "address": "五原路256号",
+  "community_name": "五原路256号",
+  "community_id": "5011000015514"
+}, {
+  "address": "长寿路468弄",
+  "community_name": "中环商务大厦",
+  "community_id": "5011000015220"
+}, {
+  "address": "环镇北路500弄",
+  "community_name": "环镇北路500弄",
+  "community_id": "5011000006741"
+}, {
+  "address": "前哨路231弄",
+  "community_name": "前哨路231弄",
+  "community_id": "5011000005655"
+}, {
+  "address": "襄阳南路349号",
+  "community_name": "襄阳南路349号",
+  "community_id": "5011000003446"
+}, {
+  "address": "登州路54号",
+  "community_name": "登州路54小区",
+  "community_id": "4011055490528"
+}, {
+  "address": "建邺区扬子江大道399号（扬子江大道与淮河路交叉口）",
+  "community_name": "海峡城",
+  "community_id": "1411063290504"
+}, {
+  "address": "泗陈公路4388弄",
+  "community_name": "佘山3号",
+  "community_id": "5011000015488"
+}, {
+  "address": "广州路215号",
+  "community_name": "广州路215号",
+  "community_id": "1411000000219"
+}, {
+  "address": "九新公路333弄",
+  "community_name": "枫桥丽舍",
+  "community_id": "5011000003364"
+}, {
+  "address": "奉贤路195号",
+  "community_name": "奉贤路195号",
+  "community_id": "5011000007911"
+}, {
+  "address": "兴蓉南三巷11号",
+  "community_name": "兴蓉南三巷11号",
+  "community_id": "1612156966547918"
+}, {
+  "address": "琳科中路",
+  "community_name": "琳科中路商业街",
+  "community_id": "1211100099609"
+}, {
+  "address": "新凤中路899弄",
+  "community_name": "星尚湾名邸",
+  "community_id": "5011000000628"
+}, {
+  "address": "大沙地东路",
+  "community_name": "盛景大厦",
+  "community_id": "2111103317464"
+}, {
+  "address": "中山北一路411号",
+  "community_name": "中山翰林苑（公寓）",
+  "community_id": "5011000019381"
+}, {
+  "address": "学府路北段128号",
+  "community_name": "越鞠苑",
+  "community_id": "3011052900849"
+}, {
+  "address": "友谊路与绥江道交口",
+  "community_name": "华夏津典畅水园",
+  "community_id": "1211045765181"
+}, {
+  "address": "万航渡路269弄",
+  "community_name": "山乐邨",
+  "community_id": "5011000010475"
+}, {
+  "address": "南岸路",
+  "community_name": "荔港南湾A区",
+  "community_id": "2110343238336996"
+}, {
+  "address": "金庄",
+  "community_name": "金庄",
+  "community_id": "1111027377559"
+}, {
+  "address": "杨庄72号院",
+  "community_name": "杨庄72号院",
+  "community_id": "1111027382243"
+}, {
+  "address": "北礼士路62号院",
+  "community_name": "北礼士路62号院",
+  "community_id": "1111027376001"
+}, {
+  "address": "北翟路3398号",
+  "community_name": "国贸公寓（商住）",
+  "community_id": "5011000019096"
+}, {
+  "address": "兴虹路368弄",
+  "community_name": "万科时一区（三期）",
+  "community_id": "5011102207634"
+}, {
+  "address": "民族大道与汤逊湖北路交汇处以西200米（华师一附中旁）",
+  "community_name": "韵湖星光",
+  "community_id": "377007717830449"
+}, {
+  "address": "长桥街89弄",
+  "community_name": "长桥街89弄",
+  "community_id": "5011000008713"
+}, {
+  "address": "福德路",
+  "community_name": "香缤豪庭",
+  "community_id": "2111103318598"
+}, {
+  "address": "华山路421弄",
+  "community_name": "华山路421弄",
+  "community_id": "5011000009342"
+}, {
+  "address": "月浦四村",
+  "community_name": "月浦四村",
+  "community_id": "5011000000636"
+}, {
+  "address": "卢湾龙华东路809号（近打浦路）",
+  "community_name": "凯迪迪美逊（住宅）",
+  "community_id": "509821540319405"
+}, {
+  "address": "沱江丽苑2期",
+  "community_name": "沱江丽苑2期",
+  "community_id": "3011054118374"
+}, {
+  "address": "隆昌路地铁站上盖",
+  "community_name": "华发公馆（loft）",
+  "community_id": "509821540057926"
+}, {
+  "address": "肇嘉浜路687弄",
+  "community_name": "肇嘉浜路687弄",
+  "community_id": "5011000010360"
+}, {
+  "address": "斜土支路5号",
+  "community_name": "斜土支路5号",
+  "community_id": "5011000004674"
+}, {
+  "address": "大方巷87号",
+  "community_name": "大方巷87号",
+  "community_id": "1411041200401"
+}, {
+  "address": "上川路49号",
+  "community_name": "兰花苑",
+  "community_id": "2411063415694"
+}, {
+  "address": "学士路99号",
+  "community_name": "江山帝景哈佛",
+  "community_id": "3511057880045"
+}, {
+  "address": "洪武路168号",
+  "community_name": "洪武路168号",
+  "community_id": "1411043378038"
+}, {
+  "address": "天目山路和长江东路交汇处",
+  "community_name": "天目山路长江东路",
+  "community_id": "4011056013663"
+}, {
+  "address": "五原路205弄",
+  "community_name": "五原路205弄",
+  "community_id": "5011000011693"
+}, {
+  "address": "河西台湾路与绍兴道交口",
+  "community_name": "台湾路",
+  "community_id": "1211045824245"
+}, {
+  "address": "黄兴路1061号",
+  "community_name": "黄兴路1061号",
+  "community_id": "5011000004786"
+}, {
+  "address": "河南北路233号",
+  "community_name": "圣和圣广场（商住）",
+  "community_id": "5011102208309"
+}, {
+  "address": "迎宾路",
+  "community_name": "华南碧桂园翠山蓝天苑",
+  "community_id": "2110343238599482"
+}, {
+  "address": "金桥镇横街201-220号",
+  "community_name": "金桥横街小区",
+  "community_id": "5011000001068"
+}, {
+  "address": "伟业大道（汉洪高速汉南出口处）",
+  "community_name": "碧桂园凰城",
+  "community_id": "3711064045886"
+}, {
+  "address": "金琴路南三巷3号",
+  "community_name": "金琴路南三巷3号",
+  "community_id": "3011053935361"
+}, {
+  "address": "虹桥路2489弄188号",
+  "community_name": "龙柏山庄",
+  "community_id": "5011000016969"
+}, {
+  "address": "建国南路45号（ 中信广场往南1000米）",
+  "community_name": "紫韵枫尚",
+  "community_id": "1211100270485"
+}, {
+  "address": "丁香路1599弄",
+  "community_name": "仁恒河滨城（一期）",
+  "community_id": "5011000017980"
+}, {
+  "address": "高淳淳溪镇濑渚路2号（水厂路与湖滨大道交接处）",
+  "community_name": "福源名居",
+  "community_id": "146945653140488"
+}, {
+  "address": "文翔路3588弄",
+  "community_name": "上尚缘",
+  "community_id": "5011000014840"
+}, {
+  "address": "程家桥路221弄",
+  "community_name": "程家桥路221弄",
+  "community_id": "5011000008207"
+}, {
+  "address": "姚虹路299弄",
+  "community_name": "恒盛苑",
+  "community_id": "5011000017600"
+}, {
+  "address": "凤阳路724弄",
+  "community_name": "凤阳路724弄",
+  "community_id": "5011000005688"
+}, {
+  "address": "天久南巷169号",
+  "community_name": "天府长城嘉南地",
+  "community_id": "1611041808378"
+}, {
+  "address": "青塔西路52号院",
+  "community_name": "万科紫台",
+  "community_id": "1111027380344"
+}, {
+  "address": "北安德路255弄",
+  "community_name": "魏玛原墅（公寓）",
+  "community_id": "5011000005020"
+}, {
+  "address": "北安德路355弄",
+  "community_name": "魏玛原墅（公寓）",
+  "community_id": "5011000005020"
+}, {
+  "address": "国年路65弄",
+  "community_name": "国年路65弄",
+  "community_id": "5011000008266"
+}, {
+  "address": "南苑槐房路",
+  "community_name": "南苑槐房路",
+  "community_id": "1111058266008"
+}, {
+  "address": "大直沽八号路",
+  "community_name": "大直沽八号路",
+  "community_id": "2811051391754"
+}, {
+  "address": "江苏路736号",
+  "community_name": "逸公馆（商住）",
+  "community_id": "5011000018856"
+}, {
+  "address": "信用北里",
+  "community_name": "信用北里",
+  "community_id": "1111027381336"
+}, {
+  "address": "安化路220号",
+  "community_name": "安化路220号",
+  "community_id": "5011000006415"
+}, {
+  "address": "许昌路1265弄",
+  "community_name": "许昌路1265弄",
+  "community_id": "5011102208781"
+}, {
+  "address": "瑞金南路185弄",
+  "community_name": "瑞南新苑",
+  "community_id": "5011000018340"
+}, {
+  "address": "藏家桥胡同",
+  "community_name": "藏家桥胡同",
+  "community_id": "1111047009123"
+}, {
+  "address": "陕西南路550弄",
+  "community_name": "陕西南路550弄",
+  "community_id": "5011000007057"
+}, {
+  "address": "广中路482号",
+  "community_name": "广中路482号",
+  "community_id": "5011102209251"
+}, {
+  "address": "斜土路262弄",
+  "community_name": "斜土路262弄",
+  "community_id": "5011000008547"
+}, {
+  "address": "樟富北路与布沙路交汇处",
+  "community_name": "万科公园里二期",
+  "community_id": "2411063042780"
+}, {
+  "address": "南京西路1522弄2-70号",
+  "community_name": "南京西路1522弄",
+  "community_id": "5011000009300"
+}, {
+  "address": "高新园区理工北门新新园",
+  "community_name": "新新园二期",
+  "community_id": "1311042052891"
+}, {
+  "address": "谷阳北路900弄",
+  "community_name": "天乐小区",
+  "community_id": "5011000002998"
+}, {
+  "address": "双乐园33-77号",
+  "community_name": "双乐园小区",
+  "community_id": "1411043420529"
+}, {
+  "address": "徐南路1188弄",
+  "community_name": "御品园林",
+  "community_id": "5011000010789"
+}, {
+  "address": "墅沟路550弄",
+  "community_name": "嘉珉",
+  "community_id": "5011000001983"
+}, {
+  "address": "罗家碾街155号",
+  "community_name": "罗家碾街155号",
+  "community_id": "3011056036789"
+}, {
+  "address": "育红路与长青路交口",
+  "community_name": "育红东里",
+  "community_id": "2811054477680"
+}, {
+  "address": "江宁区横溪街道甘泉湖路1号",
+  "community_name": "中浩山屿湖",
+  "community_id": "146939477028899"
+}, {
+  "address": "府学路19号",
+  "community_name": "力天嘉苑",
+  "community_id": "1111055782601"
+}, {
+  "address": "龙口西路",
+  "community_name": "龙苑大厦",
+  "community_id": "2111103316460"
+}, {
+  "address": "大沽路547号",
+  "community_name": "大沽路547号",
+  "community_id": "5011000008747"
+}, {
+  "address": "靖江路158号",
+  "community_name": "靖江路158号",
+  "community_id": "5011102205840"
+}, {
+  "address": "沙滨路58号",
+  "community_name": "江枫美岸",
+  "community_id": "3611060401147"
+}, {
+  "address": "康定路621弄",
+  "community_name": "康定路621弄",
+  "community_id": "5011000005742"
+}, {
+  "address": "文锦北路2028号",
+  "community_name": "逸湖居",
+  "community_id": "2411048555887"
+}, {
+  "address": "筒车巷",
+  "community_name": "筒车巷30号",
+  "community_id": "3011054714168"
+}, {
+  "address": "大林路86号",
+  "community_name": "大林路86号",
+  "community_id": "5011000008608"
+}, {
+  "address": "安远路839号",
+  "community_name": "安远路839号",
+  "community_id": "5011000004296"
+}, {
+  "address": "胜利村路50号",
+  "community_name": "长巷苑小区",
+  "community_id": "1411047320103"
+}, {
+  "address": "姚家园路105号",
+  "community_name": "观湖国际写字楼",
+  "community_id": "1111027374570"
+}, {
+  "address": "美丰路88弄",
+  "community_name": "上置香岛原墅（别墅）",
+  "community_id": "5011000009834"
+}, {
+  "address": "长岛路823弄",
+  "community_name": "碧云新天地（一期）",
+  "community_id": "5011000012976"
+}, {
+  "address": "长岛路825弄",
+  "community_name": "碧云新天地（一期）",
+  "community_id": "5011000012976"
+}, {
+  "address": "南环路506号",
+  "community_name": "南环路506号",
+  "community_id": "5011000019765"
+}, {
+  "address": "辰昌路与龙武道交口附近，果酒厂地铁站后100米",
+  "community_name": "井田公寓",
+  "community_id": "1211045347756"
+}, {
+  "address": "昭化路309号",
+  "community_name": "昭化路309号",
+  "community_id": "5011000007841"
+}, {
+  "address": "藿香路238弄",
+  "community_name": "张江汤臣豪园（四期）",
+  "community_id": "5011000010996"
+}, {
+  "address": "零陵路197号",
+  "community_name": "零陵路197号",
+  "community_id": "5011000018480"
+}, {
+  "address": "黄石路",
+  "community_name": "白云高尔夫花园荷塘月色",
+  "community_id": "2110343238337450"
+}, {
+  "address": "京原路甲5号",
+  "community_name": "西引力",
+  "community_id": "1111027381370"
+}, {
+  "address": "和平路与人民北路交汇西测",
+  "community_name": "桦润馨居",
+  "community_id": "2411049443473"
+}, {
+  "address": "绍兴路54号",
+  "community_name": "绍兴路54号",
+  "community_id": "5011000010368"
+}, {
+  "address": "净土胡同5号院",
+  "community_name": "净土胡同5号院",
+  "community_id": "1111027377400"
+}, {
+  "address": "宁夏路366弄4号",
+  "community_name": "绿地世纪城（酒店式公寓）",
+  "community_id": "5011000002209"
+}, {
+  "address": "塔园路166号",
+  "community_name": "新地国际公寓",
+  "community_id": "239821887922246"
+}, {
+  "address": "九龙坡华岩新城华福大道北段29号(华岩陶瓷市场旁）",
+  "community_name": "恒大雅苑",
+  "community_id": "3611059501762"
+}, {
+  "address": "北太平庄马甸西村路4号",
+  "community_name": "中航宿舍",
+  "community_id": "1111027382479"
+}, {
+  "address": "南大路",
+  "community_name": "华南新城山语轩",
+  "community_id": "2110343238336681"
+}, {
+  "address": "江川路1777弄",
+  "community_name": "祥云新城",
+  "community_id": "5011000009410"
+}, {
+  "address": "三条石大街130号（河北大街快速路与三条石大街交口）",
+  "community_name": "金领国际",
+  "community_id": "1211045345588"
+}, {
+  "address": "黄金城道99弄",
+  "community_name": "虹桥城市花园（公寓）",
+  "community_id": "5011000015018"
+}, {
+  "address": "川周公路2828弄17-85号（单号）",
+  "community_name": "沔溪苑",
+  "community_id": "5011000014953"
+}, {
+  "address": "洛川东路260号",
+  "community_name": "洛川东路260号",
+  "community_id": "5011000000064"
+}, {
+  "address": "德园路328弄",
+  "community_name": "德园路328弄",
+  "community_id": "5011000019273"
+}, {
+  "address": "苏厝街91号",
+  "community_name": "仁安社区居民区",
+  "community_id": "3911066908094811"
+}, {
+  "address": "流芳老街八一路4号",
+  "community_name": "佛祖岭社区A区",
+  "community_id": "3711060175344"
+}, {
+  "address": "天和西二街319号",
+  "community_name": "长城南苑",
+  "community_id": "1611041814698"
+}, {
+  "address": "莱茵达路6号",
+  "community_name": "莱茵达路6号",
+  "community_id": "2511051775959"
+}, {
+  "address": "高峰路与盛仓北路交口",
+  "community_name": "赤霞园",
+  "community_id": "2811052514569"
+}, {
+  "address": "大天路999号",
+  "community_name": "尚林花园",
+  "community_id": "3011056136566"
+}, {
+  "address": "龙岩道与辰兴路交口",
+  "community_name": "瑞益园",
+  "community_id": "1211045351360"
+}, {
+  "address": "浦东大道2568弄",
+  "community_name": "军官公寓",
+  "community_id": "5011000009626"
+}, {
+  "address": "城西路195弄",
+  "community_name": "见龙苑",
+  "community_id": "5011000002774"
+}, {
+  "address": "清水河小关口西环路德兴路口",
+  "community_name": "德兴花园",
+  "community_id": "2411048509638"
+}, {
+  "address": "万和北路8号",
+  "community_name": "润扬北城1号",
+  "community_id": "1611063597813"
+}, {
+  "address": "紫阳路92号",
+  "community_name": "紫阳路92号",
+  "community_id": "5011000005732"
+}, {
+  "address": "福建中路363号",
+  "community_name": "福建中路363号",
+  "community_id": "5011000002675"
+}, {
+  "address": "芦恒路378弄141-160号",
+  "community_name": "一品漫城（四期）（公寓）",
+  "community_id": "5011000005239"
+}, {
+  "address": "艺苑东里",
+  "community_name": "艺苑东里",
+  "community_id": "1111027382187"
+}, {
+  "address": "雪松路330弄",
+  "community_name": "桃浦六村樱花苑",
+  "community_id": "5011102209038"
+}, {
+  "address": "永顺南街232号院",
+  "community_name": "永顺南街232号院",
+  "community_id": "1111027382037"
+}, {
+  "address": "前海北沿",
+  "community_name": "前海北沿",
+  "community_id": "1111027378809"
+}, {
+  "address": "建材路37号",
+  "community_name": "九熙广场三期",
+  "community_id": "1611063022154"
+}, {
+  "address": "秦淮双塘仙鹤桥",
+  "community_name": "太平苑",
+  "community_id": "1411041492790"
+}, {
+  "address": "宝山九村",
+  "community_name": "宝山九村",
+  "community_id": "5011000005201"
+}, {
+  "address": "白纸坊中里",
+  "community_name": "白纸坊中里",
+  "community_id": "1111027376297"
+}, {
+  "address": "凤阳路539号",
+  "community_name": "凤阳路539号",
+  "community_id": "5011000002955"
+}, {
+  "address": "鸿业兴园",
+  "community_name": "鸿业兴园",
+  "community_id": "1111027375519"
+}, {
+  "address": "乌鲁木齐北路100弄",
+  "community_name": "乌鲁木齐北路100弄",
+  "community_id": "5011000007079"
+}, {
+  "address": "山西北路222弄",
+  "community_name": "联富假日公寓",
+  "community_id": "5011000017468"
+}, {
+  "address": "小关北里217号院",
+  "community_name": "小关北里217号院",
+  "community_id": "1111027380737"
+}, {
+  "address": "武昌路338号",
+  "community_name": "豪景苑",
+  "community_id": "5011000011057"
+}, {
+  "address": "水城南路51弄6-15号",
+  "community_name": "钻石公寓",
+  "community_id": "5011000012373"
+}, {
+  "address": "西富河园",
+  "community_name": "华诚花园",
+  "community_id": "1111027374902"
+}, {
+  "address": "双辽支路60弄",
+  "community_name": "双辽新村",
+  "community_id": "5011000003210"
+}, {
+  "address": "双辽新村",
+  "community_name": "双辽新村",
+  "community_id": "5011000003210"
+}, {
+  "address": "杜鹃路812号",
+  "community_name": "联美品格",
+  "community_id": "3511054750991"
+}, {
+  "address": "迎水道8号",
+  "community_name": "稚幼里",
+  "community_id": "1211045992195"
+}, {
+  "address": "中山一路",
+  "community_name": "东方花苑",
+  "community_id": "2111103831551"
+}, {
+  "address": "寺右路",
+  "community_name": "五羊小区H区",
+  "community_id": "2110343238336898"
+}, {
+  "address": "铁佛路109号",
+  "community_name": "铁佛新居二期",
+  "community_id": "3011052991821"
+}, {
+  "address": "城西路102弄",
+  "community_name": "彩虹园",
+  "community_id": "5011000000027"
+}, {
+  "address": "昆明路与汉阳道交口",
+  "community_name": "汉阳道",
+  "community_id": "1211045876575"
+}, {
+  "address": "高安路20号",
+  "community_name": "高安路20号",
+  "community_id": "5011000009734"
+}, {
+  "address": "金沙江路2753弄",
+  "community_name": "金丰新村",
+  "community_id": "5011000011990"
+}, {
+  "address": "金沙江路2823弄",
+  "community_name": "金丰新村",
+  "community_id": "5011000011990"
+}, {
+  "address": "明月路188弄",
+  "community_name": "世茂湖滨花园（别墅）",
+  "community_id": "5011000018328"
+}, {
+  "address": "姜家园6号",
+  "community_name": "中山北路",
+  "community_id": "1411047179602"
+}, {
+  "address": "外青松公路6161弄",
+  "community_name": "中铁逸都",
+  "community_id": "5011000000481"
+}, {
+  "address": " 青竹路161弄",
+  "community_name": "中铁逸都",
+  "community_id": "5011000000481"
+}, {
+  "address": "北四环东路106号院",
+  "community_name": "惠中园",
+  "community_id": "1111027376961"
+}, {
+  "address": "香樟路168号",
+  "community_name": "湘樟家园",
+  "community_id": "3511059943570"
+}, {
+  "address": "沪青平公路8600号",
+  "community_name": "威尼斯花园",
+  "community_id": "5011000015540"
+}, {
+  "address": "东桃园胡同甲2号",
+  "community_name": "东桃园",
+  "community_id": "1111027373942"
+}, {
+  "address": "芥园西道与咸阳路交口",
+  "community_name": "雅云里",
+  "community_id": "1211045165226"
+}, {
+  "address": "金德路66号",
+  "community_name": "赞成美树",
+  "community_id": "1811099682075"
+}, {
+  "address": "东新南路518",
+  "community_name": "东方花园东新南路518",
+  "community_id": "2511051247562"
+}, {
+  "address": "苜蓿园大街56号",
+  "community_name": "东庭公寓",
+  "community_id": "1411046501863"
+}, {
+  "address": "云兴路418号",
+  "community_name": "北欧知识城一期",
+  "community_id": "1613062984969784"
+}, {
+  "address": "河北路",
+  "community_name": "迎春园",
+  "community_id": "2811052591626"
+}, {
+  "address": "杨公桥106号",
+  "community_name": "大川花园",
+  "community_id": "3611057252958"
+}, {
+  "address": "云汉路6号",
+  "community_name": "五十小区翠桐雅苑小区",
+  "community_id": "2411062602415"
+}, {
+  "address": "云恩路58弄",
+  "community_name": "首创锦悦",
+  "community_id": "5011000018564"
+}, {
+  "address": " 云恩路59弄",
+  "community_name": "首创锦悦",
+  "community_id": "5011000018564"
+}, {
+  "address": "应天西路99号",
+  "community_name": "吉庆家园逢春苑",
+  "community_id": "1411000000384"
+}, {
+  "address": "绿竹路66号",
+  "community_name": "龙湖江与城江城时光",
+  "community_id": "367122022313155"
+}, {
+  "address": "鹏飞路101弄",
+  "community_name": "虞泽苑",
+  "community_id": "5011000003252"
+}, {
+  "address": "鹏飞路51弄",
+  "community_name": "虞泽苑",
+  "community_id": "5011000003252"
+}, {
+  "address": "战旗东路1号",
+  "community_name": "金邑志达苑",
+  "community_id": "1611063163811"
+}, {
+  "address": "潇湘大道298号",
+  "community_name": "曙光泊岸",
+  "community_id": "3511059644650"
+}, {
+  "address": "博山东路136弄",
+  "community_name": "德乐苑",
+  "community_id": "5011000016909"
+}, {
+  "address": "苏州工业园跨塘镇",
+  "community_name": "高浜新一村",
+  "community_id": "2311053635139"
+}, {
+  "address": "四平路257号",
+  "community_name": "喜临门大厦",
+  "community_id": "5011000014288"
+}, {
+  "address": "溧阳路1111号",
+  "community_name": "喜临门大厦",
+  "community_id": "5011000014288"
+}, {
+  "address": "巴滨路中段（马桑溪大桥南桥头）",
+  "community_name": "宗申金蓝湾",
+  "community_id": "3611063903736"
+}, {
+  "address": "宋庄路甲12号院",
+  "community_name": "宋庄路甲12号院",
+  "community_id": "1111027379724"
+}, {
+  "address": "淘金路",
+  "community_name": "淘金路",
+  "community_id": "2111103831613"
+}, {
+  "address": "中谊路666弄",
+  "community_name": "绿野香洲（公寓）",
+  "community_id": "5011000000529"
+}, {
+  "address": "临汾路1071号",
+  "community_name": "临汾路1071号",
+  "community_id": "5011000020386"
+}, {
+  "address": "襄阳北路66弄",
+  "community_name": "襄阳北路66弄",
+  "community_id": "5011000011271"
+}, {
+  "address": "北干街道春江悦茗公寓",
+  "community_name": "龙湖旭辉春江悦茗",
+  "community_id": "188390937162697"
+}, {
+  "address": "栖霞道",
+  "community_name": "水东里",
+  "community_id": "2811051085765"
+}, {
+  "address": "广园东路",
+  "community_name": "碧桂园凤凰城凤晴苑",
+  "community_id": "2110343239123362"
+}, {
+  "address": "港岛路128号",
+  "community_name": "长鑫美树园",
+  "community_id": "3511726574596368"
+}, {
+  "address": "剑南大道与天府四街交汇处",
+  "community_name": "利通时代晶座",
+  "community_id": "1611059343500"
+}, {
+  "address": "望京北路1号院",
+  "community_name": "中国数码港大厦",
+  "community_id": "1111046444212"
+}, {
+  "address": "东外街36弄",
+  "community_name": "东外街36弄",
+  "community_id": "5011000001500"
+}, {
+  "address": "昭化东路203号",
+  "community_name": "昭化东路203号",
+  "community_id": "5011000008226"
+}, {
+  "address": "大渡河路537弄",
+  "community_name": "海运花苑",
+  "community_id": "5011000008783"
+}, {
+  "address": "鲁新小区",
+  "community_name": "鲁新小区",
+  "community_id": "1111027378156"
+}, {
+  "address": "泰联路2038号",
+  "community_name": "北上海创意港",
+  "community_id": "5011000002664"
+}, {
+  "address": "松陵镇江兴西路与梅石路交界处",
+  "community_name": "欧风华庭",
+  "community_id": "2311059924965"
+}, {
+  "address": "东方城88号",
+  "community_name": "东方城初日园",
+  "community_id": "1411063643544"
+}, {
+  "address": "荣华东道98号",
+  "community_name": "维多利亚（公寓）",
+  "community_id": "5011000016125"
+}, {
+  "address": "荣华东道116号",
+  "community_name": "维多利亚（公寓）",
+  "community_id": "5011000016125"
+}, {
+  "address": "荣华东道128号",
+  "community_name": "维多利亚（公寓）",
+  "community_id": "5011000016125"
+}, {
+  "address": "江南大道南",
+  "community_name": "富荣新村富荣街",
+  "community_id": "2110343238861520"
+}, {
+  "address": "火炬中路362号",
+  "community_name": "芙蓉苑戊区",
+  "community_id": "3511060603869"
+}, {
+  "address": "仙洞路21-41号",
+  "community_name": "台北新村",
+  "community_id": "3911057351404"
+}, {
+  "address": "迎霞路96号",
+  "community_name": "和平花园",
+  "community_id": "358050846478002"
+}, {
+  "address": "洛川路30弄",
+  "community_name": "洛川路30弄",
+  "community_id": "5011000008171"
+}, {
+  "address": "许家厅24-56号",
+  "community_name": "阳升公寓",
+  "community_id": "5011000014540"
+}, {
+  "address": "沙浦路518弄",
+  "community_name": "圣卡洛铂庭",
+  "community_id": "5011000014370"
+}, {
+  "address": "苜蓿园大街69号",
+  "community_name": "月牙湖花园",
+  "community_id": "1411045349171"
+}, {
+  "address": "双柳北街1号院",
+  "community_name": "朝阳旺角",
+  "community_id": "1111027376678"
+}, {
+  "address": "长乐路816号",
+  "community_name": "长乐路816号",
+  "community_id": "5011000010890"
+}, {
+  "address": "宜君路49号",
+  "community_name": "宜君路49号",
+  "community_id": "5011000006498"
+}, {
+  "address": "龙溪中路",
+  "community_name": "中铁荔湾国际城",
+  "community_id": "2111103319161"
+}, {
+  "address": "鹤永路751弄",
+  "community_name": "汇贤雅苑",
+  "community_id": "5011000001956"
+}, {
+  "address": "学府路1555号",
+  "community_name": "成怡嘉苑",
+  "community_id": "1612519362800764"
+}, {
+  "address": "丰庄路399弄",
+  "community_name": "汇丰佳苑",
+  "community_id": "5011000009439"
+}, {
+  "address": "化工新村茉莉花地",
+  "community_name": "化工新村茉莉花地45至49幢",
+  "community_id": "2511053981455"
+}, {
+  "address": "襄阳南路98号",
+  "community_name": "襄阳南路98号",
+  "community_id": "5011000008470"
+}, {
+  "address": "解放南路与小围堤道交口",
+  "community_name": "新联合里",
+  "community_id": "1211046676807"
+}, {
+  "address": "大石镇",
+  "community_name": "珠江花园怡景湾",
+  "community_id": "2110343238337340"
+}, {
+  "address": "江苏路237弄",
+  "community_name": "江苏路237弄",
+  "community_id": "5011000009571"
+}, {
+  "address": "翠岭银河",
+  "community_name": "翠岭银河",
+  "community_id": "2511053413436"
+}, {
+  "address": "马当路418弄",
+  "community_name": "马当路418弄",
+  "community_id": "5011000005340"
+}, {
+  "address": "翠荫路268号",
+  "community_name": "淘金山一期",
+  "community_id": "2411048521757"
+}, {
+  "address": "前进东路757号",
+  "community_name": "隆祺丽景国际",
+  "community_id": "5011000003154"
+}, {
+  "address": "滨河路104号",
+  "community_name": "米兰香洲",
+  "community_id": "1611041559442"
+}, {
+  "address": "枫林一路737号",
+  "community_name": "共和世家",
+  "community_id": "3511056837141"
+}, {
+  "address": "武夷路438号",
+  "community_name": "星辰公寓",
+  "community_id": "5011000016663"
+}, {
+  "address": "黄河路",
+  "community_name": "黄河路0",
+  "community_id": "1311041957991"
+}, {
+  "address": "安远路614弄",
+  "community_name": "安远路614弄",
+  "community_id": "5011000005642"
+}, {
+  "address": "泗塘一村",
+  "community_name": "泗塘一村",
+  "community_id": "5011000012309"
+}, {
+  "address": "革新路33号",
+  "community_name": "泗塘一村",
+  "community_id": "5011000012309"
+}, {
+  "address": "革新路29号",
+  "community_name": "泗塘一村",
+  "community_id": "5011000012309"
+}, {
+  "address": "革新路10号",
+  "community_name": "泗塘一村",
+  "community_id": "5011000012309"
+}, {
+  "address": "革新路18号",
+  "community_name": "泗塘一村",
+  "community_id": "5011000012309"
+}, {
+  "address": "友好广场普照街北",
+  "community_name": "国泰港汇中心",
+  "community_id": "1311063544529"
+}, {
+  "address": "柳州路523号",
+  "community_name": "平成阁公寓",
+  "community_id": "5011000015248"
+}, {
+  "address": "真华路1030弄",
+  "community_name": "铂金华府",
+  "community_id": "5011000014609"
+}, {
+  "address": "海阳路860弄",
+  "community_name": "东旺名苑",
+  "community_id": "5011000014712"
+}, {
+  "address": "武宁南路418弄",
+  "community_name": "怡乐花园",
+  "community_id": "5011000017249"
+}, {
+  "address": "马园胡同",
+  "community_name": "马园胡同",
+  "community_id": "1111027378426"
+}, {
+  "address": "海山路42号",
+  "community_name": "翠景花园",
+  "community_id": "2411062579119"
+}, {
+  "address": "莲花山路517弄",
+  "community_name": "香逸湾",
+  "community_id": "5011000014758"
+}, {
+  "address": "竹韵路58弄",
+  "community_name": "香逸湾",
+  "community_id": "5011000014758"
+}, {
+  "address": "竹韵路128弄",
+  "community_name": "香逸湾",
+  "community_id": "5011000014758"
+}, {
+  "address": "潍坊路136号",
+  "community_name": "潍坊路136号",
+  "community_id": "5011102208001"
+}, {
+  "address": "曹杨路236弄26支弄",
+  "community_name": "曹杨路236弄26支弄",
+  "community_id": "5011000003659"
+}, {
+  "address": "武定路579号",
+  "community_name": "武定路579号",
+  "community_id": "5011000007903"
+}, {
+  "address": "葡萄园",
+  "community_name": "葡萄园",
+  "community_id": "1111027378764"
+}, {
+  "address": "劳工新村",
+  "community_name": "劳工新村",
+  "community_id": "1411046718933"
+}, {
+  "address": "北七家镇定泗路口西珠江壹千栋",
+  "community_name": "珠江壹千栋一期",
+  "community_id": "1111027382557"
+}, {
+  "address": "乐享湾",
+  "community_name": "金地格林格林",
+  "community_id": "187784653140669"
+}, {
+  "address": "石楼镇吉羊村",
+  "community_name": "石楼镇吉羊村",
+  "community_id": "1111027379476"
+}, {
+  "address": "金陵西路40号",
+  "community_name": "连云大楼",
+  "community_id": "5011000016276"
+}, {
+  "address": "万家丽中路一段26号",
+  "community_name": "百纳公寓",
+  "community_id": "3511060557877"
+}, {
+  "address": "迎宾路",
+  "community_name": "广地花园",
+  "community_id": "2111103317220"
+}, {
+  "address": "江安路58弄",
+  "community_name": "花苑村桂花园",
+  "community_id": "5011000014408"
+}, {
+  "address": "天湖路55-69号",
+  "community_name": "国贸花园",
+  "community_id": "3911057214547"
+}, {
+  "address": "石泉路97弄",
+  "community_name": "石泉路97弄",
+  "community_id": "5011000003795"
+}, {
+  "address": "新松江路887弄",
+  "community_name": "开元地中海",
+  "community_id": "5011000009586"
+}, {
+  "address": "宁国路5号",
+  "community_name": "天山小区（宁国路）",
+  "community_id": "1511041835927"
+}, {
+  "address": " 宁国路9-12号",
+  "community_name": "天山小区（宁国路）",
+  "community_id": "1511041835927"
+}, {
+  "address": " 宁国路15号",
+  "community_name": "天山小区（宁国路）",
+  "community_id": "1511041835927"
+}, {
+  "address": " 宁国路17号",
+  "community_name": "天山小区（宁国路）",
+  "community_id": "1511041835927"
+}, {
+  "address": "北苑15号院",
+  "community_name": "北苑15号院",
+  "community_id": "1111027376226"
+}, {
+  "address": "权盛里",
+  "community_name": "权盛里",
+  "community_id": "1111027378910"
+}, {
+  "address": "航城三路86弄",
+  "community_name": "鑫唐绿波庭",
+  "community_id": "5011000000625"
+}, {
+  "address": "惠新里",
+  "community_name": "惠新里小区",
+  "community_id": "1111027375388"
+}, {
+  "address": "妙境路55弄",
+  "community_name": "金钟苑",
+  "community_id": "5011102207653"
+}, {
+  "address": "西藏南路688弄",
+  "community_name": "老西门新苑",
+  "community_id": "5011000017599"
+}, {
+  "address": "乌鲁木齐南路288号（北楼）",
+  "community_name": "睿园",
+  "community_id": "5011000015903"
+}, {
+  "address": "乌鲁木齐南路298号（南楼）",
+  "community_name": "睿园",
+  "community_id": "5011000015903"
+}, {
+  "address": "大浪街道办和平路与新区大道交汇处正东侧",
+  "community_name": "潜龙曼海宁花园",
+  "community_id": "2411049243434"
+}, {
+  "address": "延安东路385号",
+  "community_name": "瑞福北大楼",
+  "community_id": "5011000015079"
+}, {
+  "address": "丰潭路171号",
+  "community_name": "绿洲湾",
+  "community_id": "1811043641452"
+}, {
+  "address": "龙吴路1343弄",
+  "community_name": "华沁家园",
+  "community_id": "5011000011265"
+}, {
+  "address": "九水东路297号",
+  "community_name": "毛公地社区",
+  "community_id": "1511047397229"
+}, {
+  "address": "金北一路",
+  "community_name": "金山银湖湾左岸时代",
+  "community_id": "3711057458147"
+}, {
+  "address": "安和家园",
+  "community_name": "安和家园",
+  "community_id": "2511051201177"
+}, {
+  "address": "万荣路81弄",
+  "community_name": "宝联小区",
+  "community_id": "5011000011607"
+}, {
+  "address": "万荣路77-79号",
+  "community_name": "宝联小区",
+  "community_id": "5011000011607"
+}, {
+  "address": "双庆路85弄",
+  "community_name": "华能时代花园",
+  "community_id": "5011000013287"
+}, {
+  "address": "东八灶80弄",
+  "community_name": "丽都家园",
+  "community_id": "5011000000912"
+}, {
+  "address": "福姜路与芥园西道交口",
+  "community_name": "福姜西里",
+  "community_id": "1211045283219"
+}, {
+  "address": "嵩山路136号",
+  "community_name": "仁恒G53",
+  "community_id": "1411041622557"
+}, {
+  "address": "新建路11号",
+  "community_name": "新建路11号",
+  "community_id": "5011102206683"
+}, {
+  "address": "昭化路46弄",
+  "community_name": "昭化路46弄",
+  "community_id": "5011000007820"
+}, {
+  "address": "城银路555弄",
+  "community_name": "绿地领海（商住）",
+  "community_id": "5011000013848"
+}, {
+  "address": "蒙自路598弄",
+  "community_name": "海上梦苑",
+  "community_id": "5011000015839"
+}, {
+  "address": "甘井子区泉水新区中华路20高中对面",
+  "community_name": "龙畔金泉四期",
+  "community_id": "1311042650434"
+}, {
+  "address": "沙盐路3038号",
+  "community_name": "沙盐路3038号",
+  "community_id": "2411062631473"
+}, {
+  "address": "甘雨胡同33号院",
+  "community_name": "甘雨胡同33号院",
+  "community_id": "1111027374787"
+}, {
+  "address": "顾戴路251弄",
+  "community_name": "成亿家园",
+  "community_id": "5011000013119"
+}, {
+  "address": "塘西街398弄",
+  "community_name": "罗盛苑",
+  "community_id": "5011000001242"
+}, {
+  "address": "康定路1268弄",
+  "community_name": "静鼎安邦府邸（公寓）",
+  "community_id": "5011000010585"
+}, {
+  "address": "诸光路366弄",
+  "community_name": "怡君苑",
+  "community_id": "5011000016045"
+}, {
+  "address": "韶山中路376号",
+  "community_name": "融科三万英尺",
+  "community_id": "3511063291330"
+}, {
+  "address": "汉马路31号",
+  "community_name": "碧荷花园",
+  "community_id": "3711063702714"
+}, {
+  "address": "虹桥路2298号",
+  "community_name": "冠龙酒店公寓",
+  "community_id": "5011000016173"
+}, {
+  "address": "锦州道与蒙古路交口",
+  "community_name": "锦州道",
+  "community_id": "1211045939990"
+}, {
+  "address": "培风路271号",
+  "community_name": "清溪雅筑",
+  "community_id": "1611047819375"
+}, {
+  "address": "燕舞园",
+  "community_name": "燕舞园4园",
+  "community_id": "2511053629819"
+}, {
+  "address": "沙贝路",
+  "community_name": "城西花园",
+  "community_id": "2111103317078"
+}, {
+  "address": "东滨路与南海大道交汇",
+  "community_name": "现代城梦想家园",
+  "community_id": "2411063687302"
+}, {
+  "address": "马陆街220弄",
+  "community_name": "马陆街220弄",
+  "community_id": "509977363956221"
+}, {
+  "address": "门楼巷",
+  "community_name": "门楼巷",
+  "community_id": "1111027378355"
+}, {
+  "address": "深惠路南岭村委会后面",
+  "community_name": "荔枝花园",
+  "community_id": "2411053361931"
+}, {
+  "address": "长乐路327号",
+  "community_name": "长乐路327号",
+  "community_id": "5011000011670"
+}, {
+  "address": "金尚路",
+  "community_name": "中孚花园",
+  "community_id": "3911055919704"
+}, {
+  "address": "中山北路兰凤新村",
+  "community_name": "兰凤新村",
+  "community_id": "5011000018824"
+}, {
+  "address": "白马寺街4号",
+  "community_name": "白马苑",
+  "community_id": "3011053917928"
+}, {
+  "address": "松青路45号",
+  "community_name": "春晖花园",
+  "community_id": "3611059136432"
+}, {
+  "address": "青羊北路3号",
+  "community_name": "青羊北路3号",
+  "community_id": "3011055565790"
+}, {
+  "address": "应天西路",
+  "community_name": "双润居",
+  "community_id": "1411042862404"
+}, {
+  "address": "头条巷",
+  "community_name": "头条巷",
+  "community_id": "1411045884156"
+}, {
+  "address": "实验路",
+  "community_name": "翰林雅苑",
+  "community_id": "3611100353301"
+}, {
+  "address": "雨花西路123-1号",
+  "community_name": "先锋青年公寓",
+  "community_id": "1411041931306"
+}, {
+  "address": "安福路288号",
+  "community_name": "安福路288号",
+  "community_id": "5011000010529"
+}, {
+  "address": "学宫街63弄",
+  "community_name": "学宫街63弄",
+  "community_id": "5011102207943"
+}, {
+  "address": "大石桥6号",
+  "community_name": "大石桥6号",
+  "community_id": "1411000000128"
+}, {
+  "address": "萧然东路",
+  "community_name": "新桥园",
+  "community_id": "2711051967847"
+}, {
+  "address": "四道街3号",
+  "community_name": "四道街3号",
+  "community_id": "1611063864026"
+}, {
+  "address": "石佛营东里133号院",
+  "community_name": "紫萝园",
+  "community_id": "1111027382598"
+}, {
+  "address": "建桥新村汉阳大道40-46号",
+  "community_name": "金桥嘉园",
+  "community_id": "3711056617121"
+}, {
+  "address": "中山南二路999弄19号",
+  "community_name": "中信中山大楼",
+  "community_id": "5011000014201"
+}, {
+  "address": "工业大道南",
+  "community_name": "嘉鸿花园金玫瑰园",
+  "community_id": "2110343238860994"
+}, {
+  "address": "桃浦路878弄",
+  "community_name": "桃浦路878弄",
+  "community_id": "5011000016502"
+}, {
+  "address": "下沙11号路与14号路交叉口",
+  "community_name": "东尚国际寓所",
+  "community_id": "2711050861613"
+}, {
+  "address": "银都路3399弄",
+  "community_name": "君临天下（公寓）",
+  "community_id": "5011000004266"
+}, {
+  "address": "宝杨路575弄",
+  "community_name": "宝杨路575弄",
+  "community_id": "5011000002541"
+}, {
+  "address": "局门后路11号",
+  "community_name": "局后小区",
+  "community_id": "5011000008766"
+}, {
+  "address": "东风路七条巷",
+  "community_name": "王家垅",
+  "community_id": "3511060685076"
+}, {
+  "address": "乌鲁木齐南路182号",
+  "community_name": "乌鲁木齐南路182号",
+  "community_id": "5011000010167"
+}, {
+  "address": "京汉大道",
+  "community_name": "麟趾社区",
+  "community_id": "3711060681901"
+}, {
+  "address": "沙河口区",
+  "community_name": "79中学区城市公元",
+  "community_id": "1311041953358"
+}, {
+  "address": "武兴一路2号",
+  "community_name": "蓝光诺丁山",
+  "community_id": "3011053790092"
+}, {
+  "address": "蓝靛厂怡丽北园",
+  "community_name": "怡丽北园",
+  "community_id": "1111027381847"
+}, {
+  "address": "普铁新村",
+  "community_name": "普铁新村",
+  "community_id": "5011000002356"
+}, {
+  "address": "疏影路1188弄",
+  "community_name": "莘映象",
+  "community_id": "5011000016933"
+}, {
+  "address": "复兴北里",
+  "community_name": "复兴北里",
+  "community_id": "1111027374376"
+}, {
+  "address": "古镇",
+  "community_name": "璞山",
+  "community_id": "3611100088153"
+}, {
+  "address": "沙栏胡同",
+  "community_name": "沙栏胡同",
+  "community_id": "1111027379427"
+}, {
+  "address": "太湖新城镇运东大道999号",
+  "community_name": "东方海悦花园",
+  "community_id": "2310800117854044"
+}, {
+  "address": "外钱公路99弄",
+  "community_name": "兰郡九里澜溪谷",
+  "community_id": "5011000000004"
+}, {
+  "address": "七莘路3128弄38支弄",
+  "community_name": "万泰公寓",
+  "community_id": "5011000009073"
+}, {
+  "address": "昭化路311号",
+  "community_name": "昭化路311号",
+  "community_id": "5011000007418"
+}, {
+  "address": "高梁桥斜街乙40号",
+  "community_name": "高梁桥斜街乙40号院",
+  "community_id": "1111027374636"
+}, {
+  "address": "102国道汇福路东300米路南",
+  "community_name": "新锐时代",
+  "community_id": "2011047774198"
+}, {
+  "address": "宏建北里",
+  "community_name": "宏建北里",
+  "community_id": "1111027375057"
+}, {
+  "address": "颐慧佳园",
+  "community_name": "颐慧佳园",
+  "community_id": "1111027381709"
+}, {
+  "address": "重聚路40号院",
+  "community_name": "天和景园",
+  "community_id": "1111027379830"
+}, {
+  "address": "绍兴路16号",
+  "community_name": "绍兴路16号",
+  "community_id": "5011000009519"
+}, {
+  "address": "国和路555弄",
+  "community_name": "金体苑",
+  "community_id": "5011000010648"
+}, {
+  "address": "繁华路",
+  "community_name": "金口岸大厦",
+  "community_id": "2111103317889"
+}, {
+  "address": "民生路1199弄1号",
+  "community_name": "金融大厦",
+  "community_id": "5011000014267"
+}, {
+  "address": "吴中路389号",
+  "community_name": "八月桂林",
+  "community_id": "5011000013252"
+}, {
+  "address": "中山南一路161弄",
+  "community_name": "中山南一路161弄",
+  "community_id": "5011000006170"
+}, {
+  "address": "繁荣路161号",
+  "community_name": "颐景御府",
+  "community_id": "5010564844662804"
+}, {
+  "address": "云会里远流清园",
+  "community_name": "诚品建筑",
+  "community_id": "1111027376511"
+}, {
+  "address": "岳阳道与云南路交口北侧",
+  "community_name": "郑业里",
+  "community_id": "1211046491275"
+}, {
+  "address": "中山东路50弄",
+  "community_name": "方东小区",
+  "community_id": "5011000000894"
+}, {
+  "address": "方塔南路134号",
+  "community_name": "方东小区",
+  "community_id": "5011000000894"
+}, {
+  "address": "解放路一段204号",
+  "community_name": "新银商务楼",
+  "community_id": "1613354660540125"
+}, {
+  "address": "宝华里43号院",
+  "community_name": "宝华里43号院",
+  "community_id": "1111027375852"
+}, {
+  "address": "应天西路94号",
+  "community_name": "虹苑新寓一村",
+  "community_id": "1411000000322"
+}, {
+  "address": "建国西路363号",
+  "community_name": "建国西路363号",
+  "community_id": "5011000004094"
+}, {
+  "address": "慧忠北里",
+  "community_name": "新荣家园",
+  "community_id": "1111027381101"
+}, {
+  "address": "真武庙",
+  "community_name": "真武庙",
+  "community_id": "1111027382684"
+}, {
+  "address": "牧电路3号",
+  "community_name": "牧电路佳利公寓",
+  "community_id": "3011056072074"
+}, {
+  "address": "江宁区湖山路388号(湖山路和新亭路交汇处)",
+  "community_name": "香江豪庭",
+  "community_id": "147739615753104"
+}, {
+  "address": "裕安二路2号",
+  "community_name": "宝豪华庭",
+  "community_id": "2411063199379"
+}, {
+  "address": "辽源路240号",
+  "community_name": "新岭花园二期",
+  "community_id": "1511041338780"
+}, {
+  "address": "南环西路99号",
+  "community_name": "水城丽都",
+  "community_id": "2311053463786"
+}, {
+  "address": "玄武区中山路",
+  "community_name": "中山路双号",
+  "community_id": "147966484607357"
+}, {
+  "address": "海澜中苑",
+  "community_name": "海澜中苑",
+  "community_id": "1111027375156"
+}, {
+  "address": "北洋泾路609号",
+  "community_name": "海炼大楼",
+  "community_id": "5011000005516"
+}, {
+  "address": "涧槽中街38号",
+  "community_name": "棠湖泊林镇",
+  "community_id": "3011054989633"
+}, {
+  "address": "北官厅胡同",
+  "community_name": "北官厅胡同",
+  "community_id": "1111027375827"
+}, {
+  "address": "西岗区民开巷",
+  "community_name": "北岗新居",
+  "community_id": "1311042648573"
+}, {
+  "address": "洛川东路40号",
+  "community_name": "洛川东路40号",
+  "community_id": "5010499810405884"
+}, {
+  "address": "南大街56号",
+  "community_name": "南大街56号",
+  "community_id": "2711056431979"
+}, {
+  "address": "港滨路与新港二号路交口",
+  "community_name": "滨海雅园",
+  "community_id": "1211062250162"
+}, {
+  "address": "永丰路216弄",
+  "community_name": "玉龙苑",
+  "community_id": "5011000013607"
+}, {
+  "address": "永丰路270弄",
+  "community_name": "玉龙苑",
+  "community_id": "5011000013607"
+}, {
+  "address": "汉中路185号",
+  "community_name": "鸿运大厦",
+  "community_id": "1411041189592"
+}, {
+  "address": "南礼士路甲1号院",
+  "community_name": "南礼士路甲1号",
+  "community_id": "1111027378553"
+}, {
+  "address": "福元西路148号",
+  "community_name": "万科城",
+  "community_id": "3511063249999"
+}, {
+  "address": "乐居园",
+  "community_name": "万科朗润园",
+  "community_id": "2911051759380"
+}, {
+  "address": " 安居园",
+  "community_name": "万科朗润园",
+  "community_id": "2911051759380"
+}, {
+  "address": "玉泉北里二区",
+  "community_name": "玉泉新城",
+  "community_id": "1111027381972"
+}, {
+  "address": "嘉罗公路455弄",
+  "community_name": "嘉乐花园",
+  "community_id": "5011000000502"
+}, {
+  "address": "文德路211号",
+  "community_name": "成电花园桃源苑",
+  "community_id": "3011053407206"
+}, {
+  "address": "东三环南路甲52号乙52号",
+  "community_name": "顺迈金钻",
+  "community_id": "1111027379492"
+}, {
+  "address": "都市路3789弄",
+  "community_name": "龙盛国际商业广场（商住）",
+  "community_id": "5011102207124"
+}, {
+  "address": "金都路3000弄",
+  "community_name": "龙盛国际商业广场（商住）",
+  "community_id": "5011102207124"
+}, {
+  "address": "太原路215弄8-13号",
+  "community_name": "太原路215弄",
+  "community_id": "5011000010091"
+}, {
+  "address": "中怡路56",
+  "community_name": "中房怡芬花园",
+  "community_id": "2411050931577"
+}, {
+  "address": "沽源路116弄",
+  "community_name": "沽源路第二小区",
+  "community_id": "5011000011167"
+}, {
+  "address": "沽源路118弄",
+  "community_name": "沽源路第二小区",
+  "community_id": "5011000011167"
+}, {
+  "address": "下塘西路",
+  "community_name": "下塘西路",
+  "community_id": "2111103831612"
+}, {
+  "address": "虎山路70号",
+  "community_name": "虎山花苑D区",
+  "community_id": "1511041770465"
+}, {
+  "address": "愚园路1032弄131支弄",
+  "community_name": "愚园路1032弄131支弄",
+  "community_id": "5011000002729"
+}, {
+  "address": "标山路67号",
+  "community_name": "标山路小区",
+  "community_id": "4011055097798"
+}, {
+  "address": " 标山路72号",
+  "community_name": "标山路小区",
+  "community_id": "4011055097798"
+}, {
+  "address": " 标山路76号",
+  "community_name": "标山路小区",
+  "community_id": "4011055097798"
+}, {
+  "address": " 标山路77号",
+  "community_name": "标山路小区",
+  "community_id": "4011055097798"
+}, {
+  "address": " 标山路52号甲",
+  "community_name": "标山路小区",
+  "community_id": "4011055097798"
+}, {
+  "address": " 标山路60号",
+  "community_name": "标山路小区",
+  "community_id": "4011055097798"
+}, {
+  "address": "燃灯寺东街7号",
+  "community_name": "燃灯寺东街7号",
+  "community_id": "1611042038259"
+}, {
+  "address": "龙山大道300号",
+  "community_name": "春风城市心筑",
+  "community_id": "3611057245354"
+}, {
+  "address": "龙岗中心城五联朱古石社区连心路（清林径森林公园主入口）",
+  "community_name": "鸿威de森林就瞰山",
+  "community_id": "2411064079472"
+}, {
+  "address": "芳园里",
+  "community_name": "芳园里",
+  "community_id": "1111027374425"
+}, {
+  "address": "青岛路41号",
+  "community_name": "青岛路41号",
+  "community_id": "5011000006011"
+}, {
+  "address": "丰富路18号",
+  "community_name": "朗诗熙园",
+  "community_id": "1411000000447"
+}, {
+  "address": "本溪路165弄",
+  "community_name": "本溪路165弄",
+  "community_id": "5011000002600"
+}, {
+  "address": "殷高西路331弄",
+  "community_name": "杰圣家苑",
+  "community_id": "5011000008850"
+}, {
+  "address": "竹笛路388弄",
+  "community_name": "宝菊清水园",
+  "community_id": "5011102210397"
+}, {
+  "address": "来广营西路7号院",
+  "community_name": "北纬40度一期",
+  "community_id": "1111027376129"
+}, {
+  "address": "徐州路98号丙",
+  "community_name": "班芙春天一期",
+  "community_id": "1511041357324"
+}, {
+  "address": "新闸路278号",
+  "community_name": "新闸路278号",
+  "community_id": "5011000007306"
+}, {
+  "address": "大沙头二马路",
+  "community_name": "花园新村",
+  "community_id": "2111103318333"
+}, {
+  "address": "营策巷20号",
+  "community_name": "营策巷20号",
+  "community_id": "3011053686816"
+}, {
+  "address": "清河朱房村北",
+  "community_name": "621小区",
+  "community_id": "1111027375562"
+}, {
+  "address": "江宁盛江路209号",
+  "community_name": "牧龙湖壹号",
+  "community_id": "1411063907714"
+}, {
+  "address": "普瑞大道二段888号",
+  "community_name": "富基世纪公园",
+  "community_id": "3511063898969"
+}, {
+  "address": "联阳路12弄",
+  "community_name": "阳光理想城",
+  "community_id": "5011000003770"
+}, {
+  "address": "沙溪路30号",
+  "community_name": "景秀江山",
+  "community_id": "367355626435556"
+}, {
+  "address": "富国街",
+  "community_name": "富国街",
+  "community_id": "1111027374205"
+}, {
+  "address": "北祖师庵路",
+  "community_name": "北祖师庵",
+  "community_id": "1411046687795"
+}, {
+  "address": "广渠门外大街广馨居",
+  "community_name": "广馨居",
+  "community_id": "1111027374747"
+}, {
+  "address": "虹秀路78弄",
+  "community_name": "锦绣江南（五期）（别墅）",
+  "community_id": "5011000010845"
+}, {
+  "address": "相墅花园",
+  "community_name": "相墅花园",
+  "community_id": "187804452352887"
+}, {
+  "address": "工农院街72号",
+  "community_name": "工农院街72号",
+  "community_id": "1611045506455"
+}, {
+  "address": "万寿路乙15号院",
+  "community_name": "万寿路乙15号院",
+  "community_id": "1111027380467"
+}, {
+  "address": "高云路6号",
+  "community_name": "怡海星城",
+  "community_id": "3511063846624"
+}, {
+  "address": "升平街83号",
+  "community_name": "升平街83号",
+  "community_id": "5011000008728"
+}, {
+  "address": "九龙坡区二郎石新路299号（巴山车管所旁）",
+  "community_name": "兰花丽景添丁",
+  "community_id": "367122838367587"
+}, {
+  "address": "复兴路32号",
+  "community_name": "六建",
+  "community_id": "1111027377905"
+}, {
+  "address": "凤凰家园",
+  "community_name": "凤凰家园",
+  "community_id": "1811064082184"
+}, {
+  "address": "钟村灵北路",
+  "community_name": "锦绣生态园倚翠苑",
+  "community_id": "2110343238860894"
+}, {
+  "address": "南大路",
+  "community_name": "广州雅居乐花园剑桥郡",
+  "community_id": "2110343238861402"
+}, {
+  "address": "阳曲路470弄",
+  "community_name": "阳曲路470弄",
+  "community_id": "5011000006940"
+}, {
+  "address": "巴 南区黄溪口",
+  "community_name": "黄溪口",
+  "community_id": "3611099867495"
+}, {
+  "address": "沙河回收宿舍",
+  "community_name": "沙河回收宿舍",
+  "community_id": "1111027379260"
+}, {
+  "address": "南里小区",
+  "community_name": "南里小区",
+  "community_id": "2011047900113"
+}, {
+  "address": "制造局路438弄",
+  "community_name": "制造局路438弄",
+  "community_id": "5011000007810"
+}, {
+  "address": "虹井路280弄",
+  "community_name": "虹桥晶座",
+  "community_id": "5011000000675"
+}, {
+  "address": "和睦路143",
+  "community_name": "和睦路143",
+  "community_id": "2711052787635"
+}, {
+  "address": "东海中路2号",
+  "community_name": "环海花园南区",
+  "community_id": "1511041354236"
+}, {
+  "address": "桐梓坡西路319号",
+  "community_name": "可可小城",
+  "community_id": "3511060767376"
+}, {
+  "address": "民主街16号",
+  "community_name": "友谊社区南区",
+  "community_id": "3711059466747"
+}, {
+  "address": "王家湾（武汉老交管局西侧）",
+  "community_name": "王家湾中央生活区",
+  "community_id": "3711099644072"
+}, {
+  "address": "站前街北侧",
+  "community_name": "华夏楼",
+  "community_id": "1111027375386"
+}, {
+  "address": "东波路58弄",
+  "community_name": "锦欣苑",
+  "community_id": "5011000003384"
+}, {
+  "address": "玉林街9号",
+  "community_name": "玉林街9号",
+  "community_id": "1611043037343"
+}, {
+  "address": "万航渡路398号",
+  "community_name": "上海静安花园地块（住宅）",
+  "community_id": "5011102208028"
+}, {
+  "address": "彩田北路6001号",
+  "community_name": "天威花园",
+  "community_id": "2411049454787"
+}, {
+  "address": "普育西支路80弄",
+  "community_name": "普育西支路80弄",
+  "community_id": "5011000008036"
+}, {
+  "address": "望城金星大道与普瑞大道交汇处西北角（南塘湾公交车站东南处）",
+  "community_name": "浩龙音乐界",
+  "community_id": "3511100408198"
+}, {
+  "address": "洪山侧路52号",
+  "community_name": "银海山庄",
+  "community_id": "3712988537646173"
+}, {
+  "address": "济南路168弄",
+  "community_name": "翠湖天地雅苑",
+  "community_id": "5011000017918"
+}, {
+  "address": "昌邑路555弄",
+  "community_name": "滨江茗园",
+  "community_id": "5011000011062"
+}, {
+  "address": "永阳镇秀园路1号（秦淮大道与秀园路交汇处）",
+  "community_name": "水岸新都花苑",
+  "community_id": "1411063879376"
+}, {
+  "address": "通顺路6号院",
+  "community_name": "1号公寓",
+  "community_id": "1111043303201"
+}, {
+  "address": "红莲北里17号院",
+  "community_name": "红莲北里17号院",
+  "community_id": "1111027375127"
+}, {
+  "address": "新景西路106-123号",
+  "community_name": "青春海岸",
+  "community_id": "3911265908159265"
+}, {
+  "address": "新建中路88弄",
+  "community_name": "水上新村（奉贤）",
+  "community_id": "5011000012895"
+}, {
+  "address": "盈港路278弄",
+  "community_name": "青盈苑",
+  "community_id": "5011000004424"
+}, {
+  "address": "劳动东路163号",
+  "community_name": "明星村",
+  "community_id": "357648024997899"
+}, {
+  "address": "金银湖马池路10号",
+  "community_name": "航天银湖湾",
+  "community_id": "379159469183165"
+}, {
+  "address": "东环二路与龙观东路交汇处",
+  "community_name": "劲力城市明珠",
+  "community_id": "2411049450901"
+}, {
+  "address": "延吉中路555弄",
+  "community_name": "东方名园",
+  "community_id": "5011000004843"
+}, {
+  "address": "棉花街1-44号",
+  "community_name": "棉花街1-44",
+  "community_id": "3711056864473"
+}, {
+  "address": "金山大道28号",
+  "community_name": "万科城",
+  "community_id": "3611063489344"
+}, {
+  "address": "广华居",
+  "community_name": "朝来绿色家园广华居",
+  "community_id": "1111027376474"
+}, {
+  "address": "天山路198弄",
+  "community_name": "绿康公寓",
+  "community_id": "5011000016083"
+}, {
+  "address": "花木玉兰路46弄",
+  "community_name": "花木玉兰路46弄",
+  "community_id": "5011000008777"
+}, {
+  "address": "武警总队集资房",
+  "community_name": "武警总队集资房",
+  "community_id": "3611060972294"
+}, {
+  "address": "三中西巷17号院",
+  "community_name": "天锦苑",
+  "community_id": "1111027379891"
+}, {
+  "address": "黄埔大道中",
+  "community_name": "粤韵庭园",
+  "community_id": "2111103316702"
+}, {
+  "address": "明中路275弄",
+  "community_name": "欣绿名苑",
+  "community_id": "5011000012889"
+}, {
+  "address": "罗沙路4038号",
+  "community_name": "广岭家园",
+  "community_id": "2411048860971"
+}, {
+  "address": "东罗园",
+  "community_name": "东罗园",
+  "community_id": "1111027373778"
+}, {
+  "address": "光华大道一段（青羊万达广场对面）",
+  "community_name": "长虹和悦府",
+  "community_id": "1611063890469"
+}, {
+  "address": "八条巷",
+  "community_name": "八条巷",
+  "community_id": "1411045914677"
+}, {
+  "address": "湖南路二条巷",
+  "community_name": "鼓楼二条巷",
+  "community_id": "1411000000202"
+}, {
+  "address": "浦星公路789号",
+  "community_name": "漕河泾DPPARK",
+  "community_id": "5011000005252"
+}, {
+  "address": "喜泰路247弄",
+  "community_name": "苑宏新村",
+  "community_id": "5011000006644"
+}, {
+  "address": "春光路128号",
+  "community_name": "溪竹苑",
+  "community_id": "1211057400025"
+}, {
+  "address": "原平路528弄",
+  "community_name": "物华园",
+  "community_id": "5011000017822"
+}, {
+  "address": "黄埔大道中178号",
+  "community_name": "天荟公馆",
+  "community_id": "219999841767779"
+}, {
+  "address": "潮白河休闲度假区燕顺路路口北侧200米路东",
+  "community_name": "东方夏威夷南岸一期",
+  "community_id": "2011047640760"
+}, {
+  "address": "中华美路60弄",
+  "community_name": "中华美路60弄",
+  "community_id": "5011000005826"
+}, {
+  "address": "西郊路28号",
+  "community_name": "杨渡小区",
+  "community_id": "3611061043353"
+}, {
+  "address": "梓康路188弄",
+  "community_name": "富康苑",
+  "community_id": "5011000000162"
+}, {
+  "address": " 沪南路3223弄",
+  "community_name": "富康苑",
+  "community_id": "5011000000162"
+}, {
+  "address": "中关村南大街17号韦伯时代中心",
+  "community_name": "韦伯时代中心",
+  "community_id": "1111027380155"
+}, {
+  "address": "金星中路438号",
+  "community_name": "湘腾城市广场",
+  "community_id": "3511057248381"
+}, {
+  "address": "人民东路46号",
+  "community_name": "铭诚国际",
+  "community_id": "3511064148581"
+}, {
+  "address": "西藏北路691弄",
+  "community_name": "西藏北路691弄",
+  "community_id": "5011000002338"
+}, {
+  "address": "营口路788弄",
+  "community_name": "营口路788弄",
+  "community_id": "5011000004245"
+}, {
+  "address": "天钥桥路968弄",
+  "community_name": "徐汇苑",
+  "community_id": "5011000016420"
+}, {
+  "address": "溪平路425弄",
+  "community_name": "龚华苑",
+  "community_id": "5011000020338"
+}, {
+  "address": "弘翔路58弄",
+  "community_name": "上泰绅苑（公寓）",
+  "community_id": "5011000018822"
+}, {
+  "address": "平云路",
+  "community_name": "马赛国际公寓",
+  "community_id": "2111103318108"
+}, {
+  "address": "先烈东路159号",
+  "community_name": "四航局大院",
+  "community_id": "2111103318202"
+}, {
+  "address": "密云路457号",
+  "community_name": "密云路457号",
+  "community_id": "5011000004011"
+}, {
+  "address": "七里庙356号",
+  "community_name": "碧溪苑小区",
+  "community_id": "3711060581420"
+}, {
+  "address": "环线与友谊南路交口东北侧",
+  "community_name": "水岸江南天湾园",
+  "community_id": "1211045826327"
+}, {
+  "address": "淮海中路601号",
+  "community_name": "淮海中路601号",
+  "community_id": "5011000009497"
+}, {
+  "address": "昌运宫",
+  "community_name": "昌运宫",
+  "community_id": "1111027376646"
+}, {
+  "address": "宏阳新村",
+  "community_name": "宏阳新村",
+  "community_id": "5011000019405"
+}, {
+  "address": "高东二路47弄",
+  "community_name": "千秋嘉苑",
+  "community_id": "5011000002237"
+}, {
+  "address": "秀沿路1258弄",
+  "community_name": "康桥名郡",
+  "community_id": "5011000013611"
+}, {
+  "address": "秀沿路1028弄3支弄",
+  "community_name": "康桥名郡",
+  "community_id": "5011000013611"
+}, {
+  "address": "复兴西路271号",
+  "community_name": "高邮公寓",
+  "community_id": "5011000009156"
+}, {
+  "address": "茅台路200弄",
+  "community_name": "茅台路200弄",
+  "community_id": "5011000006579"
+}, {
+  "address": "车站北路400弄",
+  "community_name": "星苑小区",
+  "community_id": "5011000004370"
+}, {
+  "address": "车站北路500弄",
+  "community_name": "星苑小区",
+  "community_id": "5011000004370"
+}, {
+  "address": "玉林南路102号",
+  "community_name": "玉林南路102号",
+  "community_id": "3011053136818"
+}, {
+  "address": "象嘴路96号",
+  "community_name": "和园",
+  "community_id": "3511055885165"
+}, {
+  "address": "东宝路5号",
+  "community_name": "望江新寓",
+  "community_id": "1411000000692"
+}, {
+  "address": "复兴西路317弄",
+  "community_name": "复兴西路317弄",
+  "community_id": "5011000010343"
+}, {
+  "address": "兰溪路900弄",
+  "community_name": "天汇广场",
+  "community_id": "5011000010236"
+}, {
+  "address": "太极大道666号金马国际体育城（金马湖旁）",
+  "community_name": "月映长滩栖悦",
+  "community_id": "1611100046391"
+}, {
+  "address": "敦厚街36号",
+  "community_name": "和泓南山道二期",
+  "community_id": "3611061004781"
+}, {
+  "address": "万寿路西街12号院",
+  "community_name": "万寿路西街12号院",
+  "community_id": "1111027380461"
+}, {
+  "address": "抚琴西路318号",
+  "community_name": "欣园",
+  "community_id": "1611044814747"
+}, {
+  "address": "西康路838号",
+  "community_name": "康海大楼",
+  "community_id": "5011000004243"
+}, {
+  "address": "凤凰北路",
+  "community_name": "锦尚名苑",
+  "community_id": "2111103831578"
+}, {
+  "address": "浦东南路2244弄",
+  "community_name": "国地公寓",
+  "community_id": "5011000014118"
+}, {
+  "address": "项城路2-6（双号）",
+  "community_name": "项城路2-6（双号）",
+  "community_id": "4011055463793"
+}, {
+  "address": "中山北路510号",
+  "community_name": "中山北路510号",
+  "community_id": "5011000006231"
+}, {
+  "address": "环林东路799弄",
+  "community_name": "杉林新月（环林东路799弄）",
+  "community_id": "5011000001422"
+}, {
+  "address": "云霄路7号-92号",
+  "community_name": "云霄路",
+  "community_id": "1511041359928"
+}, {
+  "address": "浦东大道307弄",
+  "community_name": "昌邑小区",
+  "community_id": "5011000004207"
+}, {
+  "address": "沙河口区兰丰巷",
+  "community_name": "兰丰巷",
+  "community_id": "1311046725904"
+}, {
+  "address": "曲阳路801号",
+  "community_name": "柏宏大厦",
+  "community_id": "5011000012914"
+}, {
+  "address": "洛川中路777弄",
+  "community_name": "悠和家园",
+  "community_id": "5011000014504"
+}, {
+  "address": "大红门东前街甲27号",
+  "community_name": "大红门东前街甲27号",
+  "community_id": "1111027376934"
+}, {
+  "address": "芳村大道西",
+  "community_name": "桥东小区芳村大道西路",
+  "community_id": "2110343238861593"
+}, {
+  "address": "艳阳路与复康路交口",
+  "community_name": "堤中里",
+  "community_id": "1211045239549"
+}, {
+  "address": "桐梓坡路485号",
+  "community_name": "沁园春御院",
+  "community_id": "3511054762504"
+}, {
+  "address": "长沙路与西安道交口",
+  "community_name": "义达里",
+  "community_id": "1211046410565"
+}, {
+  "address": "菊盛路468弄",
+  "community_name": "宝翔苑",
+  "community_id": "5011000003045"
+}, {
+  "address": "东大村K区",
+  "community_name": "东大村K区",
+  "community_id": "5011000018774"
+}, {
+  "address": "西新桥路20号",
+  "community_name": "西新桥路20号",
+  "community_id": "5011000008438"
+}, {
+  "address": "九新公路180弄",
+  "community_name": "云润家园",
+  "community_id": "5011000014019"
+}, {
+  "address": "东大桥路",
+  "community_name": "化家楼",
+  "community_id": "1111047579714"
+}, {
+  "address": "增光路55号",
+  "community_name": "增光路55号",
+  "community_id": "1111027382432"
+}, {
+  "address": "永兴公寓",
+  "community_name": "永兴公寓",
+  "community_id": "5011000015874"
+}, {
+  "address": "东三里桥路160弄",
+  "community_name": "东三里桥路160弄",
+  "community_id": "5011000005616"
+}, {
+  "address": "北二环一段169号",
+  "community_name": "深业堤亚纳湾一期",
+  "community_id": "3511063808846"
+}, {
+  "address": "洛阳路125号",
+  "community_name": "洛阳路125号院",
+  "community_id": "1612608047951045"
+}, {
+  "address": "土儿胡同",
+  "community_name": "土儿胡同",
+  "community_id": "1111027379801"
+}, {
+  "address": "横五条35号院",
+  "community_name": "横五条35号院",
+  "community_id": "1111027375351"
+}, {
+  "address": "抚琴西路250号",
+  "community_name": "抚琴西路250号",
+  "community_id": "1611057711094"
+}, {
+  "address": "武定西路1357号",
+  "community_name": "武定西路1357号",
+  "community_id": "5011000004500"
+}, {
+  "address": "驴子巷28号",
+  "community_name": "驴子巷28号",
+  "community_id": "1411046730274"
+}, {
+  "address": "场中路3308弄",
+  "community_name": "场中路3308弄",
+  "community_id": "5011000007744"
+}, {
+  "address": "沪南公路1101号",
+  "community_name": "东莲大厦",
+  "community_id": "5011000012974"
+}, {
+  "address": "广花四路",
+  "community_name": "聚芳园",
+  "community_id": "2111103317586"
+}, {
+  "address": "咸嘉湖西路388号",
+  "community_name": "翡翠华庭",
+  "community_id": "3511056831855"
+}, {
+  "address": "横街",
+  "community_name": "横街",
+  "community_id": "1111027375055"
+}, {
+  "address": "棠湖中路二段66号",
+  "community_name": "千禧华庭",
+  "community_id": "1610956974076859"
+}, {
+  "address": "徐东二路7号",
+  "community_name": "团结名居竹园",
+  "community_id": "3711063297990"
+}, {
+  "address": "南洲路",
+  "community_name": "万华花园六星台",
+  "community_id": "2110343238598951"
+}, {
+  "address": "莲溪路430弄",
+  "community_name": "莲溪路430弄",
+  "community_id": "5011000018959"
+}, {
+  "address": "县海昌路68号",
+  "community_name": "宏达世纪锦城",
+  "community_id": "1611061522380"
+}, {
+  "address": "城南中路248号",
+  "community_name": "益佳苑",
+  "community_id": "3511057029285"
+}, {
+  "address": "莱阳路2450弄",
+  "community_name": "高海家苑",
+  "community_id": "5011000002458"
+}, {
+  "address": "长宁支路125弄",
+  "community_name": "长宁88金廷",
+  "community_id": "5011000003919"
+}, {
+  "address": "世界路151弄",
+  "community_name": "世界路151弄",
+  "community_id": "5011000002613"
+}, {
+  "address": "二环路西三段17号",
+  "community_name": "恒远彩舍",
+  "community_id": "1611061209801"
+}, {
+  "address": "河南南路790弄",
+  "community_name": "河南南路790弄",
+  "community_id": "5011000007382"
+}, {
+  "address": "北环路",
+  "community_name": "芳华花园洛涛居",
+  "community_id": "2110343238599554"
+}, {
+  "address": "南宫智苑",
+  "community_name": "南宫雅苑二期",
+  "community_id": "1111027378495"
+}, {
+  "address": "陈家桥路221弄",
+  "community_name": "陈家桥路221弄",
+  "community_id": "5011000008787"
+}, {
+  "address": "群益路2号",
+  "community_name": "群益路2号",
+  "community_id": "1611061360091"
+}, {
+  "address": "太平北路130号",
+  "community_name": "太平北路130号",
+  "community_id": "1411000000650"
+}, {
+  "address": "复兴东路354号",
+  "community_name": "复兴东路354号",
+  "community_id": "5011000008804"
+}, {
+  "address": "圭塘路760号",
+  "community_name": "丰升德润",
+  "community_id": "3511063938532"
+}, {
+  "address": "大红门西里19号院",
+  "community_name": "大红门西里19号院",
+  "community_id": "1111027376939"
+}, {
+  "address": "古美路350弄",
+  "community_name": "金领华庭",
+  "community_id": "5011000003905"
+}, {
+  "address": "天竺开发区丽宫别墅",
+  "community_name": "丽宫",
+  "community_id": "1111027377825"
+}, {
+  "address": "南丰路与西湖道交口东北侧",
+  "community_name": "义兴里",
+  "community_id": "1211046067136"
+}, {
+  "address": "龙蟠南路33号",
+  "community_name": "雅居乐花园",
+  "community_id": "1411043590236"
+}, {
+  "address": "高邮路50弄",
+  "community_name": "高邮路50弄",
+  "community_id": "5011000005885"
+}, {
+  "address": "南苑街道余之城",
+  "community_name": "余之城",
+  "community_id": "189838157902041"
+}, {
+  "address": "太平小区",
+  "community_name": "太平小区",
+  "community_id": "1111027379968"
+}, {
+  "address": "小营东路7号院",
+  "community_name": "小营东路7号院",
+  "community_id": "1111027381344"
+}, {
+  "address": "盛世诚品公寓",
+  "community_name": "中天九溪诚品",
+  "community_id": "189840044552565"
+}, {
+  "address": "大沽路139弄",
+  "community_name": "大沽路139弄",
+  "community_id": "5011000006784"
+}, {
+  "address": "光复西路68号",
+  "community_name": "光复西路68号",
+  "community_id": "5011000005679"
+}, {
+  "address": "四川北路1688号",
+  "community_name": "福德大厦",
+  "community_id": "5011000017792"
+}, {
+  "address": "海富巷92号",
+  "community_name": "海富巷92号",
+  "community_id": "2511052292897"
+}, {
+  "address": "武康路368号",
+  "community_name": "武康路368号",
+  "community_id": "5011000010334"
+}, {
+  "address": "七莘路3885弄",
+  "community_name": "茂盛花苑",
+  "community_id": "5011000017990"
+}, {
+  "address": "金科十年城东区",
+  "community_name": "金科十年城东区",
+  "community_id": "3611060978447"
+}, {
+  "address": "淮海中路1333号",
+  "community_name": "兰帆广场",
+  "community_id": "5011000004551"
+}, {
+  "address": "汶水东路278号",
+  "community_name": "景明大厦",
+  "community_id": "5011000013580"
+}, {
+  "address": "环桥路1136弄",
+  "community_name": "汤巷雅苑",
+  "community_id": "5011063202529"
+}, {
+  "address": "航中路288弄",
+  "community_name": "复泰景苑",
+  "community_id": "5011000010983"
+}, {
+  "address": "多伦道与平安大街交口",
+  "community_name": "福厚西里",
+  "community_id": "1211046802298"
+}, {
+  "address": "越秀路与津河南道交口附近",
+  "community_name": "湘江楼",
+  "community_id": "1211045855887"
+}, {
+  "address": "德园南路508弄",
+  "community_name": "绿洲古猗新苑（二期）",
+  "community_id": "5011102210186"
+}, {
+  "address": "嘉怡路279弄",
+  "community_name": "嘉城桃花岛（公寓）",
+  "community_id": "5011000004645"
+}, {
+  "address": "体育南路",
+  "community_name": "电力小区",
+  "community_id": "3611100361101"
+}, {
+  "address": "海尔路200号",
+  "community_name": "中惠雅园",
+  "community_id": "1511041279000"
+}, {
+  "address": "城大新村",
+  "community_name": "城大新村",
+  "community_id": "5011000003362"
+}, {
+  "address": "曹安公路2167弄",
+  "community_name": "江桥一村",
+  "community_id": "5011000014535"
+}, {
+  "address": "兴华胡同",
+  "community_name": "兴华胡同",
+  "community_id": "1111027380814"
+}, {
+  "address": "南洲路",
+  "community_name": "南洲名苑海棠阁",
+  "community_id": "2110343238598723"
+}, {
+  "address": "二环路北一段269号",
+  "community_name": "二环路北一段269号",
+  "community_id": "3011055375509"
+}, {
+  "address": "广中路368弄",
+  "community_name": "广中路368弄",
+  "community_id": "5011000008220"
+}, {
+  "address": "牛庄路731弄4-4号",
+  "community_name": "德兴里",
+  "community_id": "5011000009286"
+}, {
+  "address": "襄阳南路175号",
+  "community_name": "环中商厦",
+  "community_id": "5011000002161"
+}, {
+  "address": "金鑫家园",
+  "community_name": "金鑫家园",
+  "community_id": "1111027377444"
+}, {
+  "address": "珠江路桃园新村",
+  "community_name": "桃源新村",
+  "community_id": "1411044655250"
+}, {
+  "address": "育秀路1428弄",
+  "community_name": "阳光家园",
+  "community_id": "5011000001273"
+}, {
+  "address": "栖霞区和燕路522号",
+  "community_name": "金燕新村",
+  "community_id": "2511053988201"
+}, {
+  "address": "巨野路109弄",
+  "community_name": "巨野路109弄",
+  "community_id": "5011000002074"
+}, {
+  "address": "卫零北路681号",
+  "community_name": "金山银海",
+  "community_id": "5011635826371736"
+}, {
+  "address": "荣乐中路120弄",
+  "community_name": "华中公寓",
+  "community_id": "5011000003996"
+}, {
+  "address": "内马路青旸路7号",
+  "community_name": "南环花苑",
+  "community_id": "2311056960449"
+}, {
+  "address": "跃进新村",
+  "community_name": "跃进新村",
+  "community_id": "5011000000350"
+}, {
+  "address": "马场路16号",
+  "community_name": "富力盈盛广场",
+  "community_id": "2111103319218"
+}, {
+  "address": "梅欣社区西区",
+  "community_name": "梅欣社区西区",
+  "community_id": "2511053671144"
+}, {
+  "address": "长寿路433弄",
+  "community_name": "长寿苑",
+  "community_id": "5011000018203"
+}, {
+  "address": "华绣路18弄",
+  "community_name": "大华锦绣华城（二街区）",
+  "community_id": "5011000009386"
+}, {
+  "address": "北艾路1500弄",
+  "community_name": "大华锦绣华城（二街区）",
+  "community_id": "5011000009386"
+}, {
+  "address": "北艾路1660弄",
+  "community_name": "大华锦绣华城（二街区）",
+  "community_id": "5011000009386"
+}, {
+  "address": "秦淮区路子铺19号",
+  "community_name": "金陵王榭",
+  "community_id": "1411057393663"
+}, {
+  "address": "新园路508弄",
+  "community_name": "都汇华庭",
+  "community_id": "5011000015041"
+}, {
+  "address": "新园路509弄",
+  "community_name": "都汇华庭",
+  "community_id": "5011000015041"
+}, {
+  "address": "广新路",
+  "community_name": "丰逸尚居",
+  "community_id": "2111103319238"
+}, {
+  "address": "翠竹路1388弄",
+  "community_name": "瀛通金鳌山公寓",
+  "community_id": "5011000019491"
+}, {
+  "address": "鼓楼区宝塔桥东街",
+  "community_name": "金陵二村",
+  "community_id": "1411099887250"
+}, {
+  "address": "前铁匠胡同",
+  "community_name": "前铁匠胡同",
+  "community_id": "1111027378921"
+}, {
+  "address": "宝翔路998弄",
+  "community_name": "上隽嘉苑（别墅）",
+  "community_id": "5011000003889"
+}, {
+  "address": "北辰福第",
+  "community_name": "北辰福第一号院",
+  "community_id": "1111041136732"
+}, {
+  "address": "永嘉路625号",
+  "community_name": "永嘉路625号",
+  "community_id": "5011000010925"
+}, {
+  "address": "秣陵路",
+  "community_name": "秣陵路",
+  "community_id": "1411042939983"
+}, {
+  "address": "光华西里",
+  "community_name": "光华西里",
+  "community_id": "1111027374593"
+}, {
+  "address": "南园南路30号",
+  "community_name": "南园南路30号",
+  "community_id": "2311063579651134"
+}, {
+  "address": "国庆路83弄",
+  "community_name": "国庆路83弄",
+  "community_id": "5011102208242"
+}, {
+  "address": "深南大道车公庙",
+  "community_name": "杭钢富春大厦",
+  "community_id": "2411100878821"
+}, {
+  "address": "凌兆路285弄",
+  "community_name": "凌兆新村（凌兆路285弄）",
+  "community_id": "5011000008131"
+}, {
+  "address": "洛川东路400弄",
+  "community_name": "洛川东路400弄",
+  "community_id": "5011000005681"
+}, {
+  "address": "西林东里",
+  "community_name": "莲云社区",
+  "community_id": "3911055718255"
+}, {
+  "address": "锦绣花园丹桂园",
+  "community_name": "锦绣花园丹桂园",
+  "community_id": "2511052316928"
+}, {
+  "address": "力源里",
+  "community_name": "东恒时代一期",
+  "community_id": "1111027373691"
+}, {
+  "address": "盈清路188号",
+  "community_name": "北极星广场",
+  "community_id": "5011000018948"
+}, {
+  "address": "河西河西区广东路与永安道交口，人民公园旁",
+  "community_name": "聚鑫园",
+  "community_id": "1211045820617"
+}, {
+  "address": "人和新村",
+  "community_name": "人和新村",
+  "community_id": "5011000001466"
+}, {
+  "address": "西大营门57号",
+  "community_name": "桃坞巷",
+  "community_id": "239821887922647"
+}, {
+  "address": "人民东路162号",
+  "community_name": "左岸右岸",
+  "community_id": "3511060658650"
+}, {
+  "address": "康丰路201弄",
+  "community_name": "佳兆业壹号",
+  "community_id": "5011000002052"
+}, {
+  "address": "银江花园",
+  "community_name": "银江花园",
+  "community_id": "2511053458114"
+}, {
+  "address": "九新公路58弄",
+  "community_name": "嘉和阳光城",
+  "community_id": "5011000009789"
+}, {
+  "address": "綦 江健康路",
+  "community_name": "舒馨苑",
+  "community_id": "3611100881051"
+}, {
+  "address": "保屯路211弄",
+  "community_name": "市民新村",
+  "community_id": "5011000012194"
+}, {
+  "address": "中山南路1726弄",
+  "community_name": "市民新村",
+  "community_id": "5011000012194"
+}, {
+  "address": "中山南路1754号",
+  "community_name": "市民新村",
+  "community_id": "5011000012194"
+}, {
+  "address": "中山南路1758号",
+  "community_name": "市民新村",
+  "community_id": "5011000012194"
+}, {
+  "address": "中山南路1756号",
+  "community_name": "市民新村",
+  "community_id": "5011000012194"
+}, {
+  "address": "市民新村",
+  "community_name": "市民新村",
+  "community_id": "5011000012194"
+}, {
+  "address": "敦化路136号",
+  "community_name": "欧亚中心",
+  "community_id": "1511046690602"
+}, {
+  "address": "航亭环路399弄",
+  "community_name": "东方鸿_（别墅）",
+  "community_id": "5011102207078"
+}, {
+  "address": "广和二街88号",
+  "community_name": "叠翠峰",
+  "community_id": "1611043039689"
+}, {
+  "address": "江川北路109弄",
+  "community_name": "金谷公寓",
+  "community_id": "509977363956073"
+}, {
+  "address": "新泾路120弄",
+  "community_name": "新泾路120弄",
+  "community_id": "5011000007367"
+}, {
+  "address": "繁荣路266弄",
+  "community_name": "繁荣华庭",
+  "community_id": "5011000019832"
+}, {
+  "address": "莲花南路4号",
+  "community_name": "莲花南路4号",
+  "community_id": "1611041879019"
+}, {
+  "address": "水岸南街润泽公馆",
+  "community_name": "润泽公馆",
+  "community_id": "1111045303586"
+}, {
+  "address": "滨河路1333号",
+  "community_name": "锦华苑",
+  "community_id": "239821887922333"
+}, {
+  "address": "峨嵋路",
+  "community_name": "峨嵋路",
+  "community_id": "1411047282296"
+}, {
+  "address": "平凉路1099弄",
+  "community_name": "九州丽园",
+  "community_id": "5011000011122"
+}, {
+  "address": "南京西路995弄",
+  "community_name": "南京西路995弄",
+  "community_id": "5011000007508"
+}, {
+  "address": "芳华路188弄",
+  "community_name": "芳华路188弄",
+  "community_id": "5011000004177"
+}, {
+  "address": "日本东京23区",
+  "community_name": "日本东京",
+  "community_id": "5011102210370"
+}, {
+  "address": "羊子山西路69号",
+  "community_name": "兴元华盛2期",
+  "community_id": "1611058905880"
+}, {
+  "address": "玄武大道与太龙路交汇处",
+  "community_name": "苏宁钟山朝阳府",
+  "community_id": "1411063906945"
+}, {
+  "address": "天乐街1号",
+  "community_name": "置信逸都花园天乐苑",
+  "community_id": "1611043005703"
+}, {
+  "address": "控江一村",
+  "community_name": "控江一村",
+  "community_id": "5011000011055"
+}, {
+  "address": "寿光路81弄",
+  "community_name": "中星莱阳公寓",
+  "community_id": "5011000013386"
+}, {
+  "address": "南口路与愉关道交口",
+  "community_name": "汇恒园",
+  "community_id": "1211099786432"
+}, {
+  "address": "张杨路1528弄",
+  "community_name": "金博尚品苑（公寓）",
+  "community_id": "5011000013629"
+}, {
+  "address": "新都兴乐南路1号（香城中学旁）",
+  "community_name": "水沐环岛",
+  "community_id": "1611062710482"
+}, {
+  "address": "惠丰园小区",
+  "community_name": "惠丰园小区",
+  "community_id": "5011000019552"
+}, {
+  "address": "龙角路138附68号",
+  "community_name": "信达花园",
+  "community_id": "3611100107332"
+}, {
+  "address": "重庆南路169弄1-110号",
+  "community_name": "巴黎公寓",
+  "community_id": "5011000017914"
+}, {
+  "address": "南山华侨城开平街（OCT-LOFT创意产业园东侧）",
+  "community_name": "华侨城LOFT公馆",
+  "community_id": "2411062929920"
+}, {
+  "address": "淡水路89号",
+  "community_name": "淡水路89号",
+  "community_id": "5011000006711"
+}, {
+  "address": "太平南路杨公井",
+  "community_name": "九莲塘",
+  "community_id": "1411042969250"
+}, {
+  "address": "虹中路460弄",
+  "community_name": "流晶逸彩",
+  "community_id": "5011000017647"
+}, {
+  "address": "凌庄子道与红旗南路交口",
+  "community_name": "仁爱濠景庄园时景园",
+  "community_id": "1211046042166"
+}, {
+  "address": "小牌坊胡同甲7号院",
+  "community_name": "银河SOHO",
+  "community_id": "1111027381720"
+}, {
+  "address": "梅川路1295弄",
+  "community_name": "祥和尊邸",
+  "community_id": "5011000013250"
+}, {
+  "address": "光荣北路86号附3号",
+  "community_name": "光荣北路86号附3号",
+  "community_id": "1611060820451"
+}, {
+  "address": "西华大道608号",
+  "community_name": "府河星城",
+  "community_id": "1612832709030787"
+}, {
+  "address": "云屏路88弄",
+  "community_name": "龙湖蓝湖郡（别墅）",
+  "community_id": "5011000014721"
+}, {
+  "address": "双单路1509弄",
+  "community_name": "龙湖蓝湖郡（别墅）",
+  "community_id": "5011000014721"
+}, {
+  "address": "错埠岭二路2-34号",
+  "community_name": "错埠岭二路",
+  "community_id": "1511043625249"
+}, {
+  "address": "城南嘉园益星园",
+  "community_name": "益星园",
+  "community_id": "1111027382166"
+}, {
+  "address": "岭南路36号",
+  "community_name": "岭南路36号院",
+  "community_id": "1111027378018"
+}, {
+  "address": "江东北路307号",
+  "community_name": "滨江公寓",
+  "community_id": "1411000000029"
+}, {
+  "address": "丰华公路1469弄",
+  "community_name": "丰华苑",
+  "community_id": "5011000012511"
+}, {
+  "address": "武康路272号",
+  "community_name": "武康路272号",
+  "community_id": "5011000009537"
+}, {
+  "address": "愚园路361弄",
+  "community_name": "愚谷村",
+  "community_id": "5011000017725"
+}, {
+  "address": "南京西路1892弄",
+  "community_name": "愚谷村",
+  "community_id": "5011000017725"
+}, {
+  "address": "南京西路612弄",
+  "community_name": "静安新邨",
+  "community_id": "5011000013753"
+}, {
+  "address": "皋兰路14号",
+  "community_name": "皋兰路14号",
+  "community_id": "5011000008054"
+}, {
+  "address": "香江北路大湖山庄",
+  "community_name": "大湖山庄",
+  "community_id": "1111027373692"
+}, {
+  "address": "场门口小区14号",
+  "community_name": "场门口小区14号",
+  "community_id": "1411043480358"
+}, {
+  "address": "广和南里",
+  "community_name": "广和南里",
+  "community_id": "1111027374588"
+}, {
+  "address": "华侨路81号",
+  "community_name": "华侨路81号",
+  "community_id": "1411043410352"
+}, {
+  "address": "博雅街88号",
+  "community_name": "南城都汇汇雅园二期",
+  "community_id": "1611043169737"
+}, {
+  "address": "沙河口区",
+  "community_name": "79中学区广电中心",
+  "community_id": "1311041952687"
+}, {
+  "address": "樱花路515弄",
+  "community_name": "瑞达新苑",
+  "community_id": "5011000014474"
+}, {
+  "address": "瑞金二路262号",
+  "community_name": "瑞金二路262号",
+  "community_id": "5011000011666"
+}, {
+  "address": "香山道与沙柳北路交口",
+  "community_name": "远翠东里",
+  "community_id": "1211045601731"
+}, {
+  "address": "金龙新街558号",
+  "community_name": "金上海生活广场",
+  "community_id": "5011000014829"
+}, {
+  "address": "江川路241弄",
+  "community_name": "高华小区",
+  "community_id": "5011000014519"
+}, {
+  "address": " 兰坪路131弄",
+  "community_name": "高华小区",
+  "community_id": "5011000014519"
+}, {
+  "address": " 沪闵路158弄",
+  "community_name": "高华小区",
+  "community_id": "5011000014519"
+}, {
+  "address": " 沪闵路172弄",
+  "community_name": "高华小区",
+  "community_id": "5011000014519"
+}, {
+  "address": "虬江路909弄",
+  "community_name": "虬江路909弄",
+  "community_id": "5011000008462"
+}, {
+  "address": "东体育会路880弄",
+  "community_name": "银联花园",
+  "community_id": "5011000013127"
+}, {
+  "address": "双林路24号",
+  "community_name": "双林路24号院",
+  "community_id": "1611061477676"
+}, {
+  "address": "龙江路26号",
+  "community_name": "龙江路26号",
+  "community_id": "1611042765045"
+}, {
+  "address": "武青北路5号",
+  "community_name": "嘉楠美地",
+  "community_id": "3011053732097"
+}, {
+  "address": "泊石湾1号",
+  "community_name": "泊石湾（0）",
+  "community_id": "1311099601429"
+}, {
+  "address": "白兰路117弄",
+  "community_name": "白兰园",
+  "community_id": "5011000008469"
+}, {
+  "address": "古北路373弄1-9号",
+  "community_name": "长建公寓",
+  "community_id": "5011000016238"
+}, {
+  "address": "南昌路212弄",
+  "community_name": "南昌路212弄",
+  "community_id": "5011000003983"
+}, {
+  "address": "新华道",
+  "community_name": "新华西里",
+  "community_id": "2811054217191"
+}, {
+  "address": "泗陈公路518弄",
+  "community_name": "泗泾颐景园",
+  "community_id": "5011000017177"
+}, {
+  "address": "梨园",
+  "community_name": "梨园新村",
+  "community_id": "1111027378202"
+}, {
+  "address": "番禺路385弄",
+  "community_name": "番禺路385弄",
+  "community_id": "5011000006746"
+}, {
+  "address": "灵石路666弄",
+  "community_name": "将军府",
+  "community_id": "5011000002226"
+}, {
+  "address": "东坑三横路2号",
+  "community_name": "丰泰城市公馆",
+  "community_id": "2112969537711307"
+}, {
+  "address": "肇嘉浜路417弄",
+  "community_name": "中科新苑",
+  "community_id": "5011000013929"
+}, {
+  "address": "通州路88弄",
+  "community_name": "阳光前景",
+  "community_id": "5011000017275"
+}, {
+  "address": "新华南路",
+  "community_name": "新华南路",
+  "community_id": "1111027380859"
+}, {
+  "address": "南四环西路188号八区",
+  "community_name": "总部基地八区",
+  "community_id": "1111027382292"
+}, {
+  "address": "榆林路69弄",
+  "community_name": "宏惠花苑",
+  "community_id": "5011000004328"
+}, {
+  "address": "同泰路",
+  "community_name": "颐和山庄涵虚阁",
+  "community_id": "2110343238598687"
+}, {
+  "address": "光熙家园",
+  "community_name": "光熙家园二期",
+  "community_id": "1111027374751"
+}, {
+  "address": "百花一路1号",
+  "community_name": "国城花园",
+  "community_id": "2411049524996"
+}, {
+  "address": "祁连山路2233弄",
+  "community_name": "君邑地中海（别墅）",
+  "community_id": "5011000009832"
+}, {
+  "address": "西朱新村",
+  "community_name": "西朱新村",
+  "community_id": "5011000000072"
+}, {
+  "address": "东小口镇马连店村流星花园C区",
+  "community_name": "流星花园二区",
+  "community_id": "1111027378137"
+}, {
+  "address": "西霞路12弄",
+  "community_name": "西霞路12弄",
+  "community_id": "5011000019948"
+}, {
+  "address": "益田路3008号",
+  "community_name": "皇都广场",
+  "community_id": "2411050193803"
+}, {
+  "address": "london、NW9、5GW",
+  "community_name": "英国伦敦美福花园",
+  "community_id": "509821540057448"
+}, {
+  "address": "金钟河大街107号，金钟河大街与增产道交口处",
+  "community_name": "海达明园",
+  "community_id": "1211045685244"
+}, {
+  "address": "晚报西街16号",
+  "community_name": "晚报宿舍",
+  "community_id": "3511060633643"
+}, {
+  "address": "蒲汇塘路101号",
+  "community_name": "沪贵苑",
+  "community_id": "5011000016049"
+}, {
+  "address": "北蜂窝103号院",
+  "community_name": "北蜂窝103号院",
+  "community_id": "1111027375786"
+}, {
+  "address": "民乐路80弄",
+  "community_name": "明城桂花园",
+  "community_id": "5011000009018"
+}, {
+  "address": "汉阳道与云南路交口",
+  "community_name": "正和公寓",
+  "community_id": "1211046433673"
+}, {
+  "address": "江苏路西康路",
+  "community_name": "西康路41-45号",
+  "community_id": "1411043434435"
+}, {
+  "address": "恒南路1111弄",
+  "community_name": "浦江意优",
+  "community_id": "5011062965686"
+}, {
+  "address": "平凉路1850号",
+  "community_name": "平凉路1850号",
+  "community_id": "5011000018445"
+}, {
+  "address": "工农四村83-104号",
+  "community_name": "工农四村星源佳苑",
+  "community_id": "5011000003000"
+}, {
+  "address": "湖墅北路2号",
+  "community_name": "湖墅北路2号",
+  "community_id": "2711052797294"
+}, {
+  "address": "延吉东路315弄",
+  "community_name": "延吉东路315弄",
+  "community_id": "5011000004793"
+}, {
+  "address": "深圳盐田区",
+  "community_name": "深盐商住楼",
+  "community_id": "2410141270027896"
+}, {
+  "address": "来广营北湖渠村578号院",
+  "community_name": "北湖渠",
+  "community_id": "1111027375856"
+}, {
+  "address": "东营房九条",
+  "community_name": "东营房九条",
+  "community_id": "1111027374019"
+}, {
+  "address": "合肥路299号",
+  "community_name": "浮山后一小区",
+  "community_id": "1511041354237"
+}, {
+  "address": "南昌路58号",
+  "community_name": "南昌路58号",
+  "community_id": "5011000004866"
+}, {
+  "address": "青年路64号",
+  "community_name": "青年广场",
+  "community_id": "3711063307893"
+}, {
+  "address": "漕宝路1158弄",
+  "community_name": "同济华城",
+  "community_id": "5011000011339"
+}, {
+  "address": "花园路",
+  "community_name": "花园五村",
+  "community_id": "3611059908990"
+}, {
+  "address": "靖宇中路8弄",
+  "community_name": "长白新村",
+  "community_id": "5011000003588"
+}, {
+  "address": "龙泉街办北泉路以北",
+  "community_name": "花香龙都",
+  "community_id": "3011055911265"
+}, {
+  "address": "东华二路19路",
+  "community_name": "华林东苑",
+  "community_id": "3011053892412"
+}, {
+  "address": "渝南大道233号",
+  "community_name": "旭辉城",
+  "community_id": "3611063284087"
+}, {
+  "address": "永康路121号",
+  "community_name": "永康路121号",
+  "community_id": "5011000003263"
+}, {
+  "address": "南码头路1127弄",
+  "community_name": "怡泰家苑",
+  "community_id": "5011000011591"
+}, {
+  "address": "龙锦苑五区",
+  "community_name": "龙锦苑五区",
+  "community_id": "3011056140793"
+}, {
+  "address": "周家嘴路3338弄",
+  "community_name": "林厦小区",
+  "community_id": "5011000002309"
+}, {
+  "address": "银桦路183号",
+  "community_name": "橄榄郡",
+  "community_id": "3611057254573"
+}, {
+  "address": "津塘路-昆仑路交叉口",
+  "community_name": "万明园",
+  "community_id": "2811051579832"
+}, {
+  "address": "滨河大道9013号",
+  "community_name": "嘉洲豪园",
+  "community_id": "2411048926266"
+}, {
+  "address": "华发路333弄",
+  "community_name": "臻园（公寓）（徐汇）",
+  "community_id": "5011000016225"
+}, {
+  "address": "高新二路128号",
+  "community_name": "佳源花都二期",
+  "community_id": "3711064018186"
+}, {
+  "address": "黄河路288号",
+  "community_name": "福海公寓",
+  "community_id": "5011000018276"
+}, {
+  "address": "林悦路125弄",
+  "community_name": "海尚新纪园",
+  "community_id": "5011000004234"
+}, {
+  "address": "龙华西路345弄",
+  "community_name": "住友公寓",
+  "community_id": "5011000015740"
+}, {
+  "address": "敦和路",
+  "community_name": "敦和路敦和正街",
+  "community_id": "2110814307183972"
+}, {
+  "address": "经纬大道887号",
+  "community_name": "重庆总部城",
+  "community_id": "3611099972564"
+}, {
+  "address": "来凤街5号",
+  "community_name": "来凤新村",
+  "community_id": "1411044556201"
+}, {
+  "address": "地藏庵",
+  "community_name": "地藏庵",
+  "community_id": "1111027376759"
+}, {
+  "address": "天河路",
+  "community_name": "天河路",
+  "community_id": "2111103831617"
+}, {
+  "address": "气象台路与吴家窑大街交口",
+  "community_name": "气象台路",
+  "community_id": "1211047780625"
+}, {
+  "address": "湖明新村177号",
+  "community_name": "湖明新村",
+  "community_id": "3911904873933957"
+}, {
+  "address": "造甲街",
+  "community_name": "造甲街",
+  "community_id": "1111027382514"
+}, {
+  "address": "江宁东山镇苗圃路5号",
+  "community_name": "苗圃路19号",
+  "community_id": "2511051777864"
+}, {
+  "address": "江东路1423弄",
+  "community_name": "江东路1423弄",
+  "community_id": "5011102210293"
+}, {
+  "address": "雨花窑岗村30号",
+  "community_name": "亚东观云国际",
+  "community_id": "1411042955185"
+}, {
+  "address": "怡华苑路188弄",
+  "community_name": "怡华苑",
+  "community_id": "5011000016899"
+}, {
+  "address": "共和新路655弄",
+  "community_name": "共和新路655弄",
+  "community_id": "5011000001769"
+}, {
+  "address": "雪家桥路1弄",
+  "community_name": "象屿品城",
+  "community_id": "5011000005190"
+}, {
+  "address": "长乐路942弄",
+  "community_name": "长乐路942弄",
+  "community_id": "5011000008927"
+}, {
+  "address": "北京路",
+  "community_name": "名盛广场",
+  "community_id": "2111103317397"
+}, {
+  "address": "花园北路35号",
+  "community_name": "花园北路35号院",
+  "community_id": "1111027375417"
+}, {
+  "address": "锦安东路88弄1-24号",
+  "community_name": "锦绣满堂花园",
+  "community_id": "5011000010239"
+}, {
+  "address": "锦安东路55弄1-2号",
+  "community_name": "锦绣满堂花园",
+  "community_id": "5011000010239"
+}, {
+  "address": "马家堡路97号院",
+  "community_name": "马家堡路97号院",
+  "community_id": "1111027378301"
+}, {
+  "address": "长安街东，京哈高速出口北侧，经济技术开发区绿岛建材城对面",
+  "community_name": "东贸国际",
+  "community_id": "2011047640656"
+}, {
+  "address": "谈家桥路155弄",
+  "community_name": "谈家桥路155弄",
+  "community_id": "5011000005830"
+}, {
+  "address": "下南路309弄",
+  "community_name": "南新二村",
+  "community_id": "5011000003351"
+}, {
+  "address": "宁围镇泊林春天公寓",
+  "community_name": "德信泊林春天",
+  "community_id": "187307725648662"
+}, {
+  "address": "霍山路1151号",
+  "community_name": "霍山路1151号",
+  "community_id": "5011102208776"
+}, {
+  "address": "阜石路69号/碧桐园",
+  "community_name": "西山洋房",
+  "community_id": "1111027381212"
+}, {
+  "address": "金浜路50号",
+  "community_name": "西郊佳景苑",
+  "community_id": "5011000016911"
+}, {
+  "address": "长江西路388号",
+  "community_name": "保利悦城",
+  "community_id": "5011000003883"
+}, {
+  "address": "长兴路10号院",
+  "community_name": "长兴路10号院",
+  "community_id": "1111027376627"
+}, {
+  "address": "五莲路1424弄",
+  "community_name": "东陆新村七街坊",
+  "community_id": "5011000014131"
+}, {
+  "address": "博兴路1663弄",
+  "community_name": "东陆新村七街坊",
+  "community_id": "5011000014131"
+}, {
+  "address": "听潮六村",
+  "community_name": "听潮六村",
+  "community_id": "5011000003776"
+}, {
+  "address": "新建路2-7幢",
+  "community_name": "听潮六村",
+  "community_id": "5011000003776"
+}, {
+  "address": "肖家河东三巷1号",
+  "community_name": "肖家河东一巷39号",
+  "community_id": "3011053384254"
+}, {
+  "address": "明阳路118号",
+  "community_name": "水晶之都",
+  "community_id": "1511099431902"
+}, {
+  "address": "玉屏南路721弄",
+  "community_name": "玉屏南路721弄",
+  "community_id": "5011000007210"
+}, {
+  "address": "科学城邻枫路3号院",
+  "community_name": "南极星",
+  "community_id": "1111027378531"
+}, {
+  "address": "西乡大道与新湖路交汇处",
+  "community_name": "合正汇一城",
+  "community_id": "2411063453050"
+}, {
+  "address": "网船班路10号",
+  "community_name": "世纪春天",
+  "community_id": "358050999832106"
+}, {
+  "address": "梅陇路555号",
+  "community_name": "永胜大楼",
+  "community_id": "5011000009854"
+}, {
+  "address": "梅陇路555弄1号",
+  "community_name": "永胜大楼",
+  "community_id": "5011000009854"
+}, {
+  "address": "海淀南路19号",
+  "community_name": "时代网络大厦",
+  "community_id": "1111041774912"
+}, {
+  "address": "梅川路258弄",
+  "community_name": "安居瑶成湾花园",
+  "community_id": "5011000019440"
+}, {
+  "address": "太原路18弄",
+  "community_name": "太原路18弄",
+  "community_id": "5011000010083"
+}, {
+  "address": "长桥新村",
+  "community_name": "长桥新村",
+  "community_id": "5011000011599"
+}, {
+  "address": "武林壹号公寓",
+  "community_name": "武林壹号",
+  "community_id": "187060655977308"
+}, {
+  "address": "四联路50号",
+  "community_name": "志健时代广场",
+  "community_id": "2411050701636"
+}, {
+  "address": "崇化路与潘水路交叉口",
+  "community_name": "高第府",
+  "community_id": "2711051153586"
+}, {
+  "address": "水岸庄园",
+  "community_name": "润泽悦溪",
+  "community_id": "1111027379077"
+}, {
+  "address": "顾唐路3281弄",
+  "community_name": "齐友佳苑",
+  "community_id": "5011000002224"
+}, {
+  "address": "荷泽路418弄",
+  "community_name": "金桥好人家",
+  "community_id": "5011000011773"
+}, {
+  "address": "长青北街28号",
+  "community_name": "长福苑",
+  "community_id": "1611047692085"
+}, {
+  "address": "同泰路",
+  "community_name": "白云山制药厂后山宿舍",
+  "community_id": "2111103318128"
+}, {
+  "address": "珠海支路2号",
+  "community_name": "远洋滨海花园",
+  "community_id": "1511041270053"
+}, {
+  "address": "文二西路99号",
+  "community_name": "南都银座公寓",
+  "community_id": "1811043641731"
+}, {
+  "address": "二环路西一段155号（光华村街2号）",
+  "community_name": "天祥广场",
+  "community_id": "1611047377301"
+}, {
+  "address": "泉塘街道办事处梨江社区",
+  "community_name": "尚都花园城",
+  "community_id": "3511060860276"
+}, {
+  "address": "双阳路490弄",
+  "community_name": "双阳路490弄",
+  "community_id": "5011000008269"
+}, {
+  "address": "金府路669号",
+  "community_name": "金府旺角",
+  "community_id": "1611061487830"
+}, {
+  "address": "花卉巷（团结桥巷3号）",
+  "community_name": "花卉小区",
+  "community_id": "2310366352372350"
+}, {
+  "address": "安福路211号",
+  "community_name": "安福路211号",
+  "community_id": "5011000009578"
+}, {
+  "address": "永定路127号院",
+  "community_name": "五一教工楼",
+  "community_id": "1111027380528"
+}, {
+  "address": "玉兰路46弄",
+  "community_name": "玉兰路46弄",
+  "community_id": "5011000007958"
+}, {
+  "address": "漕宝路1555弄",
+  "community_name": "大上海国际花园（五区）",
+  "community_id": "5011000005274"
+}, {
+  "address": "万家丽路与劳动东路交汇处美林街35号",
+  "community_name": "华雅花园",
+  "community_id": "3513467017293587"
+}, {
+  "address": "香木林路7号",
+  "community_name": "紫云居",
+  "community_id": "3011053743673"
+}, {
+  "address": "果园一村",
+  "community_name": "果园一村",
+  "community_id": "5011000001993"
+}, {
+  "address": "建贤路269弄",
+  "community_name": "丽江苑",
+  "community_id": "5011000001697"
+}, {
+  "address": "青塔东里10号院",
+  "community_name": "青塔东里10号院",
+  "community_id": "1111027378917"
+}, {
+  "address": "汉阳大道玉龙路",
+  "community_name": "鑫瑞小城故事",
+  "community_id": "377760739577695"
+}, {
+  "address": "广济北路与平河路交汇处东南角",
+  "community_name": "丹桂苑",
+  "community_id": "2311054704652"
+}, {
+  "address": "施镇路255弄",
+  "community_name": "施湾家园",
+  "community_id": "5011000011747"
+}, {
+  "address": "施镇路385弄",
+  "community_name": "施湾家园",
+  "community_id": "5011000011747"
+}, {
+  "address": "顺江大道",
+  "community_name": "之江雅苑",
+  "community_id": "3611100731659"
+}, {
+  "address": "申波路83弄",
+  "community_name": "申波苑",
+  "community_id": "5011000013834"
+}, {
+  "address": "兴安路141弄",
+  "community_name": "兴安路141弄",
+  "community_id": "5011000009319"
+}, {
+  "address": "外环线与微山路交口",
+  "community_name": "富力桃园天域园",
+  "community_id": "2811051624526"
+}, {
+  "address": "延长中路561弄",
+  "community_name": "建银曙光小区",
+  "community_id": "5011000013858"
+}, {
+  "address": "樱花路999号",
+  "community_name": "绿地468公馆二期",
+  "community_id": "1611100276106"
+}, {
+  "address": "国顺东路223弄",
+  "community_name": "仁缘坊",
+  "community_id": "5011000018736"
+}, {
+  "address": "南丹东路300弄9号",
+  "community_name": "亚都商务楼",
+  "community_id": "5011000015404"
+}, {
+  "address": "武康路106弄",
+  "community_name": "武康路106弄",
+  "community_id": "5011000005659"
+}, {
+  "address": "关岳路181弄",
+  "community_name": "周东公寓",
+  "community_id": "5011063203946"
+}, {
+  "address": "永兴小马路80号",
+  "community_name": "永兴小马路80号",
+  "community_id": "5011000003844"
+}, {
+  "address": "合肥路574号",
+  "community_name": "合肥路574号",
+  "community_id": "5011000011821"
+}, {
+  "address": "机场路1巷64号院",
+  "community_name": "机场路1巷64号院",
+  "community_id": "2711051442428"
+}, {
+  "address": "嘉宾路4055号",
+  "community_name": "城市天地广场",
+  "community_id": "2411048417496"
+}, {
+  "address": "岭南路990号",
+  "community_name": "岭南路990号",
+  "community_id": "5011000017005"
+}, {
+  "address": "三间房西里",
+  "community_name": "三间房西里",
+  "community_id": "1111027379338"
+}, {
+  "address": "丹山路1、3、5、7，延安路12、14、16",
+  "community_name": "丹山路1、3、5、7，延安路12、14、16",
+  "community_id": "4011055416850"
+}, {
+  "address": "凯旋路2120弄",
+  "community_name": "铁路职工小区",
+  "community_id": "5011000017864"
+}, {
+  "address": "南山桃园路与南油大道交界处",
+  "community_name": "西海明珠花园",
+  "community_id": "2411049017786"
+}, {
+  "address": "刘家窑南里",
+  "community_name": "刘家窑南里",
+  "community_id": "1111027377951"
+}, {
+  "address": "民雪路918弄",
+  "community_name": "爱法花园（一期）",
+  "community_id": "5011000015420"
+}, {
+  "address": "东晓路2018号",
+  "community_name": "布心花园一区",
+  "community_id": "2411048727454"
+}, {
+  "address": "宝塔桥西街155号(金川河西路与城河北路交汇处)",
+  "community_name": "锦绣华府",
+  "community_id": "1411703330811308"
+}, {
+  "address": "红星北里",
+  "community_name": "红星北里",
+  "community_id": "1111027375353"
+}, {
+  "address": "红松路333弄",
+  "community_name": "汇金公寓",
+  "community_id": "5011000014010"
+}, {
+  "address": "听潮七村",
+  "community_name": "听潮七村",
+  "community_id": "5011000001666"
+}, {
+  "address": "人民北路224号",
+  "community_name": "人民北路224号",
+  "community_id": "509977363956040"
+}, {
+  "address": "龙吴路2418弄",
+  "community_name": "华欣家园",
+  "community_id": "5011000017593"
+}, {
+  "address": "石家浜东路88弄",
+  "community_name": "珠溪新苑",
+  "community_id": "5011000003323"
+}, {
+  "address": "武珞路36号",
+  "community_name": "顺民大厦",
+  "community_id": "3711060323272"
+}, {
+  "address": "南岭北路",
+  "community_name": "南岭中心大厦",
+  "community_id": "2411063053767"
+}, {
+  "address": "愚园路356号",
+  "community_name": "消防大楼",
+  "community_id": "5011000016188"
+}, {
+  "address": "东门中路与文锦中路交汇处2123号",
+  "community_name": "聚龙大厦",
+  "community_id": "2411048938378"
+}, {
+  "address": "西槎路",
+  "community_name": "荔雅苑荔德路",
+  "community_id": "2110343238599612"
+}, {
+  "address": "袁家岗51号",
+  "community_name": "袁家小苑",
+  "community_id": "3611061123596"
+}, {
+  "address": "湖月路50号",
+  "community_name": "园丁梦苑",
+  "community_id": "3611058660777"
+}, {
+  "address": "桂王桥东街4号",
+  "community_name": "桂王桥东街4号",
+  "community_id": "1611060527042"
+}, {
+  "address": "同乐路77弄",
+  "community_name": "海茂公寓",
+  "community_id": "5011000007134"
+}, {
+  "address": "下瓦房大沽南路与津河交口（下瓦房地铁站向南300米）",
+  "community_name": "博轩园",
+  "community_id": "1211046308240"
+}, {
+  "address": "高新二路128号",
+  "community_name": "佳源花都一期",
+  "community_id": "3711064015459"
+}, {
+  "address": "南坪东路587号",
+  "community_name": "海棠晓月C区",
+  "community_id": "3611061017050"
+}, {
+  "address": "迎园路415弄",
+  "community_name": "新成五坊",
+  "community_id": "5011000001837"
+}, {
+  "address": "祥凝浜路103弄",
+  "community_name": "淀湖山庄",
+  "community_id": "5011000016399"
+}, {
+  "address": "金杨新村街道13街坊",
+  "community_name": "金杨新村十三街坊",
+  "community_id": "5011102208439"
+}, {
+  "address": "酒仙桥中路24号",
+  "community_name": "酒仙桥中路24号",
+  "community_id": "1111044668918"
+}, {
+  "address": "长沙大道789号",
+  "community_name": "万家城",
+  "community_id": "3511060676085"
+}, {
+  "address": "兴胜路4号",
+  "community_name": "保利花半里二期",
+  "community_id": "3611099739200"
+}, {
+  "address": "小龙坎新街2号",
+  "community_name": "华宇龙泉大厦",
+  "community_id": "3611060469338"
+}, {
+  "address": "厦门路136弄25号楼202",
+  "community_name": "尊德里",
+  "community_id": "5011000017591"
+}, {
+  "address": "汇旺东路1055弄",
+  "community_name": "天华社区",
+  "community_id": "5011102210347"
+}, {
+  "address": "水电路1312弄",
+  "community_name": "凉城一村",
+  "community_id": "5011000014805"
+}, {
+  "address": "悦来路38号",
+  "community_name": "武城大观城市花园一期",
+  "community_id": "3011055434978"
+}, {
+  "address": "佳通路31弄",
+  "community_name": "中冶祥腾城市广场",
+  "community_id": "5011000010951"
+}, {
+  "address": "沪青平公路5000弄",
+  "community_name": "鑫塔水尚",
+  "community_id": "5011000001268"
+}, {
+  "address": "北苑南路34号院",
+  "community_name": "北苑南路34号院",
+  "community_id": "1111027376269"
+}, {
+  "address": "襄阳南路514弄",
+  "community_name": "襄阳南路514弄",
+  "community_id": "5011000011289"
+}, {
+  "address": "东土城路1号院",
+  "community_name": "东土城路1号院",
+  "community_id": "1111027373927"
+}, {
+  "address": "石板胡同",
+  "community_name": "石板胡同",
+  "community_id": "1111027379089"
+}, {
+  "address": "黑牛城道与尖山路交口",
+  "community_name": "大庆里",
+  "community_id": "1211045956798"
+}, {
+  "address": "大桥道直沽街与红星路交口，津华浴园附近",
+  "community_name": "汇贤里",
+  "community_id": "1211045538154"
+}, {
+  "address": "九里堤北路2号",
+  "community_name": "九里堤北路2号",
+  "community_id": "1611061505994"
+}, {
+  "address": "湖南路",
+  "community_name": "车站东巷",
+  "community_id": "1411041200154"
+}, {
+  "address": "裕中东里",
+  "community_name": "裕中东里",
+  "community_id": "1111027382251"
+}, {
+  "address": "兴蓉南二巷1号",
+  "community_name": "兴蓉南二巷1号",
+  "community_id": "1611044154307"
+}, {
+  "address": "津塘路与跃进路交口东丽广场旁",
+  "community_name": "泰欣公寓",
+  "community_id": "1211100305054"
+}, {
+  "address": "枫翠路366号",
+  "community_name": "枫翠路366号",
+  "community_id": "5011102206584"
+}, {
+  "address": "家园路17号",
+  "community_name": "中华家园（西区）",
+  "community_id": "1611055688204"
+}, {
+  "address": "石新路176号",
+  "community_name": "沛鑫四季香山小区",
+  "community_id": "3611057846435"
+}, {
+  "address": "嘉善路232弄",
+  "community_name": "嘉善路232弄",
+  "community_id": "5011000007340"
+}, {
+  "address": "复兴中路1458号",
+  "community_name": "复兴中路1458号",
+  "community_id": "5011000009295"
+}, {
+  "address": "东延路靠近莲池路西南侧",
+  "community_name": "莲花新村三区",
+  "community_id": "2311053543243"
+}, {
+  "address": "腾龙大道47号",
+  "community_name": "美心南滨雅苑",
+  "community_id": "3611059928717"
+}, {
+  "address": "创业街1号",
+  "community_name": "创业街",
+  "community_id": "3611100068295"
+}, {
+  "address": "场北路39弄",
+  "community_name": "和欣国际花园",
+  "community_id": "5011000017435"
+}, {
+  "address": "平湖新河路与平新北路交汇处",
+  "community_name": "平吉上苑",
+  "community_id": "2411063885974"
+}, {
+  "address": "小木桥路600号",
+  "community_name": "小木桥路600号",
+  "community_id": "5011000010958"
+}, {
+  "address": "马连洼菊花盛苑",
+  "community_name": "菊花盛苑",
+  "community_id": "1111027377173"
+}, {
+  "address": "赵华路89弄",
+  "community_name": "莫奈的花园",
+  "community_id": "5011000009862"
+}, {
+  "address": "西安中路92号",
+  "community_name": "西安中路92号",
+  "community_id": "1611061768801"
+}, {
+  "address": "妙川路1111弄",
+  "community_name": "华川家园",
+  "community_id": "509821540319243"
+}, {
+  "address": "浦驰路1659弄（二期）",
+  "community_name": "新浦江城（浦驰路1659弄）",
+  "community_id": "5011000000728"
+}, {
+  "address": "杭桂路1000弄",
+  "community_name": "绿苑五村",
+  "community_id": "5011000009436"
+}, {
+  "address": "杭桂路1115弄",
+  "community_name": "绿苑五村",
+  "community_id": "5011000009436"
+}, {
+  "address": "草堂北路8号",
+  "community_name": "浣花苑",
+  "community_id": "3011056049621"
+}, {
+  "address": "靖海路239弄",
+  "community_name": "靖海苑（公寓）",
+  "community_id": "5011000002412"
+}, {
+  "address": "朝来绿色家园来春园",
+  "community_name": "朝来绿色家园来春园",
+  "community_id": "1111027376475"
+}, {
+  "address": "华灵路1225弄",
+  "community_name": "华欣苑别墅",
+  "community_id": "5011000014581"
+}, {
+  "address": "双流路289号",
+  "community_name": "元丰天山花园",
+  "community_id": "5011000009258"
+}, {
+  "address": "平西府镇王府温馨公寓",
+  "community_name": "王府温馨公寓",
+  "community_id": "1111027380222"
+}, {
+  "address": "学北路337弄1-19号",
+  "community_name": "曙光东苑",
+  "community_id": "5011000014349"
+}, {
+  "address": "中南路88号",
+  "community_name": "阳光年华",
+  "community_id": "3711060387248"
+}, {
+  "address": "解放大道586号",
+  "community_name": "同馨花园一期",
+  "community_id": "3711060371735"
+}, {
+  "address": "中山北路1482号",
+  "community_name": "万业新阶",
+  "community_id": "5011000005428"
+}, {
+  "address": "中山北路1412号",
+  "community_name": "万业新阶",
+  "community_id": "5011000005428"
+}, {
+  "address": "奉贤路318号",
+  "community_name": "奉贤路318号",
+  "community_id": "5011000018461"
+}, {
+  "address": "恒富中街1号",
+  "community_name": "恒富花园1号院",
+  "community_id": "1111027374950"
+}, {
+  "address": "德雅路1420号",
+  "community_name": "金帆小区",
+  "community_id": "3511060757251"
+}, {
+  "address": "酒仙桥五街坊",
+  "community_name": "酒仙桥五街坊",
+  "community_id": "1111027377468"
+}, {
+  "address": "云锦路139号",
+  "community_name": "金地名京",
+  "community_id": "1411000000346"
+}, {
+  "address": "西丽北路",
+  "community_name": "金盛苑",
+  "community_id": "2411051935320"
+}, {
+  "address": "迎宾路",
+  "community_name": "华南碧桂园紫翠苑",
+  "community_id": "2110343238599474"
+}, {
+  "address": "滨河大道",
+  "community_name": "秋实又一城",
+  "community_id": "3611100098423"
+}, {
+  "address": "天目中路758号",
+  "community_name": "华盛大楼",
+  "community_id": "5011000017796"
+}, {
+  "address": "天目中路780号",
+  "community_name": "华盛大楼",
+  "community_id": "5011000017796"
+}, {
+  "address": "昭化路555弄265-279号",
+  "community_name": "昭化小区",
+  "community_id": "5011000012416"
+}, {
+  "address": "南湖路23号",
+  "community_name": "溯源居",
+  "community_id": "3611062534257"
+}, {
+  "address": "黄山大道186号",
+  "community_name": "金科中华坊紫园",
+  "community_id": "3611057201274"
+}, {
+  "address": "民星路406号",
+  "community_name": "民星路406号",
+  "community_id": "5011000020437"
+}, {
+  "address": "桂花巷59号",
+  "community_name": "桂花巷59号",
+  "community_id": "1611060921403"
+}, {
+  "address": "东后河沿1号院",
+  "community_name": "东后河沿",
+  "community_id": "1111027376916"
+}, {
+  "address": "新外大街甲12号院",
+  "community_name": "新外大街甲12号院",
+  "community_id": "1111027381266"
+}, {
+  "address": "学院南路乙10号院",
+  "community_name": "学院南路乙10号院",
+  "community_id": "1111027381397"
+}, {
+  "address": "育才路451弄",
+  "community_name": "景都公寓",
+  "community_id": "5011000003043"
+}, {
+  "address": "永嘉路372号",
+  "community_name": "永嘉路372号",
+  "community_id": "5011000005423"
+}, {
+  "address": "罗沙路2016号",
+  "community_name": "鸿景翠峰花园",
+  "community_id": "2411049328440"
+}, {
+  "address": "枣庄路210弄",
+  "community_name": "黄山始信苑",
+  "community_id": "5011000015283"
+}, {
+  "address": "枣庄路212弄",
+  "community_name": "黄山始信苑",
+  "community_id": "5011000015283"
+}, {
+  "address": "博山东路553弄",
+  "community_name": "黄山始信苑",
+  "community_id": "5011000015283"
+}, {
+  "address": "博山东路555弄",
+  "community_name": "黄山始信苑",
+  "community_id": "5011000015283"
+}, {
+  "address": "龙华街道梅龙南路",
+  "community_name": "世纪春城一期",
+  "community_id": "2411048944606"
+}, {
+  "address": "南北大街与小围堤道交口",
+  "community_name": "北洋新里",
+  "community_id": "1211045844004"
+}, {
+  "address": "博山东路111弄",
+  "community_name": "罗山三村",
+  "community_id": "5011000014046"
+}, {
+  "address": "德平路143弄",
+  "community_name": "罗山三村",
+  "community_id": "5011000014046"
+}, {
+  "address": "德平路155弄",
+  "community_name": "罗山三村",
+  "community_id": "5011000014046"
+}, {
+  "address": "栖山路1088弄",
+  "community_name": "罗山三村",
+  "community_id": "5011000014046"
+}, {
+  "address": "龙居路150弄",
+  "community_name": "罗山三村",
+  "community_id": "5011000014046"
+}, {
+  "address": "龙居路180弄",
+  "community_name": "罗山三村",
+  "community_id": "5011000014046"
+}, {
+  "address": "菜户营",
+  "community_name": "金泰城公寓",
+  "community_id": "1111027377387"
+}, {
+  "address": "仙霞西路888弄",
+  "community_name": "新泾北苑",
+  "community_id": "5011000012013"
+}, {
+  "address": "顺江大道",
+  "community_name": "水泥厂宿舍",
+  "community_id": "3611100331458"
+}, {
+  "address": "丰体南路1号院",
+  "community_name": "丰体时代花园",
+  "community_id": "1111027374365"
+}, {
+  "address": "新南路168号",
+  "community_name": "龙湖MOCO",
+  "community_id": "3611061021058"
+}, {
+  "address": "多伦道和河南路交口",
+  "community_name": "福明里",
+  "community_id": "1211045875558"
+}, {
+  "address": "南昌路555号",
+  "community_name": "东方巴黎",
+  "community_id": "5011000018046"
+}, {
+  "address": "白玉路176弄1号",
+  "community_name": "南光大楼",
+  "community_id": "5011000017280"
+}, {
+  "address": "佳宝三村",
+  "community_name": "佳宝三村",
+  "community_id": "5011000012365"
+}, {
+  "address": "情景大道北侧",
+  "community_name": "阅溪苑",
+  "community_id": "1211100876366"
+}, {
+  "address": "砖角楼北里",
+  "community_name": "砖角楼北里",
+  "community_id": "1111027382523"
+}, {
+  "address": "近解放路商业街、世纪广场",
+  "community_name": "弘基天城",
+  "community_id": "1211063172503"
+}, {
+  "address": "真南路3525弄",
+  "community_name": "东渡园景别墅",
+  "community_id": "5011000018103"
+}, {
+  "address": "松汇中路1101弄",
+  "community_name": "仓城七村",
+  "community_id": "5011000004348"
+}, {
+  "address": "盘古路226号",
+  "community_name": "盘古路226号",
+  "community_id": "5011102210053"
+}, {
+  "address": "定西路380弄",
+  "community_name": "定西路380弄",
+  "community_id": "5011000006624"
+}, {
+  "address": "虹梅南路126弄1-38号",
+  "community_name": "翡翠别墅（徐汇）",
+  "community_id": "5011000017311"
+}, {
+  "address": "四平路949弄",
+  "community_name": "建工大楼",
+  "community_id": "5011000004784"
+}, {
+  "address": "铜川路68-2号",
+  "community_name": "创邑space品尊",
+  "community_id": "509821540057931"
+}, {
+  "address": "东长治路573弄",
+  "community_name": "东长治路573弄",
+  "community_id": "5011000001518"
+}, {
+  "address": "环城东路846弄",
+  "community_name": "九华南苑",
+  "community_id": "5011000019114"
+}, {
+  "address": "新都蜀龙大道熊猫基地旁，五龙山公园内",
+  "community_name": "万科五龙山",
+  "community_id": "1611100040083"
+}, {
+  "address": "咸阳路与咸阳道交口附近",
+  "community_name": "咸阳路58号内",
+  "community_id": "1211046618120"
+}, {
+  "address": "山阴路与永久路交叉口",
+  "community_name": "北干一苑",
+  "community_id": "2711051754135"
+}, {
+  "address": "红旗路与鞍山西道交口",
+  "community_name": "日环里",
+  "community_id": "1211045314341"
+}, {
+  "address": "广灵四路561弄",
+  "community_name": "中虹翡翠园",
+  "community_id": "5011000014659"
+}, {
+  "address": "芙蓉苑一期",
+  "community_name": "芙蓉苑一期",
+  "community_id": "3911057427719"
+}, {
+  "address": "新港西路凤岗脚23号大院",
+  "community_name": "荟翠苑",
+  "community_id": "2111103316933"
+}, {
+  "address": "常青一路88号",
+  "community_name": "金色雅园金源苑",
+  "community_id": "3711056528251"
+}, {
+  "address": "谭桥公寓南园",
+  "community_name": "谭桥公寓南园",
+  "community_id": "2511051175037"
+}, {
+  "address": "春申湖中路498号",
+  "community_name": "知音别苑",
+  "community_id": "239821887922901"
+}, {
+  "address": "西林巷20号",
+  "community_name": "花牌坊公寓",
+  "community_id": "3011052662695"
+}, {
+  "address": "水西门大街101号",
+  "community_name": "莫愁大厦",
+  "community_id": "1411045201141"
+}, {
+  "address": "大道二段8号",
+  "community_name": "香江豪庭",
+  "community_id": "3611100074836"
+}, {
+  "address": "益田路1006号",
+  "community_name": "益田花园-二期",
+  "community_id": "2411048727637"
+}, {
+  "address": "四牌楼街道东吴路131号",
+  "community_name": "润姜家园",
+  "community_id": "1211047179696"
+}, {
+  "address": "唐家墩路安逸居",
+  "community_name": "安逸居",
+  "community_id": "3711059314815"
+}, {
+  "address": "星河路89号",
+  "community_name": "交大智能四期",
+  "community_id": "1611047303497"
+}, {
+  "address": "四川北路1545弄",
+  "community_name": "四川北路1545弄",
+  "community_id": "5011102208366"
+}, {
+  "address": "平江路244弄",
+  "community_name": "平江路244弄",
+  "community_id": "5011000011649"
+}, {
+  "address": "梧州路299弄1-11号",
+  "community_name": "凯虹家园",
+  "community_id": "5011000017849"
+}, {
+  "address": "南大和园",
+  "community_name": "南大和园",
+  "community_id": "2511051954854"
+}, {
+  "address": "凉水河一街",
+  "community_name": "瀛海名居",
+  "community_id": "1111027381715"
+}, {
+  "address": "玉林南路3号",
+  "community_name": "玉林嘉苑",
+  "community_id": "1611041514086"
+}, {
+  "address": "东余杭路760弄",
+  "community_name": "东余杭路760弄",
+  "community_id": "5011000005036"
+}, {
+  "address": "怡福路61号",
+  "community_name": "安庆苑",
+  "community_id": "3011053798777"
+}, {
+  "address": "二环路南四段丽都路1号附333号",
+  "community_name": "中粮香榭丽都",
+  "community_id": "1611047631558"
+}, {
+  "address": "兴隆路8号",
+  "community_name": "广厦小区（兴隆路）",
+  "community_id": "1511100779830"
+}, {
+  "address": "友谊新村",
+  "community_name": "友谊新村",
+  "community_id": "5011000015671"
+}, {
+  "address": "锦绣大道355号",
+  "community_name": "锦江国际花园",
+  "community_id": "1611062710807"
+}, {
+  "address": "玉带河大街141号",
+  "community_name": "东方生活区",
+  "community_id": "1111027376851"
+}, {
+  "address": "交通路1459弄",
+  "community_name": "龚家宅",
+  "community_id": "5011000016747"
+}, {
+  "address": "交通路1461弄",
+  "community_name": "龚家宅",
+  "community_id": "5011000016747"
+}, {
+  "address": "银盆南路20号",
+  "community_name": "江岸景苑",
+  "community_id": "3511057146875"
+}, {
+  "address": "定福庄南里3号院",
+  "community_name": "定福家园3号院",
+  "community_id": "1111027376843"
+}, {
+  "address": "高云路6号",
+  "community_name": "怡海星城（富泽园）",
+  "community_id": "3511057019816"
+}, {
+  "address": "南京市江宁区淳化街道瑞文路199号",
+  "community_name": "世茂梦享家",
+  "community_id": "146945714221378"
+}, {
+  "address": "津塘路37",
+  "community_name": "津塘路37",
+  "community_id": "2811051034546"
+}, {
+  "address": "凌兆路596弄",
+  "community_name": "凌兆新村（凌兆路596弄）",
+  "community_id": "5011000001417"
+}, {
+  "address": "康健路1号",
+  "community_name": "康健路1号",
+  "community_id": "5011000007758"
+}, {
+  "address": "刘家村126号院",
+  "community_name": "刘家村126号院",
+  "community_id": "1111027377908"
+}, {
+  "address": "南无锡路87号",
+  "community_name": "南无锡路87号",
+  "community_id": "5011000002832"
+}, {
+  "address": "柳城大道东段103号",
+  "community_name": "柳航小区",
+  "community_id": "3011056317936"
+}, {
+  "address": "津沽路与迎宾大道交口",
+  "community_name": "远景庄园",
+  "community_id": "1211062576879"
+}, {
+  "address": "应天巷28号",
+  "community_name": "城西纺织公寓",
+  "community_id": "1411000000193"
+}, {
+  "address": "城桥镇三沙洪路315弄",
+  "community_name": "怡祥居西苑",
+  "community_id": "5011000009445"
+}, {
+  "address": "车站北路22号",
+  "community_name": "千喜华城",
+  "community_id": "3512810324553902"
+}, {
+  "address": "镇南路11号",
+  "community_name": "镇南路11号",
+  "community_id": "5011102206788"
+}, {
+  "address": "南昌路110弄1-25号",
+  "community_name": "上海别墅",
+  "community_id": "5011000017494"
+}, {
+  "address": "平江南道22号，越秀路与平江道交口",
+  "community_name": "谊景村丽园里",
+  "community_id": "1211045843724"
+}, {
+  "address": "玉树路112弄",
+  "community_name": "兴日家园",
+  "community_id": "5011000012544"
+}, {
+  "address": "瑞天路182号",
+  "community_name": "雍江艺庭",
+  "community_id": "3611061081665"
+}, {
+  "address": "港沟小区",
+  "community_name": "港沟小区",
+  "community_id": "1111027374559"
+}, {
+  "address": "秦岭路18-2号",
+  "community_name": "国展财富中心",
+  "community_id": "1511041262303"
+}, {
+  "address": "西南航空港经济开发临港路三段26号",
+  "community_name": "银泰花园",
+  "community_id": "1611063548959"
+}, {
+  "address": "荣乐西路100弄",
+  "community_name": "玉树公寓",
+  "community_id": "5011000005151"
+}, {
+  "address": "政通路42弄",
+  "community_name": "政通路42弄",
+  "community_id": "5011000004600"
+}, {
+  "address": "北城二路78号",
+  "community_name": "珠江国际",
+  "community_id": "3611059684414"
+}, {
+  "address": "沙滨路8号（石门大桥旁）",
+  "community_name": "华宇金沙东岸",
+  "community_id": "3611063096059"
+}, {
+  "address": "中央路201号",
+  "community_name": "南京国际广场",
+  "community_id": "1411041564921"
+}, {
+  "address": "园山南路",
+  "community_name": "劳教所宿舍",
+  "community_id": "3911053729543"
+}, {
+  "address": "上地东路25号院",
+  "community_name": "上地东路25号院",
+  "community_id": "1111027379138"
+}, {
+  "address": "稻香园",
+  "community_name": "稻香园",
+  "community_id": "1111027373995"
+}, {
+  "address": "桂花路267号",
+  "community_name": "上民航宿舍",
+  "community_id": "3511063284108"
+}, {
+  "address": "恒安路345号",
+  "community_name": "颐和苑",
+  "community_id": "3711056794913"
+}, {
+  "address": "宾阳路11号",
+  "community_name": "宾阳路11号",
+  "community_id": "509821540058035"
+}, {
+  "address": "制造局路833弄8-11号",
+  "community_name": "嘉登公寓",
+  "community_id": "5011000017701"
+}, {
+  "address": "蜀西南一路198号",
+  "community_name": "金泉阳光景新苑",
+  "community_id": "3011055315441"
+}, {
+  "address": "车公庙",
+  "community_name": "雪松大厦",
+  "community_id": "2411100892405"
+}, {
+  "address": "文师街69弄",
+  "community_name": "爱盛家园西苑",
+  "community_id": "5011102206871"
+}, {
+  "address": "绍兴路49号",
+  "community_name": "田家花园457号",
+  "community_id": "1511045099663"
+}, {
+  "address": "五安路18号",
+  "community_name": "采荷小区红菱邨",
+  "community_id": "2711051644484"
+}, {
+  "address": "瑞金二路46号",
+  "community_name": "瑞金二路46号",
+  "community_id": "509821540057179"
+}, {
+  "address": "乔港路31号",
+  "community_name": "乔港路31号",
+  "community_id": "5011102207667"
+}, {
+  "address": "新华路296号",
+  "community_name": "新华路296号",
+  "community_id": "5011000010572"
+}, {
+  "address": "乳山路285弄",
+  "community_name": "乳山路285弄",
+  "community_id": "5011000007108"
+}, {
+  "address": "丰盛路59-85号",
+  "community_name": "丰盛路、芙蓉路",
+  "community_id": "4011056191860"
+}, {
+  "address": " 芙蓉路96-132号",
+  "community_name": "丰盛路、芙蓉路",
+  "community_id": "4011056191860"
+}, {
+  "address": "虎踞北路",
+  "community_name": "双门楼",
+  "community_id": "1411041947090"
+}, {
+  "address": "江城路415.417号",
+  "community_name": "江城路415.417号",
+  "community_id": "2711054755732"
+}, {
+  "address": "西苏州路1801号",
+  "community_name": "西苏州路1801号",
+  "community_id": "5011000006638"
+}, {
+  "address": "卫津路133号",
+  "community_name": "和畅园",
+  "community_id": "1211063210079"
+}, {
+  "address": "愚园路532弄",
+  "community_name": "愚园路532弄",
+  "community_id": "5011000005862"
+}, {
+  "address": "国泓路833弄",
+  "community_name": "建发江湾萃",
+  "community_id": "5011000010270"
+}, {
+  "address": "澳门路88弄1-11号",
+  "community_name": "澳门新苑",
+  "community_id": "5011000018244"
+}, {
+  "address": "保屯路50弄",
+  "community_name": "保屯路50弄",
+  "community_id": "5011000007005"
+}, {
+  "address": "曲沃路79弄",
+  "community_name": "曲沃路79弄",
+  "community_id": "5011000006340"
+}, {
+  "address": "控江路128弄",
+  "community_name": "韵都城",
+  "community_id": "5011000010612"
+}, {
+  "address": "石湾路7弄",
+  "community_name": "康泰公寓",
+  "community_id": "5011000018194"
+}, {
+  "address": "大坦沙",
+  "community_name": "万科柏悦湾",
+  "community_id": "2111103317902"
+}, {
+  "address": "玫瑰南街105号",
+  "community_name": "玫瑰南苑",
+  "community_id": "3711099543249"
+}, {
+  "address": "延平路337弄",
+  "community_name": "延平路337弄",
+  "community_id": "5011000007729"
+}, {
+  "address": "集美区集源路85号",
+  "community_name": "丽海清庭",
+  "community_id": "3912558677847991"
+}, {
+  "address": "天坛西里东区",
+  "community_name": "天坛西里东区",
+  "community_id": "1111027380038"
+}, {
+  "address": "锦屏西街1号",
+  "community_name": "科沁苑",
+  "community_id": "1611059884022"
+}, {
+  "address": "涞亭南路382弄",
+  "community_name": "新上海弄里人家",
+  "community_id": "5011000009980"
+}, {
+  "address": " 九亭大街265弄",
+  "community_name": "新上海弄里人家",
+  "community_id": "5011000009980"
+}, {
+  "address": " 九亭大街252弄（原九亭大街118弄）",
+  "community_name": "新上海弄里人家",
+  "community_id": "5011000009980"
+}, {
+  "address": "西马道街40号",
+  "community_name": "府河公馆",
+  "community_id": "1611059785402"
+}, {
+  "address": "南京西路1205号",
+  "community_name": "南京西路1205号",
+  "community_id": "5011000005442"
+}, {
+  "address": "淞南一村",
+  "community_name": "淞南一村",
+  "community_id": "5011000012731"
+}, {
+  "address": "淞发路555号",
+  "community_name": "淞南一村",
+  "community_id": "5011000012731"
+}, {
+  "address": "通南路3号",
+  "community_name": "淞南一村",
+  "community_id": "5011000012731"
+}, {
+  "address": "昌里东路411弄",
+  "community_name": "齐八小区",
+  "community_id": "5011000003632"
+}, {
+  "address": "南码头路1316弄",
+  "community_name": "齐八小区",
+  "community_id": "5011000003632"
+}, {
+  "address": "人民大道473号",
+  "community_name": "人民大道473号",
+  "community_id": "2711057881312"
+}, {
+  "address": "国顺东路900弄",
+  "community_name": "汇元坊",
+  "community_id": "5011000011541"
+}, {
+  "address": "珠江南路1083号",
+  "community_name": "珠江新城",
+  "community_id": "239821887922974"
+}, {
+  "address": "龙阳路1880弄",
+  "community_name": "万邦都市花园",
+  "community_id": "5011000018309"
+}, {
+  "address": "齐恒路33弄",
+  "community_name": "凯德莲公馆",
+  "community_id": "5011000001434"
+}, {
+  "address": "向南路67号附近",
+  "community_name": "福庭苑",
+  "community_id": "2411100073679"
+}, {
+  "address": "长乐路758号",
+  "community_name": "长乐路758号",
+  "community_id": "5011000009968"
+}, {
+  "address": "富民路210弄11号",
+  "community_name": "长乐路758号",
+  "community_id": "5011000009968"
+}, {
+  "address": "欣荣北大街20号院",
+  "community_name": "鸿坤理想城派郡20号院",
+  "community_id": "1111045272839"
+}, {
+  "address": "高淳开发区古檀大道与九龙山路交汇处",
+  "community_name": "万悦城",
+  "community_id": "146941822693732"
+}, {
+  "address": "大连市沙河口区锦绣小区锦云北园",
+  "community_name": "锦云北园",
+  "community_id": "1311041904265"
+}, {
+  "address": "旭日华庭",
+  "community_name": "旭日华庭",
+  "community_id": "2511052855843"
+}, {
+  "address": "梅华路181号",
+  "community_name": "合正园",
+  "community_id": "2411049931703"
+}, {
+  "address": "北苑路32号院",
+  "community_name": "平安嘉苑",
+  "community_id": "1111027378695"
+}, {
+  "address": "芍药居北里",
+  "community_name": "芍药居北里",
+  "community_id": "1111027379657"
+}, {
+  "address": "蚌埠路15号",
+  "community_name": "海尔世纪公馆",
+  "community_id": "1511063199143"
+}, {
+  "address": "浦东大道2510弄",
+  "community_name": "浦东大道2510弄",
+  "community_id": "5011102208390"
+}, {
+  "address": "长宁支路320弄",
+  "community_name": "长宁支路320弄",
+  "community_id": "5011000005484"
+}, {
+  "address": "松牌路145号",
+  "community_name": "鼎祥风华美锦",
+  "community_id": "3611057197430"
+}, {
+  "address": "长江南路888号",
+  "community_name": "三湘海尚城（别墅）",
+  "community_id": "5011000000816"
+}, {
+  "address": "二环路东四段134号",
+  "community_name": "二环路东四段134号",
+  "community_id": "1611059806348"
+}, {
+  "address": "镇宁路541弄",
+  "community_name": "镇宁路541弄",
+  "community_id": "5011000006197"
+}, {
+  "address": "博华路380弄1-2号",
+  "community_name": "海上国际花园（二期）",
+  "community_id": "5011000015605"
+}, {
+  "address": "光华路甲8号",
+  "community_name": "和乔丽致公寓",
+  "community_id": "1111027375229"
+}, {
+  "address": "外环线与津涞公路交口",
+  "community_name": "荷兰墅",
+  "community_id": "1211045217554"
+}, {
+  "address": "政修路15号",
+  "community_name": "政修路15号",
+  "community_id": "5011000008437"
+}, {
+  "address": "澳门路698弄",
+  "community_name": "澳门家园",
+  "community_id": "5011000016684"
+}, {
+  "address": "和平街樱花园",
+  "community_name": "樱花园",
+  "community_id": "1111027381742"
+}, {
+  "address": "兴华中路",
+  "community_name": "翰林紫苑",
+  "community_id": "3611100370822"
+}, {
+  "address": "东顺路99号",
+  "community_name": "长顺南苑",
+  "community_id": "1611043064771"
+}, {
+  "address": "尹中路66号",
+  "community_name": "旭辉美澜城",
+  "community_id": "239821887922210"
+}, {
+  "address": "东方君悦大厦",
+  "community_name": "东方君悦",
+  "community_id": "1811060117735"
+}, {
+  "address": "丁字沽一号路红桥医院后 三中对面",
+  "community_name": "潞河南里",
+  "community_id": "1211045348779"
+}, {
+  "address": "民安大道130号",
+  "community_name": "北回归线",
+  "community_id": "3611057138681"
+}, {
+  "address": "南延线麓山大道二段6号",
+  "community_name": "麓山国际翠云岭",
+  "community_id": "1611100224826"
+}, {
+  "address": "永清路39号",
+  "community_name": "永清路39号",
+  "community_id": "3711060440006"
+}, {
+  "address": "中关村东路106号",
+  "community_name": "中关村东路106号院",
+  "community_id": "1111027382386"
+}, {
+  "address": "深圳市南山区香山中街",
+  "community_name": "波托菲诺纯水岸八期",
+  "community_id": "248685176762472"
+}, {
+  "address": "星光东路400号",
+  "community_name": "格兰玺城",
+  "community_id": "1611063898562"
+}, {
+  "address": "香樟三路50号",
+  "community_name": "常青花园第二社区",
+  "community_id": "3711059620573"
+}, {
+  "address": "东小口镇家属楼",
+  "community_name": "北郊医院家属楼",
+  "community_id": "1111027375951"
+}, {
+  "address": "环镇北路300弄",
+  "community_name": "上大阳光乾澄园",
+  "community_id": "5011000001692"
+}, {
+  "address": "贵园北里甲区",
+  "community_name": "贵园北里甲区",
+  "community_id": "1111027374769"
+}, {
+  "address": "同心路649弄",
+  "community_name": "同心城",
+  "community_id": "5011000015194"
+}, {
+  "address": "龙柏一村111-135号",
+  "community_name": "佳信花苑",
+  "community_id": "5011000016265"
+}, {
+  "address": "长清路12号",
+  "community_name": "长青教师公寓",
+  "community_id": "5011000004710"
+}, {
+  "address": "长清路10号",
+  "community_name": "长青教师公寓",
+  "community_id": "5011000004710"
+}, {
+  "address": "友谊大道",
+  "community_name": "福星惠誉紫岭公寓",
+  "community_id": "3711099529411"
+}, {
+  "address": "银城中路488号",
+  "community_name": "太平金融大厦",
+  "community_id": "5011000010025"
+}, {
+  "address": "雁荡路62号",
+  "community_name": "雁荡路62号",
+  "community_id": "5011000002939"
+}, {
+  "address": "高碑店都市经典家园",
+  "community_name": "都市经典家园",
+  "community_id": "1111027373846"
+}, {
+  "address": "博华路300弄",
+  "community_name": "博安苑",
+  "community_id": "5011000002484"
+}, {
+  "address": "金渝大道83号",
+  "community_name": "大众尚岭花园",
+  "community_id": "3611058952351"
+}, {
+  "address": "太湖西路9号",
+  "community_name": "中央美地",
+  "community_id": "3611056786326"
+}, {
+  "address": "银都路668弄",
+  "community_name": "银都路668弄",
+  "community_id": "5011000005098"
+}, {
+  "address": "西江街",
+  "community_name": "滨洲花园",
+  "community_id": "3611100432168"
+}, {
+  "address": "宝珠子胡同",
+  "community_name": "宝珠子胡同",
+  "community_id": "1111027376306"
+}, {
+  "address": "海尔路19号",
+  "community_name": "北村小区",
+  "community_id": "1511041290052"
+}, {
+  "address": "金州区",
+  "community_name": "盛滨花园D区",
+  "community_id": "138617106616264"
+}, {
+  "address": "阳新片拦江路135号",
+  "community_name": "新江公寓",
+  "community_id": "3711056879598"
+}, {
+  "address": "滨江铂金海岸",
+  "community_name": "滨江铂金海岸",
+  "community_id": "1811426040917572"
+}, {
+  "address": "天运路54号",
+  "community_name": "天运花园",
+  "community_id": "1811043638699"
+}, {
+  "address": "清荷园南园",
+  "community_name": "清荷园南园",
+  "community_id": "1411047635821"
+}, {
+  "address": "友谊北路永安道交汇处",
+  "community_name": "罗兰花园",
+  "community_id": "1211045924538"
+}, {
+  "address": "怡康路29号",
+  "community_name": "腾达雅苑",
+  "community_id": "1411000000639"
+}, {
+  "address": "创业一路1006",
+  "community_name": "丽晶国际",
+  "community_id": "2411053130679"
+}, {
+  "address": "津塘公路七号桥小东庄南侧（原小东庄镇政府对面）",
+  "community_name": "悦盛园",
+  "community_id": "1211063010489"
+}, {
+  "address": "疏影路789弄",
+  "community_name": "宝安新苑",
+  "community_id": "5011000017523"
+}, {
+  "address": "东湖路181号",
+  "community_name": "楚天丽园",
+  "community_id": "3711063209188"
+}, {
+  "address": "金山大道1号",
+  "community_name": "恒大华府",
+  "community_id": "3611057233762"
+}, {
+  "address": "汊沽港高王路东侧",
+  "community_name": "尚港华府",
+  "community_id": "1211100002058"
+}, {
+  "address": "永泰路1650弄",
+  "community_name": "名嘉新苑",
+  "community_id": "5011000013186"
+}, {
+  "address": "西大望路65号院",
+  "community_name": "西大望路65号院",
+  "community_id": "1111027380683"
+}, {
+  "address": "七莘路2938弄35-37号",
+  "community_name": "宝隆新村",
+  "community_id": "5011000004417"
+}, {
+  "address": " 七莘路2938弄1-34号",
+  "community_name": "宝隆新村",
+  "community_id": "5011000004417"
+}, {
+  "address": " 七莘路2938弄38-46号",
+  "community_name": "宝隆新村",
+  "community_id": "5011000004417"
+}, {
+  "address": " 富强街路80号",
+  "community_name": "宝隆新村",
+  "community_id": "5011000004417"
+}, {
+  "address": "揽海路599弄",
+  "community_name": "金茂悦公馆",
+  "community_id": "5011000009476"
+}, {
+  "address": " 揽海路999弄",
+  "community_name": "金茂悦公馆",
+  "community_id": "5011000009476"
+}, {
+  "address": "中山西路85弄",
+  "community_name": "宁强小区",
+  "community_id": "5011000007916"
+}, {
+  "address": "樱花路1238号",
+  "community_name": "人居锦尚春天A区",
+  "community_id": "168800539259516"
+}, {
+  "address": "长海一村",
+  "community_name": "长海一村",
+  "community_id": "5011000013258"
+}, {
+  "address": "定福庄北街",
+  "community_name": "金星小区",
+  "community_id": "1111027377474"
+}, {
+  "address": "淮海中路333号",
+  "community_name": "瑞安广场",
+  "community_id": "5011000017486"
+}, {
+  "address": "金科十年城西区",
+  "community_name": "金科十年城西区",
+  "community_id": "3611060974700"
+}, {
+  "address": "锦昌年华苑",
+  "community_name": "锦昌年华",
+  "community_id": "189526381653516"
+}, {
+  "address": "青羊东二路125号",
+  "community_name": "青羊东二路125号18",
+  "community_id": "1611100522574"
+}, {
+  "address": "平型关路230弄",
+  "community_name": "平型关路230弄",
+  "community_id": "5011000000139"
+}, {
+  "address": "崂山路19号",
+  "community_name": "阳明山庄",
+  "community_id": "1511041235793"
+}, {
+  "address": "俞家巷18号",
+  "community_name": "圣欧庭",
+  "community_id": "1411041197780"
+}, {
+  "address": "望京西园",
+  "community_name": "慧谷时空",
+  "community_id": "1111027375000"
+}, {
+  "address": "华龙大厦",
+  "community_name": "华龙大厦",
+  "community_id": "1111027375133"
+}, {
+  "address": "金睦路353弄",
+  "community_name": "海尚东苑",
+  "community_id": "5011000011348"
+}, {
+  "address": "兰美路",
+  "community_name": "恒鑫名城二期",
+  "community_id": "3611060399702"
+}, {
+  "address": "安远路5弄1号",
+  "community_name": "达安河畔雅苑",
+  "community_id": "5011000016602"
+}, {
+  "address": "汤逊湖红旗岛（文化大道与金樱街交汇处向东1000米）",
+  "community_name": "中建汤逊湖壹号",
+  "community_id": "3711064004946"
+}, {
+  "address": "龙腾中路16号",
+  "community_name": "加怡名城",
+  "community_id": "1611041505567"
+}, {
+  "address": "南岭村",
+  "community_name": "南岭花园",
+  "community_id": "2411050823640"
+}, {
+  "address": "龙山商业街1号",
+  "community_name": "大世纪水山缘",
+  "community_id": "2411050718051"
+}, {
+  "address": "武侯祠大街113号",
+  "community_name": "武侯祠大街113号",
+  "community_id": "1611795027734554"
+}, {
+  "address": "镇国寺北街6号院",
+  "community_name": "夏季星空",
+  "community_id": "1111027380965"
+}, {
+  "address": "星河城二期",
+  "community_name": "夏季星空",
+  "community_id": "1111027380965"
+}, {
+  "address": "金兴路2号院",
+  "community_name": "金兴路2号院",
+  "community_id": "1111027377449"
+}, {
+  "address": "杨南路1705弄",
+  "community_name": "万科五玠坊",
+  "community_id": "5011000009636"
+}, {
+  "address": "四牌楼路147号",
+  "community_name": "四牌楼路147号",
+  "community_id": "5011000007565"
+}, {
+  "address": "眉州路54号",
+  "community_name": "华三新村",
+  "community_id": "509821540057313"
+}, {
+  "address": "场中路1985弄",
+  "community_name": "场中路1985弄",
+  "community_id": "5011000008286"
+}, {
+  "address": "春光路699弄",
+  "community_name": "锦绣人家",
+  "community_id": "5011000005433"
+}, {
+  "address": "星明街215号",
+  "community_name": "贵都花园",
+  "community_id": "2311054627224"
+}, {
+  "address": "学院南路38号",
+  "community_name": "智慧大厦",
+  "community_id": "1111027382463"
+}, {
+  "address": "北湖西路11号",
+  "community_name": "富豪社区祥和家园",
+  "community_id": "3711056359868"
+}, {
+  "address": "松东路193弄",
+  "community_name": "松东路193弄",
+  "community_id": "509821540057612"
+}, {
+  "address": "广中路45弄",
+  "community_name": "广中路45弄",
+  "community_id": "509821540319251"
+}, {
+  "address": "枫林三路398号",
+  "community_name": "麓谷明珠",
+  "community_id": "3511058778427"
+}, {
+  "address": "双阳路502弄",
+  "community_name": "万昌大厦",
+  "community_id": "5011000004310"
+}, {
+  "address": "大井中里",
+  "community_name": "大井中里",
+  "community_id": "1111027373745"
+}, {
+  "address": "宣化路28号",
+  "community_name": "舜元企业发展大厦",
+  "community_id": "5011000017310"
+}, {
+  "address": "江苏路398号",
+  "community_name": "舜元企业发展大厦",
+  "community_id": "5011000017310"
+}, {
+  "address": "延长西路318弄",
+  "community_name": "展宏大厦",
+  "community_id": "5011000012502"
+}, {
+  "address": "北京西路820号",
+  "community_name": "北京西路820号",
+  "community_id": "5011000008118"
+}, {
+  "address": "苏惠路88号",
+  "community_name": "环球财富广场",
+  "community_id": "239821887922600"
+}, {
+  "address": "北滨二路537号",
+  "community_name": "中海紫御江山",
+  "community_id": "3611063575221"
+}, {
+  "address": "龙泉路",
+  "community_name": "金虎苑",
+  "community_id": "3611060572976"
+}, {
+  "address": "玉沙路134号",
+  "community_name": "玉沙路134号",
+  "community_id": "1611061024767"
+}, {
+  "address": "沪太路680弄",
+  "community_name": "沪太路680弄",
+  "community_id": "5011000001196"
+}, {
+  "address": "胜利路435弄",
+  "community_name": "海天苑新村",
+  "community_id": "5011102208489"
+}, {
+  "address": "重庆南路81号",
+  "community_name": "海信缤纷都市",
+  "community_id": "1511041354200"
+}, {
+  "address": "水亭址22号",
+  "community_name": "水亭址22号",
+  "community_id": "2711052728884"
+}, {
+  "address": "琴台路505号",
+  "community_name": "北大资源首座",
+  "community_id": "377760448335306"
+}, {
+  "address": "春晖路70号",
+  "community_name": "旅游学校家属楼",
+  "community_id": "3611099973424"
+}, {
+  "address": "厚载巷29号",
+  "community_name": "云岭居",
+  "community_id": "1411000000839"
+}, {
+  "address": "通河九村161-167",
+  "community_name": "共江花苑",
+  "community_id": "5011000009621"
+}, {
+  "address": "通河九村172-177",
+  "community_name": "共江花苑",
+  "community_id": "5011000009621"
+}, {
+  "address": "通河九村179-184",
+  "community_name": "共江花苑",
+  "community_id": "5011000009621"
+}, {
+  "address": "通河九村188-193",
+  "community_name": "共江花苑",
+  "community_id": "5011000009621"
+}, {
+  "address": "桂平路路470号",
+  "community_name": "漕河泾开发区田林园",
+  "community_id": "5011102207309"
+}, {
+  "address": "沙滨路66号",
+  "community_name": "华宇秋水长天",
+  "community_id": "3611060457172"
+}, {
+  "address": "梅坂大道236号",
+  "community_name": "溪山",
+  "community_id": "2411050409962"
+}, {
+  "address": "秀涓路492弄",
+  "community_name": "秀涓路492弄",
+  "community_id": "5011102205768"
+}, {
+  "address": "通淮街18号",
+  "community_name": "太平花苑北区",
+  "community_id": "1411041495768"
+}, {
+  "address": "乌鲁木齐南路281号",
+  "community_name": "高欣公寓",
+  "community_id": "5011000018255"
+}, {
+  "address": "晨阳道与靖江路交口",
+  "community_name": "晨光楼",
+  "community_id": "1211045587094"
+}, {
+  "address": "云莲路405弄",
+  "community_name": "云莲苑",
+  "community_id": "5011000012662"
+}, {
+  "address": "云莲路415弄",
+  "community_name": "云莲苑",
+  "community_id": "5011000012662"
+}, {
+  "address": "徐东友谊大道510号",
+  "community_name": "万利广场",
+  "community_id": "3711063262603"
+}, {
+  "address": "花地大道北",
+  "community_name": "红棉苑北区",
+  "community_id": "2110343238336876"
+}, {
+  "address": "枣庄路500弄",
+  "community_name": "新世纪名苑",
+  "community_id": "5011000014092"
+}, {
+  "address": "江浦路821弄",
+  "community_name": "平盛苑",
+  "community_id": "5011000009780"
+}, {
+  "address": "宝钢五村后河沿",
+  "community_name": "宝钢五村后河沿",
+  "community_id": "5011102210037"
+}, {
+  "address": "国权路91弄",
+  "community_name": "茗苑",
+  "community_id": "5011000004927"
+}, {
+  "address": "高邮湖路1号到10号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路12号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路14号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路16号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路18号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路20号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路22号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路24号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": " 高邮湖路26号",
+  "community_name": "高邮湖路",
+  "community_id": "1511041374359"
+}, {
+  "address": "玉泉路与双峰道交口",
+  "community_name": "春香里",
+  "community_id": "1211045238062"
+}, {
+  "address": "芳草路153弄",
+  "community_name": "芳草苑（浦东）",
+  "community_id": "5011000013986"
+}, {
+  "address": "包头路179弄",
+  "community_name": "民欣苑",
+  "community_id": "5011000014857"
+}, {
+  "address": "民星路401号",
+  "community_name": "民欣苑",
+  "community_id": "5011000014857"
+}, {
+  "address": "振兴路288号",
+  "community_name": "航天花园",
+  "community_id": "3711056687004"
+}, {
+  "address": "采莲路787号",
+  "community_name": "绿色时光花园东区",
+  "community_id": "2311054665560"
+}, {
+  "address": "祥吴一里",
+  "community_name": "祥吴一里",
+  "community_id": "3911056814023"
+}, {
+  "address": "津杨路中北斜村",
+  "community_name": "溪悦园",
+  "community_id": "128593575522614"
+}, {
+  "address": "龙吴路1500号",
+  "community_name": "交大科技园商务楼",
+  "community_id": "5011102206913"
+}, {
+  "address": "大宁路594号",
+  "community_name": "大宁路594号",
+  "community_id": "5011000000690"
+}, {
+  "address": "信园",
+  "community_name": "冯村信园小区",
+  "community_id": "1111043492861"
+}, {
+  "address": "周园路666弄",
+  "community_name": "莫奈庄园",
+  "community_id": "509821540319436"
+}, {
+  "address": "瑞和路101弄",
+  "community_name": "瑞浦嘉苑",
+  "community_id": "5011000000952"
+}, {
+  "address": "瑞和路269弄",
+  "community_name": "瑞浦嘉苑",
+  "community_id": "5011000000952"
+}, {
+  "address": "武车四村",
+  "community_name": "武车四村",
+  "community_id": "3711058050865"
+}]

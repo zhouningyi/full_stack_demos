@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">ajax</title>
+  <style>
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 40%;
+    left: 35%;
+    position: absolute;
+  }
+  .key{
+    display: inline-block;
+    color: #ccc;
+    font-size: 20px;
+  }
+  .value{
+    display: inline-block;
+    color: #06e6ae;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="key">亲, 你要爬的数据是: </div>
+    <div class="value">100000</div>
+  </div>
+</body>
+<script src="./jquery.js"></script>
+<script type="text/javascript">
+  var text = $(".value").text();
+</script>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "black_hospital",
+  "version": "1.0.0",
+  "description": "疑似黑医院的解析和爬取",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhouningyi",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "mongoose": "^4.5.10",
+    "request": "^2.74.0"
+  }
+}
