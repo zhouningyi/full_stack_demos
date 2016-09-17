@@ -31,7 +31,6 @@ SELECT PID as 进程id, USENAME as 用户名 FROM pg_stat_activity;
 
 
 
-
 ------=====类型与转化====------
 
 SELECT 1 / 3;
@@ -61,7 +60,7 @@ SELECT '{"a":{"b": 1}}'::JSON -> 'a' -> 'b';
 
 
 
---=====建表======--
+--=====建DATABASE======--
 CREATE DATABASE study;
 
 --建立表
@@ -300,8 +299,9 @@ AND address :: TEXT NOT LIKE '%4%'
 AND plate IN ('徐泾', '华漕', '龙柏')
 LIMIT 1000;
 
-
---连表查询 人口和房屋数量做比较
+------------------------------------------
+------连表查询 人口和房屋数量做比较【内含作业】
+------------------------------------------
 
 --新建地区表
 CREATE TABLE areas(
@@ -337,11 +337,8 @@ NULL AS 'Null'
 CSV HEADER;
 
 
---开始分析
-
---板块的均价是如何
-
---如何连接三张表进行分析
+--【作业】如何连接三张表进行分析
+-- 如，如何通过一个sql连接三张表，求上海每个区有多少小区、多少幢楼、多少户人
 
 
 
@@ -410,4 +407,63 @@ ORDER BY from_hour, count DESC
 ) AS tb
 WHERE count > 1
 ORDER BY from_hour, count DESC;
+
+
+
+
+
+
+
+--＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝插件＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+
+create extension if not exists pg_jieba;
+
+--== 认识unset
+SELECT '{"a", "b", "c"}'::text[];
+select unnest('{"a", "b", "c"}'::text[]);
+
+select to_tsvector('jiebacfg','上海交通大学闵行园区32号楼');
+select UNNEST(regexp_split_to_array(regexp_replace(to_tsvector('jiebacfg','上海交通大学闵行园区32号楼')::text,'(:\d+)', '', 'g'), ' '));
+
+--看词频最高的小区
+with tbs as (
+select UNNEST(regexp_split_to_array(regexp_replace(to_tsvector('jiebacfg', community_name)::text,'(:\d+)', '', 'g'), ' ')) as chr
+from house_lianjia_communities
+)
+
+select chr, count(1) as cnt
+from tbs
+group by chr
+order by cnt desc;
+
+
+
+--看哪些词最贵气
+with tbs as (
+select UNNEST(regexp_split_to_array(regexp_replace(to_tsvector('jiebacfg', community_name)::text,'(:\d+)', '', 'g'), ' ')) as chr,
+avr_price
+from house_lianjia_communities
+)
+
+select * from (
+select chr, count(1) as cnt, avg(avr_price) as avr_price
+from tbs
+where avr_price is not null
+group by chr
+order by avr_price desc
+) as tb
+where cnt > 2;
+
+
+
+--建立索引
+create index pt_index on house_lianjia_communities using btree (community_name);
+
+--中间表
+
+
+
+select * from house_lianjia_community_spiders;
+
+
 

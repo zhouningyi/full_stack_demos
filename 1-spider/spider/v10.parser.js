@@ -1,13 +1,10 @@
 
-var Mongo = require('./mongo');
+var Pg = require('./pg');
 var cheerio = require('cheerio');
 
 function update(obj) {
-  Mongo.community.findOneAndUpdate({
-    community_id: obj.community_id
-  }, obj, {
-    upsert: true
-  }, function(e, d) {
+  Pg.community_pg.upsert(obj).then(function(e, d){
+    if(e) return console.log(e);
     console.log('更新成功...');
   });
 }
@@ -20,7 +17,6 @@ function parser(e, res, body){
     var infoNode = node.find('.actshowMap_list');
     var xiaoqu = infoNode.attr('xiaoqu');
     xiaoqu = xiaoqu.replace(/\'/g, '"');
-    console.log(typeof(xiaoqu));
     xiaoqu = JSON.parse(xiaoqu);
     var lat = xiaoqu[1], lng = xiaoqu[0], communityName = xiaoqu[2];
     var districtName = infoNode.attr('districtname');
@@ -31,7 +27,6 @@ function parser(e, res, body){
       lat: lat,
       lng: lng,
       plate: plateName,
-      community_id: communityId,
       district_name: districtName,
       community_name: communityName
     };

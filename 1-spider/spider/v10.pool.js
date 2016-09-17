@@ -1,7 +1,7 @@
 /*
   直接爬取并出现错误
 */
-//用mongodb实现并行爬取
+//用postgres实现并行爬取
 //
 //
 
@@ -9,12 +9,12 @@ var request = require('request');
 var fs = require('fs');
 //
 
-var Mongo = require('./mongo');
+var Pg = require('./pg');
 
 var poolCount = 10;
 var timeout = 100;
 
-var parser = require('./v9.parser');
+var parser = require('./v10.parser');
 
 function Pool(urls){
   this.urls = urls;
