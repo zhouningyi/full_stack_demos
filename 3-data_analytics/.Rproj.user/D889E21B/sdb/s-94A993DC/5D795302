@@ -1,0 +1,16 @@
+{
+    "contents" : "# 多元线性回归预测房价\n\n# install.packages(\"readxl\")\nlibrary(readxl)\n\n# read excel\nfile<-\"/Users/rong/Desktop/data_analytics/lianjia_comuunity_shanghai.xls\"\nX<-read_excel(file, sheet = 1, na = \"NA\")\nX['index']<- c(1:length(X[,1]))\n\n# 查看数据\ncolnames(X)\nstr(X)\nsummary(X)\nhead(df)\n\n## 数据清洗 data clean - remove the null/invalid data\ndf<- X[complete.cases(X$lat, X$lng) & X$lat>0 & X$lng>0, ]\n\n\n## 聚类算法 run k-means clustering\nkm<-kmeans(df[, c(\"lat\", \"lng\")], centers=10)\ndf$cluster<-km$cluster\nplot(df$lat, df$lng, col=df$cluster, pch = 20, cex=2)\n\n\n# install.packages(\"maps\",\"mapproj\")\n# install.packages(\"dplyr\")\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(maps)\nlibrary(mapproj)\n\nggplot(df, aes(x = lat, y = lng, alpha = 0.5)) +\n  geom_point(aes(colour = as.factor(km$cluster)), df,size = 3) +\n  coord_map() +\n  \n  theme(legend.position = \"none\")\n\n\n\n\n# plot the cluster #1\nc1 <- df[df$cluster == 2, ]\nplot(c1[, c(\"lat\", \"lng\")])\n\n# assign cluster# to dataset\ndf$cluster <- km$cluster\nhead(df)\n\nplate_cluster <- data.frame(plate=df$plate, cluster=df$cluster)\n#pivot table\ntable(plate_cluster)\n\n\ndf_renmin<-df[df$plate=='人民广场',]\ndf_renmin$cluster\nsummary(df_renmin)\n\ndf_7<-df[df$cluster==7,]\nsummary(df_7)\ntable(df_7$plate)\n\ndf_7 %>% select(plate) %>% table %>% as.data.frame %>% order\n\n\ntbl_df(df)\n\ndf_1<-plate_cluster %>% filter(cluster==1) %>% group_by(plate) %>%\n  summarise()\nhead(df_1)\n\n# length(df_1[,1])\n\ndata.frame(table(df_1$plate)) %>% filter(Freq > 0) %>% \n\ndf <- cbind([,1], data.frame(index))\nhead(df)\n\n?cbind\ntable(X$plate)\n\n\nsummary(index)\n\n\n",
+    "created" : 1474133137607.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "266607353",
+    "id" : "5D795302",
+    "lastKnownWriteTime" : 1474075698,
+    "path" : "~/Desktop/data_analytics/House_price_prediction.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,16 @@
+{
+    "contents" : "## 数据预处理\n\n## Agenda\n## - 数据汇总统计\n## - 数据清洗\n## - 数据填充\n# install.packages(\"DMwR\")\n# install.packages(\"readxl\")\nlibrary(readxl)\nlibrary(DMwR)\n\n## 读取数据\nfile <- \"~/Desktop/data_analytics/data_analytics/dataset/lianjia_community_shanghai.xls\"\nds0 <- read_excel(file, sheet = 1, na = \"NA\")\nds <- ds0\n################################################\n## 数据汇总统计\n################################################\n\n# 数据查看\nhead(ds)\ntail(ds)\nsummary(ds)\nmin(ds$avr_price, na.rm=T)\nmax(ds$avr_price, na.rm=T)\n\n# 数据观测 - 查看每行缺失值\napply(ds,1,function(x) sum(is.na(x)))\n\n\n################################################\n## 数据清洗 （缺失值）\n################################################\n\n\n# 查看缺失部分\nds[!complete.cases(ds),]\nnrow(ds[!complete.cases(ds),])\n# nrow(ds)\n# 剔除缺失部分\nds1<-na.omit(ds)\nhead(ds1)\n\n# 忽略“building_type”列，剔除缺失部分\ncolnames(ds)\ncolnames(ds[-5])\n\nds2<-na.omit(ds[-5])\nhead(ds2)\nnrow(ds2)/nrow(ds)\n\n\n# 剔除缺失值超过20%的行\n# 函数manyNAs()：可以找出缺失值个数大于列数20%的行，第二个参数默认值是0.2\nds3<-ds[-manyNAs(ds, 0.2),]\nnrow(ds3)/nrow(ds)\n\n################################################\n## 数据填充\n################################################\n\ncolnames(ds)\n\n# 1. 用平均值填补\nds[1,\"avr_price\"]<-mean(ds$avr_price,na.rm=T)\n\n# 2. 用中位数填补：\nds<-ds0\nmed<-median(ds$avr_price,na.rm=T)\nhead(ds[,c(\"community_name\", \"avr_price\")])\nds[is.na(ds$avr_price),\"avr_price\"]<-med\nhead(ds[,c(\"community_name\", \"avr_price\")])\n\n\n# 函数centralImputation()：可以用数据的中心趋势值来填补缺失值。\n# Tips：对数值型变量使用中位数，对名义变量使用众数：\nds<-ds0\nds1<-ds[-manyNAs(ds),]\nds2<-centralImputation(ds1)\nhead(ds1,20)\nhead(ds2,20)\n\n\n# 3. 通过变量的相关关系来填补缺失值\nsymnum(cor(ds[,c(\"age\", \"building_density\", \"house_count\", \"building_count\", \"green_rate\", \"avr_price\")],use=\"complete.obs\"))\nhead(ds)\n\n# 4. 利用线性相关变量进行填补：\nds<-ds0\nds<-ds[-manyNAs(ds),]\nlm_model<-lm(avr_price~house_count,data=ds)\nlm_model\n\n# 构造一个填充函数\nfill_avr_price<-function(x){\n  if(is.na(x))\n    return(NA)\n  else return(48195.108-5.987*x)\n}\nds[is.na(ds$avr_price),\"avr_price\"]<-sapply(ds[is.na(ds$avr_price),\"house_count\"],fill_avr_price)\nhead(ds0[, c(\"building_count\", \"avr_price\")])\nhead(ds[, c(\"building_count\", \"avr_price\")])\n\n# 5. 探索案例之间的相似性来填补缺失值\nds_num <- ds[c(\"age\", \"building_density\", \"house_count\", \"building_count\", \"green_rate\", \"avr_price\")]\nds1<-knnImputation(ds_num,k=10)\nhead(ds_num)\nhead(ds1)\n# 用中位数来填补：\nds2<-knnImputation(ds_num,k=10,meth=\"median\")\n",
+    "created" : 1474133055239.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3230700905",
+    "id" : "1705E85F",
+    "lastKnownWriteTime" : 1474136254,
+    "path" : "~/Desktop/data_analytics/data_analytics/V1_data_preprocess.R",
+    "project_path" : "V1_data_preprocess.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
