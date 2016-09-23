@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">geo</title>
+  <link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css">
+  <style>
+  body, html, div, svg{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  .key{
+    display: inline-block;
+    color: #ccc;
+    font-size: 20px;
+  }
+  .value{
+    display: inline-block;
+    color: #06e6ae;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .dot{
+    z-index: 2;
+  }
+  .map{
+    z-index: 1;
+  }
+  </style>
+</head>
+<body>
+  <div class="container" id="map-container"></div>
+  <script src="./leaflet/leaflet.js"></script>
+  <script type="text/javascript">
+
+  var map = L.map('map-container', {"center":[31.132901401103307,121.40098571777344],"zoom":10});
+
+  var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
+
+  
+  var priceMin = 80000, priceMax = 180000;
+  //获取数据
+  fetch('./house.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(ds){
+    ds
+    .filter(function(d){
+      return d.lat && d.lng
+    })
+    .forEach(function(d){
+      var price01 = getK(d.avr_price, priceMin, priceMax);
+      var size = getSize(price01);
+      var color = getColor(price01);
+      //
+      var circle = L.circleMarker({
+        lat: d.lat,
+        lng: d.lng
+      }, {
+        stroke: false,
+        fillColor: color
+      })
+      .addTo(map);
+      circle.setRadius(size);
+    });
+  });
+  
+  //归一化
+  function getK(v, min, max){
+    v = Math.max(Math.min(v, max), min);
+    return (max - v) / (max - min);
+  }
+
+  //颜色字符串 -> 数组
+  function str2array(c){
+    return c
+    .replace('rgba(', '')
+    .replace(')', '')
+    .split(',')
+    .map(function(v){
+      return parseFloat(v, 10);
+    });
+  }
+
+  //颜色映射函数
+  var cmin = 'rgba(250,0,0,0.1)';
+  var cmax = 'rgba(255,255,255,1)';
+  function getColor(ki){
+    var cminArray = str2array(cmin);
+    var cmaxArray = str2array(cmax);
+    //
+    var r = Math.floor(cminArray[0] + (cmaxArray[0] - cminArray[0]) * ki);
+    var g = Math.floor(cminArray[1] + (cmaxArray[1] - cminArray[1]) * ki);
+    var b = Math.floor(cminArray[2] + (cmaxArray[2] - cminArray[2]) * ki);
+    var a = cminArray[3] + (cmaxArray[3] - cminArray[3]) * ki;
+    //
+    return 'rgba(' + [r,g,b,a].join(',') + ')';
+  }
+
+  // 大小映射函数
+  var rmin = 2, rmax = 10;
+  function getSize(ki){
+    return rmin + (rmax - rmin) * ki;
+  }
+
+  </script>
+</body>
+</html>

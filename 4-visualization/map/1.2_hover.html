@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">geo</title>
+  <style>
+  body, html, div, svg{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 40%;
+    left: 35%;
+    position: absolute;
+  }
+  .key{
+    display: inline-block;
+    color: #ccc;
+    font-size: 20px;
+  }
+  .value{
+    display: inline-block;
+    color: #06e6ae;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+  <script src="./d3.min.js"></script>
+  <script type="text/javascript">
+  var container = document.getElementsByClassName('container')[0];
+  var width = container.offsetWidth;
+  var height = container.offsetHeight;
+
+  //画布
+  var svg = d3.select('body').append('svg')
+  .attr('width', width)
+  .attr('height', height);
+
+  //绘制地图的元素
+  var scale = 600;
+  var center = [108.216465, 34.161532];
+  var projection = d3
+  .geoMercator()
+  .scale(scale)
+  .center(center)
+  .translate([width / 2, height / 2]);
+  
+
+  //获取地理边界数据
+  var path = d3.geoPath().projection(projection);
+
+  d3.json('./countries.geo.json', function (ds){
+    svg.selectAll('path')
+    .data(ds.features)
+    .enter()
+    .append("path")
+    .attr("d", path)
+    .on('mouseover', onMouseOver)
+    .on('mouseout', onMouseOut)
+    .attr('fill', '#fff')
+    .attr('stroke', '#000');
+  });
+
+  function onMouseOver(){
+     d3.select(this).attr('fill', '#cff');
+  }
+  function onMouseOut(){
+     d3.select(this).attr('fill', '#fff');
+  }
+
+  
+
+
+  </script>
+</body>
+</html>
