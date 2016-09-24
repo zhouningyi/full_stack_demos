@@ -44,8 +44,6 @@
   var projection = d3.geoMercator();
   var path = d3.geoPath().projection(projection);
 
-  var url = './countries.geo.json';
-
   //获取数据
   d3.json('./countries.geo.json', fn);
 

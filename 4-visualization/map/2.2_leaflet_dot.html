@@ -57,24 +57,24 @@
       return d.lat && d.lng
     })
     .forEach(function(d){
-      //
-      L.circle({
-        lat: d.lat,
-        lng: d.lng
-      }, 1000, {
-        stroke: false,
-        fillColor: 'rgba(0,200,200,0.5)'
-      }).addTo(map);
-      
-      // var circle = L.circleMarker({
+      // //
+      // L.circle({
       //   lat: d.lat,
       //   lng: d.lng
-      // }, {
+      // }, 1000, {
       //   stroke: false,
       //   fillColor: 'rgba(0,200,200,0.5)'
-      // })
-      // .addTo(map);
-      // circle.setRadius(10);
+      // }).addTo(map);
+      
+      var circle = L.circleMarker({
+        lat: d.lat,
+        lng: d.lng
+      }, {
+        stroke: false,
+        fillColor: 'rgba(0,200,200,0.5)'
+      })
+      .addTo(map);
+      circle.setRadius(10);
 
     });
   });

@@ -42,7 +42,11 @@
   <script src="./leaflet/leaflet.js"></script>
   <script type="text/javascript">
 
-  var map = L.map('map-container', {"center":[31.132901401103307,121.40098571777344],"zoom":10});
+  var map = L.map('map-container',{"center":[30.270335343049847,120.23471832275389],"zoom":11});
+
+
+  // var url = 'http://cache1.arcgisonline.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer/tile/{z}/{y}/{x}'
+  // var tileLayer = L.tileLayer(url).addTo(map);
 
   var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
 
@@ -53,7 +57,7 @@
       center: [center.lat, center.lng],
       zoom: zoom
     }));
-  })
+  });
 
   </script>
 </body>

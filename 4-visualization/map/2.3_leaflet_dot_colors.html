@@ -46,7 +46,7 @@
 
   var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
 
-  
+
   var priceMin = 80000, priceMax = 180000;
   //获取数据
   fetch('./house.json')
@@ -78,7 +78,7 @@
   //归一化
   function getK(v, min, max){
     v = Math.max(Math.min(v, max), min);
-    return (max - v) / (max - min);
+    return (max - v) / (max - min) || 0;
   }
 
   //颜色字符串 -> 数组
@@ -93,7 +93,7 @@
   }
 
   //颜色映射函数
-  var cmin = 'rgba(250,0,0,0.1)';
+  var cmin = 'rgba(250,0,0,0.9)';
   var cmax = 'rgba(255,255,255,1)';
   function getColor(ki){
     var cminArray = str2array(cmin);

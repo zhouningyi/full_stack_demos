@@ -78,6 +78,7 @@
       circle.setRadius(size);
       circle.__data = d;
       circle.bindPopup('小区名:' + d.community_name + '<br> 价格： ' + d.avr_price);
+      if(Math.random() < 0.03)console.log(circle);
       //
       circles.push(circle);
       //
@@ -146,12 +147,14 @@
       });
     });
   }
+
   var gui = new dat.gui.GUI();
   var p1 = gui.addFolder('颜色');
-  gui.addColor(crange, '0').name('最小值颜色').onChange(updateScatter);
-  gui.addColor(crange, '1').name('最大值颜色').onChange(updateScatter);
-  gui.add(rrange, '0', 0, 20).name('最小值大小').onChange(updateScatter);
-  gui.add(rrange, '1', 0, 50).name('最大值大小').onChange(updateScatter);
+  p1.addColor(crange, '0').name('最小值颜色').onChange(updateScatter);
+  p1.addColor(crange, '1').name('最大值颜色').onChange(updateScatter);
+  p1.add(rrange, '0', 0, 20).name('最小值大小').onChange(updateScatter);
+  p1.add(rrange, '1', 0, 50).name('最大值大小').onChange(updateScatter);
+  p1.open();
 
   </script>
 </body>
