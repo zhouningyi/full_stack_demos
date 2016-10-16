@@ -8,7 +8,9 @@ var mongoose = require("mongoose"),
       type: Number
     },
     lng: Number,
-    tel: String,
+    tel: {
+      type: String
+    },
     hospital_id: {
       type: 'String',
       index: { unique: true }

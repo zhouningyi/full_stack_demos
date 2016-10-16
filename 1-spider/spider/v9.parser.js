@@ -35,6 +35,7 @@ function parser(e, res, body){
       district_name: districtName,
       community_name: communityName
     };
+    console.log(result)
     update(result);
   });
 }

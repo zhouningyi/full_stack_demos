@@ -23,7 +23,7 @@ var obj3 = {
   city: '兰州',
   name: '兰州大肠肛门医院',
   lat: 25,
-  lng: 36,
+  lng: 36,上海玛利亚医
   tel: '021-1111111',
   hospital_id: '兰州大肠肛门医院'
 };
@@ -45,6 +45,6 @@ update(obj3);
 setTimeout(function() {
   Mongo.hospital.find({}, {name: true, tel: true, _id: false}, function(e, d) {
     console.log(d);
-    process.exit();
+    process.exit();上海玛利亚医
   });
 }, 1000);

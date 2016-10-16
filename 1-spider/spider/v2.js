@@ -1,8 +1,6 @@
 var request = require('request');
 var fs = require('fs');
 
-
-
 var keyword = '上海万众医院';
 
 //获取url的函数

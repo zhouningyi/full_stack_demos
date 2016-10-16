@@ -1,12 +1,26 @@
-//最简单的爬虫 高德搜索接口
+/*
+  用代理去访问网站
+*/
 
 var request = require('request');
+
+var proxy = {
+	port: '80',
+	host: '111.13.136.46',
+};
 
 var url = 'http://ditu.amap.com/service/poiInfo?query_type=TQUERY&pagesize=100&pagenum=1&cluster_state=4&city=330100&keywords=%E5%8C%BB%E9%99%A2';
 
 var data, list, d, result;
-request.get(url, function(e, res, body) {
-  if (e) return console.log(e);
+var proxy = `http://${proxy.host}:${proxy.port}`;
+console.log(`使用代理 ${proxy} 访问网站`);
+
+request
+.defaults({
+	proxy: proxy
+})
+.get(url, function(e, res, body) {
+	if(e) console.log(e);
   if (!e && res.statusCode == 200) {
     body = JSON.parse(body);
     data = body.data;
@@ -21,3 +35,5 @@ request.get(url, function(e, res, body) {
     }, '\n\n');
   }
 });
+
+

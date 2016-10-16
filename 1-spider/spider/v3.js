@@ -66,7 +66,7 @@ function save(ds){
 ///////////////////////////// 主入口 ////////////////////////////
 ////////////////////////////////////////////////////////////////
 
-// //三月爬虫
+// 三月爬虫
 // var str, adcode, url;
 // keywords.forEach(function(keyword){
 //   str = keyword.substring(0, 2);
@@ -82,7 +82,6 @@ keywords.forEach(function(keyword, i){
   var str = keyword.substring(0, 2);
   var adcode = adcodeMap[str];
   if(!adcode) return;
-  console.log(keyword);
   var url = getURL(adcode, keyword);
   var timeout = timeInterval * i;
   setTimeout(function(){

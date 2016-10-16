@@ -31,18 +31,18 @@ function getURL(keyword) {
 var data, list, d, obj, result = [];
 var spiderIndex = 0, spiderSuccessIndex = 0;
 var queryN = keywords.length;
-function query(next) {
+function query(done) {
   var keyword = keywords[spiderIndex];
   var url = getURL(keyword);
   spiderIndex++;
-  if(spiderIndex >= queryN) return next();
+  if(spiderIndex >= queryN) return done();
   request.get(url, function(e, res, body) {
     if (!e && res.statusCode == 200) {
       body = JSON.parse(body);
       data = body.data;
-      if(!data || !data[0]) return query(next);
+      if(!data || !data[0]) return query(done);
       list = data[0].list;
-      if(!list || !list[0]) return query(next);
+      if(!list || !list[0]) return query(done);
       //
       d = list[0];
       obj = {
@@ -57,10 +57,10 @@ function query(next) {
       console.log(spiderSuccessIndex + '/' + spiderIndex + '|' + queryN);
       result.push(obj);
       save(result);
-      return query(next);
+      return query(done);
     } else {
       console.log('错误');
-      return query(next);
+      return query(done);
     }
   });
 }
