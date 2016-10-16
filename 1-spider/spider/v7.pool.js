@@ -1,6 +1,8 @@
-//用mongodb实现并行爬取
-//
-//
+/*
+线程池的思想，和食堂一样。
+1000个人去100个位置的食堂，只能排队，出一个进一个。
+食堂的位置数是实现设定好的，大了就容易被服务器封杀
+*/
 
 var request = require('request');
 var fs = require('fs');
@@ -30,7 +32,7 @@ Pool.prototype = {
   init: function(){
     this.querying = [];
   },
-  process: function(e, res, body, obj){
+  process: function(e, res, body, obj){//处理数据，处理完了调用 this.onProcessed(), 在这里发起新的请求
     if (!e && res.statusCode == 200) {
       body = JSON.parse(body);
       data = body.geocodes;
@@ -56,7 +58,7 @@ Pool.prototype = {
       this.query();
     }.bind(this), timeout);
   },
-  query: function(){
+  query: function(){//query()是发起请求，完了调用process()一下然后再看看是不是池子没满，没满的话调用自己this.query();
     if (this.queryingIndex > poolCount) return;
     var obj = this.source[this.spiderIndex];
     console.log(obj)

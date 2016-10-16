@@ -1,4 +1,8 @@
-//熟悉mongoose;
+/*
+这个案例，主要是熟悉mongoose;
+可以先看看models/hospital.js 这个schema，如何定义unique的字段，我们修改都是靠这个字段做的
+obj1和obj2都是同样的id, 而obj3有不一样的id，所以1,2,3的记录被upsert后，数据库只有2条记录，obj2覆盖了obj1
+*/
 var Mongo = require('./mongo');
 
 var obj1 = {
@@ -29,6 +33,7 @@ var obj3 = {
 };
 
 function update(obj) {
+  //findOneAndUpdate这个函数，他可以实现upsert，去查询这个记录存不存在，存在则修改，不存在则新增
   Mongo.hospital.findOneAndUpdate({
     hospital_id: obj.hospital_id
   }, obj, {

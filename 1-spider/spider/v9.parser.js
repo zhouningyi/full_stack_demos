@@ -1,3 +1,7 @@
+/*
+  请求返回后，所有的处理都在这里。
+  因为这个内容也比较多，所以专门分了这个文件
+*/
 
 var Mongo = require('./mongo');
 var cheerio = require('cheerio');
@@ -19,7 +23,7 @@ function parser(e, res, body){
     node = $(node);
     var infoNode = node.find('.actshowMap_list');
     var xiaoqu = infoNode.attr('xiaoqu');
-    xiaoqu = xiaoqu.replace(/\'/g, '"');
+    xiaoqu = xiaoqu.replace(/\'/g, '"');//展示的数据不是标准的json, 处理成标准的json，json要双引号 ['aa'] => ["aa"]
     console.log(typeof(xiaoqu));
     xiaoqu = JSON.parse(xiaoqu);
     var lat = xiaoqu[1], lng = xiaoqu[0], communityName = xiaoqu[2];

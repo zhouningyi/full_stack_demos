@@ -1,7 +1,10 @@
 /*
-  直接爬取并出现错误
+  从这个案例开始，我们换了一个接口开始爬取
+  我们的接口名称叫GeoCoding，遇到地址数据可以转化为经纬度
+
+  我们的数据是小区的名称，需要的结果是清洗成经纬度
+  之前的问题是爬取的太快会封杀，现在的问题是按照上一次的逻辑爬取太慢, 改进的方法在下一个案例
 */
-//用mongodb实现并行爬取
 
 var request = require('request');
 var fs = require('fs');
@@ -10,7 +13,7 @@ var addresses = require('./data/community.json');
 var Mongo = require('./mongo');
 
 //获取url的函数
-function getURL(address) {
+function getURL(address) {//GeoCoding，遇到地址可以转化为经纬度
   return encodeURI('http://restapi.amap.com/v3/geocode/geo?key=46799a1920f8b8914ad7d0a2db0096d1&address=' + address);
 }
 

@@ -1,9 +1,6 @@
 /*
-  直接爬取并出现错误
+  pool的模型，和v8差不多
 */
-//用mongodb实现并行爬取
-//
-//
 
 var request = require('request');
 var fs = require('fs');

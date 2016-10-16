@@ -14,8 +14,7 @@ page.onConsoleMessage = function(msg) {
 	console.log(msg);
 };
 
-
-function login(){
+function login(){//我们把之前的login过程抽成了函数
 	page.evaluate(function() {
 		console.log('start login...');
 		$('#loginUrl').click()
@@ -39,8 +38,9 @@ function save(name, info){
 
 page.open('http://sh.lianjia.com/', function() {
 	login();
+	//login结束后，用
 	setTimeout(function() {
 		console.log('save cookie..');
-		save('cookie.txt', page.cookies);
+		save('cookie.txt', page.cookies);//这部，我们把页面里的cookie存在了文件里
 	}, 500);
 });

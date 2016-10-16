@@ -1,14 +1,11 @@
 /*
-  直接爬取并出现错误
+ v9比较复杂，把v8变成了一个模块，
 */
-//
-//
 
 var request = require('request');
 var fs = require('fs');
-var getURLs = require('./v9.urls');
+var getURLs = require('./v9.urls');//v8变成了一个模块
 var Pool = require('./v9.pool');
-var Mongo = require('./mongo');
 
 
 getURLs(function(urls){

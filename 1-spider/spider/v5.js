@@ -1,7 +1,6 @@
 /*
-  直接爬取并出现错误
+  用mongodb实现串行爬取，另一个修改是nextQuery， 可以让串行爬取的2个过程中间有个等待时间
 */
-//用mongodb实现串行爬取
 
 var request = require('request');
 var fs = require('fs');
@@ -80,6 +79,7 @@ function query(next) {
 
 var timeout = 1000;
 function nextQuery(next){
+  //改造函数query 可以让串行爬取的2个过程中间有个等待时间
   setTimeout(function(){
     query(next);
   }, timeout);

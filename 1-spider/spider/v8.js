@@ -1,9 +1,10 @@
 /*
-  直接爬取并出现错误
+  v8开始是一个新的内容
+  我们之前是针对ajax请求进行爬取，这回是解析网页。
+  在这个案例里，我们遇到了不能翻过100页的限制
+  我们通过点击filter里面的按钮，比如查看黄浦区的所有小区去跳过这个限制
+  这个就是生成所有可能的url
 */
-//用mongodb实现并行爬取
-//
-//
 
 var request = require('request');
 var fs = require('fs');
@@ -15,17 +16,17 @@ var urlXiaoqu = urlBase + 'xiaoqu';
 
 request.get(urlXiaoqu, function(e, res, body) {
   if (!e && res.statusCode == 200) {
-    var $ = cheerio.load(body);
-    var urls = findALLURL($);
+    var $ = cheerio.load(body);//开始解析网页字符串
+    var urls = findALLURL($);//发现所有的url
     console.log(urls);
-    urls = genURLs(urls);
+    urls = genURLs(urls);//把每个url从第一页翻到100页
   }
 });
 
 function findALLURL($){
   var hrefs = [];
   var url;
-  $('#filter-options').find('a').each(function(i, node){
+  $('#filter-options').find('a').each(function(i, node){//寻找 id为filter-options的面板下所有的a标签内的url
     url = $(node).attr('href');
     url = path.join(urlBase, url);
     hrefs.push(url);
@@ -35,7 +36,7 @@ function findALLURL($){
 }
 
 
-function filterUrl(arr){
+function filterUrl(arr){//过滤url，我们发现我们要的url都有 /xiaoqu/的结构 
   var newArr = [];
   for(var i = 0; i < arr.length; i++){
     var url = arr[i];
