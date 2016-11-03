@@ -63,16 +63,17 @@
   var path = d3.geoPath().projection(projection);
 
   d3.json('./countries.geo.json', function(ds) {
-    svg.selectAll('path')
+    svg
+      .selectAll('path')
       .data(ds.features)
       .enter()
       .append("path")
-      .attr("d", path)
-      .on('mouseover', onMouseOver)
       .on('mouseout', onMouseOut)
+      .attr("d", path)
       .attr('fill', '#fff')
       .attr('z-index', '1')
-      .attr('stroke', '#000');
+      .attr('stroke', '#000')
+      .on('mouseover', onMouseOver);
 
       drawDots();
   });
@@ -85,7 +86,6 @@
     d3.select(this).attr('fill', '#fff');
   }
 
-  
 
 //画点图
 function drawDots() {
@@ -95,14 +95,16 @@ function drawDots() {
       .data(ds)
       .enter()
       .append("circle")
+
       .attr('cx', function(d) {
         return projection([d.lng, d.lat])[0];
       })
       .attr('cy', function(d) {
         return projection([d.lng, d.lat])[1];
       })
+      
       .attr('r', '6px')
-      .attr('fill', 'rgba(0,0,190,0.1)')
+      .attr('fill', 'rgba(0,0,180,0.1)')
       .attr('z-index', '2')
       .classed('dot', true)
   });

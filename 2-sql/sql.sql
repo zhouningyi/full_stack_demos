@@ -3,31 +3,33 @@
 ------=====SELECT====-------
 SELECT 1;
 
---sql里不区分大小写
-SeLeCt 1;
-
 --做计算
 SELECT 1 * 2;
 
 --运行函数
 SELECT DATE('2012-09-17');
 
-SELECT VERSION();
+-- SELECT DATE('2012-09-17') AS 三年前的今天;
 
-SELECT pg_database_size('study');
-SELECT pg_size_pretty(pg_database_size('study'));
+
+-- SELECT VERSION();
+ 
+
+
+-- SELECT pg_database_size('study');
+-- SELECT pg_size_pretty(pg_database_size('study'));
 
 --AS
-SELECT DATE('2012-09-17') AS 三年前的今天;
+
 
 
 --通过默认表理解select
 
-SELECT * FROM pg_stat_activity;
+-- SELECT * FROM pg_stat_activity;
 
-SELECT PID, USENAME FROM pg_stat_activity;
+-- SELECT PID, USENAME FROM pg_stat_activity;
 
-SELECT PID as 进程id, USENAME as 用户名 FROM pg_stat_activity;
+-- SELECT PID as 进程id, USENAME as 用户名 FROM pg_stat_activity;
 
 
 
@@ -49,14 +51,13 @@ SELECT '2012-02-03 10:00:20'::TIMESTAMP;
 SELECT TIMESTAMP '2012-02-03' - TIMESTAMP '2012-02-01 11:01';
 
 --
-SELECT POINT(2,3);
+-- SELECT POINT(2,3);
 
 
---JSON的处理
+--JSON 的处理
 SELECT '{"a":1, "b":2}'::JSON;
 --javascript {"a":1}.a
 SELECT '{"a":{"b": 1}}'::JSON -> 'a' -> 'b';
-
 
 
 
@@ -66,8 +67,8 @@ CREATE DATABASE study;
 --建立表
 DROP TABLE IF EXISTS "public"."house_lianjia_communities";
 CREATE TABLE "public"."house_lianjia_communities" (
-  "community_name" Character Varying(100) ,
-  "plate" Character Varying( 255 ) ,
+  "community_name" Character Varying(20) ,
+  "plate" Character Varying(255) ,
   "site" Character Varying(100) ,
   "age" Integer,
   "building_density" Double Precision,
@@ -76,12 +77,12 @@ CREATE TABLE "public"."house_lianjia_communities" (
   "building_count" Integer,
   "green_rate" Double Precision,
   "avr_price" Double Precision,
-  "develop_company" Character Varying( 255 ) ,
-  "community_id" Character Varying( 255 ) UNIQUE,
+  "develop_company" Character Varying(255) ,
+  "community_id" Character Varying(255) UNIQUE,
   "lat" Double Precision,
   "lng" Double Precision,
   "growth" Double Precision,
-  "address" Character Varying( 255 )[]
+  "address" Character Varying(255)[]
   );
 
 --测试表， 看看执行两次会怎样
@@ -112,20 +113,18 @@ DELETE FROM house_lianjia_communities;
 COPY house_lianjia_communities(
 community_name,plate,site,age,building_density,building_type,house_count,building_count,green_rate,avr_price,develop_company,lat,lng,address,community_id,growth
 )
-from '/Users/zhouningyi/git/full_stack_demos/2-sql/data/house_lianjia_communities.csv'
+
+from '/Users/zhouningyi/git/presentation/full_stack_demos/2-sql/data/house_lianjia_communities.csv'
 WITH DELIMITER ','
 NULL AS 'Null'
 CSV HEADER;
 
 
 --举一反三 如何导出
-
 COPY house_lianjia_communities
-TO '/Users/zhouningyi/git/full_stack_demos/2-sql/data/house_lianjia_communities.csv'
+TO '/Users/zhouningyi/git/presentation/full_stack_demos/2-sql/data/house_lianjia_communities.csv'
 NULL AS 'Null'
 CSV HEADER;
-
-
 
 
 
@@ -164,14 +163,29 @@ CSV HEADER;
 
 CREATE TABLE house_lianjia_community_cleans as (select * from tbs);
 --检查一下
-select * from house_lianjia_community_cleans;
-
-
-
-
-
+SELECT * from house_lianjia_community_cleans;
 
 --=====基本操作 && 分析场景======--
+
+--选择我要的房子
+SELECT community_name AS NAME, lat, lng, growth AS VALUE
+FROM  house_lianjia_communities
+WHERE adcode LIKE '31%'
+AND community_name IS NOT NULL
+AND lat IS NOT NULL
+AND lng IS NOT NULL
+AND growth IS NOT NULL
+AND avr_price IS NOT NULL
+AND address IS NOT NULL
+AND growth > 0.3
+
+AND avr_price < 70000
+
+
+AND address :: TEXT NOT LIKE '%4%'
+
+AND plate IN ('徐泾', '华漕', '龙柏')
+LIMIT 1000;
 
 
 
@@ -215,15 +229,14 @@ percentile_cont(0.6) WITHIN GROUP (ORDER BY avr_price) AS avr_price,
 percentile_cont(0.8) WITHIN GROUP (ORDER BY avr_price) AS avr_price
 FROM house_lianjia_communities;
 
---group
-SELECT
-
 
 --校验下是否正确，特殊情况下的正确性
 SELECT SUM (1 * avr_price) / SUM(1)
 from house_lianjia_communities
 where avr_price is not null;
 
+
+--GROUP 操作是很重要的
 --平均数 加权平均 中位数
 SELECT count(1), round(avr_price / 2000) * 2000 as 价格
 from (
@@ -249,8 +262,7 @@ group by round(avr_price / 2000) * 2000
 order BY 价格;
 
 --价格和涨幅的关系
-
-SELECT (CAST((round(avr_price / 5000) * 5000) AS INTEGER))  AS x, avg(growth) AS y, count(1) AS z FROM house_lianjia_communities
+SELECT (CAST((round(avr_price / 5000) * 5000) AS INTEGER))  AS x, avg(growth) AS y, count(1) / 1000 AS z FROM house_lianjia_communities
 WHERE avr_price IS NOT NULL
 AND growth IS NOT NULL
 AND avr_price < 100000
@@ -279,25 +291,6 @@ WHERE y2 > 8
 order by 涨幅 desc
 LIMIT 15;
 
---选择我要的房子
-SELECT community_name AS NAME, lat, lng, growth AS VALUE
-FROM  house_lianjia_communities
-WHERE adcode LIKE '31%'
-AND community_name IS NOT NULL
-AND lat IS NOT NULL
-AND lng IS NOT NULL
-AND growth IS NOT NULL
-AND avr_price IS NOT NULL
-AND address IS NOT NULL
-AND growth > 0.3
-
-AND avr_price < 70000
-
-
-AND address :: TEXT NOT LIKE '%4%'
-
-AND plate IN ('徐泾', '华漕', '龙柏')
-LIMIT 1000;
 
 ------------------------------------------
 ------连表查询 人口和房屋数量做比较【内含作业】
@@ -339,8 +332,6 @@ CSV HEADER;
 
 --【作业】如何连接三张表进行分析
 -- 如，如何通过一个sql连接三张表，求上海每个区有多少小区、多少幢楼、多少户人
-
-
 
 
 
@@ -414,12 +405,11 @@ ORDER BY from_hour, count DESC;
 
 
 
-
 --＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝插件＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝－－
 
 create extension if not exists pg_jieba;
 
---== 认识unset
+--== 认识unnest
 SELECT '{"a", "b", "c"}'::text[];
 select unnest('{"a", "b", "c"}'::text[]);
 

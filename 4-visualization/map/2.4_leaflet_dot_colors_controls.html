@@ -47,14 +47,19 @@
 
   var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
 
-  
+  var filterRange = [60000, 100000]
+  function rangeFilter(d){
+    return d.avr_price > filterRange[0] && d.avr_price < filterRange[1]
+  }
+
+
   var priceRange = [80000, 150000];
   var circles = [];
   //获取数据
   fetch('./house.json')
   .then(function(response) {
     return response.json();
-  })
+  })      
   .then(function(ds){
     ds
     .filter(function(d){
@@ -66,6 +71,8 @@
       var price01 = getK(price, priceMin, priceMax);
       var size = getSize(price01);
       var color = getColor(price01);
+      if(!rangeFilter(d)) color = 'rgba(0,0,0,0)';
+
       //
       var circle = L.circleMarker({
         lat: d.lat,
@@ -78,7 +85,6 @@
       circle.setRadius(size);
       circle.__data = d;
       circle.bindPopup('小区名:' + d.community_name + '<br> 价格： ' + d.avr_price);
-      if(Math.random() < 0.03)console.log(circle);
       //
       circles.push(circle);
       //
@@ -135,11 +141,13 @@
   //
   function updateScatter(){
     circles.forEach(function(circle){
-      var price = circle.__data.avr_price;
+      var d = circle.__data;
+      var price = d.avr_price;
       var priceMin = priceRange[0], priceMax = priceRange[1];
       var price01 = getK(price, priceMin, priceMax);
       var size = getSize(price01);
       var color = getColor(price01);
+      if(!rangeFilter(d)) color = 'rgba(0,0,0,0)';
       circle.setRadius(size);
       circle.setStyle({
         stroke: false,
@@ -154,6 +162,9 @@
   p1.addColor(crange, '1').name('最大值颜色').onChange(updateScatter);
   p1.add(rrange, '0', 0, 20).name('最小值大小').onChange(updateScatter);
   p1.add(rrange, '1', 0, 50).name('最大值大小').onChange(updateScatter);
+
+  p1.add(filterRange, '0', 10000, 100000).name('过滤范围min').onChange(updateScatter);
+  p1.add(filterRange, '1', 10000, 300000).name('过滤范围max').onChange(updateScatter);
   p1.open();
 
   </script>

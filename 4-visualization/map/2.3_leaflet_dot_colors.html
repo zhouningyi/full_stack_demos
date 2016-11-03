@@ -47,7 +47,7 @@
   var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
 
 
-  var priceMin = 80000, priceMax = 180000;
+  var priceMin = 30000, priceMax = 180000;
   //获取数据
   fetch('./house.json')
   .then(function(response) {

@@ -13,6 +13,7 @@ library(DMwR)
 file <- "~/Desktop/data_analytics/data_analytics/dataset/lianjia_community_shanghai.xls"
 ds0 <- read_excel(file, sheet = 1, na = "NA")
 ds <- ds0
+
 ################################################
 ## 数据汇总统计
 ################################################
@@ -30,9 +31,11 @@ max(ds$avr_price, na.rm=T)
 mean(ds$avr_price, na.rm=T)
 median(ds$avr_price, na.rm=T)
 sd(ds$avr_price, na.rm=T)
+hist(ds$avr_price, breaks=50)
+
 sapply(ds, mean, na.rm=TRUE)
 summary(ds)
-hist(ds$age, breaks=10, col="red")
+
 
 
 # 频率表
@@ -41,7 +44,8 @@ age_tbl <- table(ds$age) # A will be rows, B will be columns
 age_tbl # print table 
 df <- data.frame(age_tbl)
 freq <- df[order(-df$Freq),]
-
+head(freq)
+tail()
 
 ################################################
 ## 数据清洗 （缺失值）
@@ -54,6 +58,7 @@ head(ds)
 # 查看缺失部分
 ds[!complete.cases(ds),]
 nrow(ds[!complete.cases(ds),])
+nrow(ds)
 
 # nrow(ds)
 # 剔除缺失部分
@@ -75,6 +80,7 @@ nrow(ds2)/nrow(ds)
 # 函数manyNAs()：可以找出缺失值个数大于列数20%的行，第二个参数默认值是0.2
 ds3<-ds[-manyNAs(ds, 0.2),]
 nrow(ds3)/nrow(ds)
+
 
 ################################################
 ## 数据填充
@@ -107,6 +113,7 @@ head(ds2,20)
 # 3. 通过变量的相关关系来填补缺失值
 symnum(cor(ds[,c("age", "building_density", "house_count", "building_count", "green_rate", "avr_price")],use="complete.obs"))
 head(ds)
+ds$avr_price
 
 # 4. 利用线性相关变量进行填补：
 ds<-ds0
@@ -125,10 +132,13 @@ head(ds0[, c("building_count", "avr_price")])
 head(ds[, c("building_count", "avr_price")])
 
 # 5. 探索案例之间的相似性来填补缺失值
+ds<-ds0
+# extract numeric columns
 ds_num <- ds[c("age", "building_density", "house_count", "building_count", "green_rate", "avr_price")]
 ds1<-knnImputation(ds_num,k=10)
 head(ds_num)
 head(ds1)
-
+ds_num[11657,]
 # 用中位数来填补：
 ds2<-knnImputation(ds_num,k=10,meth="median")
+?knnImputation

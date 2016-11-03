@@ -48,7 +48,8 @@
   d3.json('./countries.geo.json', fn);
 
   function fn(ds){
-    svg.selectAll('path')
+    svg
+    .selectAll('path')
     .data(ds.features)
     .enter()
     .append("path")

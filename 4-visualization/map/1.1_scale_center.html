@@ -38,7 +38,6 @@
   var width = container.offsetWidth;
   var height = container.offsetHeight;
 
-
   //画布
   var svg = 
   d3.select('body')
@@ -47,7 +46,7 @@
   .attr('height', height);
 
   //绘制地图的元素
-  var scale =900;
+  var scale =600;
   var center = [108.216465, 34.161532];
   var projection = d3
   .geoMercator()
@@ -70,8 +69,8 @@
     .enter()
     .append("path")
     .attr("d", path)
-    .attr('fill', '#fff')
-    .attr('stroke', '#000');
+    .attr('fill', '#0ff')
+    .attr('stroke', '#fff');
   }
   </script>
 </body>

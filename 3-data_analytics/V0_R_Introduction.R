@@ -3,19 +3,20 @@
 #####################################################
 
 
-# Directory
+# Set Working Directory
 setwd("~/Desktop/data_analytics/data_analytics/")
 getwd() # print the current working directory
 ls() # list objects in the working environment
 
-# Packages
+# Install Packages
 install.packages("dplyr", "ggplot2")
 library(dplyr)
 library(ggplot2)
 
+
 # Help
-?all
-help(all)
+?mean
+help(mean)
 
 
 # Data Type
@@ -32,6 +33,7 @@ format(today, format="%B %d %Y")
 
 # 序列 Array
 x <- c(1:12)
+x
 
 # 矩阵
 m <- matrix(data=x, nrow=3, ncol=4)
@@ -39,7 +41,8 @@ m + 1
 m * 2
 
 # Data Frame
-df<-data.frame(m)
+df <- data.frame(m)
+df
 df$X1[2]
 df[2,2]
 str(df)
@@ -64,13 +67,10 @@ dim(iris)
 # class of an object (numeric, matrix, data frame, etc)
 class(iris)
 
-# Import/export data
-mydata <- read.table("c:/mydata.csv", header=TRUE,  sep=",", row.names="id")
-write.table(mydata, "c:/mydata.txt", sep="\t")
-
 # batch process
+?lapply
+# get max of each column
 sapply(iris[,1:4], max)
-tapply
 lapply
 
 # function
@@ -84,3 +84,8 @@ plus10 <- function(x) {
 plus10(1)
 plus10(NA)
 plus10("a")
+
+
+# Import/export data
+mydata <- read.table("~/Desktop/data_analytics/data_analytics/dataset/SH_house_pricing.csv", header=TRUE,  sep=",", row.names="t")
+write.table(mydata, "~/Desktop/data_analytics/data_analytics/dataset/temp.txt", sep="\t")
