@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="UTF-8">
+  <title id="title">demos</title>
+</head>
+<style type="text/css">
+.container{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 100%; 
+  width: 100%;
+  overflow: hidden;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+</style>
+<body>
+  <div class="wrapper container" style="background:black;">
+    <div id="main-container" class="container" style="background:black;z-index:0;"></div>
+    <div id="ui-container" class="container" style="pointer-events:none; z-index:1;"></div>
+  </div>
+</body>
+
+</html>
