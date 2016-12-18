@@ -13,8 +13,12 @@ var page = webpage.create();
 page.onResourceRequested = function(requestData, networkRequest) {//一个资源载入后，就触发这个函数
   console.log('Request (#' + requestData.id + '): ' + JSON.stringify(requestData));
 };
-
+page.onConsoleMessage = function(e, d){
+	console.log(e, d)
+}
 page.open('http://sh.lianjia.com/xiaoqu', function() {
-  page.render('img/lianjia_xiaoqu.png');//把解析后的页面截屏后存图片
-  phantom.exit();//退出
+	page.evaluate(function() {//evaluate函数，相当于在网页的console里执行代码
+		console.log(navigator.plugins.length)
+	});
+  // phantom.exit();//退出
 });
