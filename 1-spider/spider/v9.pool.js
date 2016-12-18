@@ -19,10 +19,6 @@ function Pool(urls){
   this.init();
 }
 
-//获取url的函数
-function getURL(address) {
-  return encodeURI('http://restapi.amap.com/v3/geocode/geo?key=46799a1920f8b8914ad7d0a2db0096d1&address=' + address);
-}
 
 Pool.prototype = {
   reset: function(){

@@ -18,7 +18,6 @@ request.get(urlXiaoqu, function(e, res, body) {
   if (!e && res.statusCode == 200) {
     var $ = cheerio.load(body);//开始解析网页字符串
     var urls = findALLURL($);//发现所有的url
-    console.log(urls);
     urls = genURLs(urls);//把每个url从第一页翻到100页
   }
 });

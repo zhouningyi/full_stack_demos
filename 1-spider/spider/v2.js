@@ -9,7 +9,6 @@ var keyword = '上海万众医院';
 
 //获取url的函数
 function getURL(adcode, keyword) {
-
   return encodeURI('http://ditu.amap.com/service/poiInfo?query_type=TQUERY&pagesize=100&pagenum=1&cluster_state=4&city=' + adcode + '&keywords=' + keyword);
 }
 
@@ -32,6 +31,6 @@ request.get(url, function(e, res, body) {
       tel: d.tel
     };
 
-    fs.writeFileSync('./data/output.json', JSON.stringify(result), 'utf8');// 把获取的数据进行存储
+    fs.writeFileSync('./data/output.json', JSON.stringify(result, null, 2), 'utf8');// 把获取的数据进行存储
   }
 });

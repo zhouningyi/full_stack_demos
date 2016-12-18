@@ -23,6 +23,7 @@ function parser(e, res, body){
     node = $(node);
     var infoNode = node.find('.actshowMap_list');
     var xiaoqu = infoNode.attr('xiaoqu');
+
     xiaoqu = xiaoqu.replace(/\'/g, '"');//展示的数据不是标准的json, 处理成标准的json，json要双引号 ['aa'] => ["aa"]
     console.log(typeof(xiaoqu));
     xiaoqu = JSON.parse(xiaoqu);

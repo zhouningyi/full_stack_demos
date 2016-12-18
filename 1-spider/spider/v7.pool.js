@@ -16,7 +16,6 @@ var timeout = 100;
 function Pool(source){
   this.source = source;
   this.reset();
-  this.init();
 }
 
 //获取url的函数
@@ -28,9 +27,6 @@ Pool.prototype = {
   reset: function(){
     this.spiderIndex = 0;
     this.queryingIndex = 0;
-  },
-  init: function(){
-    this.querying = [];
   },
   process: function(e, res, body, obj){//处理数据，处理完了调用 this.onProcessed(), 在这里发起新的请求
     if (!e && res.statusCode == 200) {
