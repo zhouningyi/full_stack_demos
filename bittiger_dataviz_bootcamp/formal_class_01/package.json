@@ -1,0 +1,18 @@
+{
+  "name": "formal_class_01",
+  "version": "1.0.0",
+  "description": "bittiger data viz bootcamp class01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootcamp"
+  ],
+  "author": "will su",
+  "license": "ISC",
+  "dependencies":{
+  	"request":"*",
+  	"cheerio":"*"
+  }
+}
