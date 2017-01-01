@@ -18,7 +18,8 @@ var results = {};
   var model = require(pth);
   //
   var Model = sequelize.define(model.name, model.columns, {});
-  Model.sync()
+  Model
+    .sync()
     .then(function() {});
   results[modelName] = Model;
 });

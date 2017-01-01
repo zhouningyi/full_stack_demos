@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">geo</title>
+  <style>
+  body, html, div, svg{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  .key{
+    display: inline-block;
+    color: #ccc;
+    font-size: 20px;
+  }
+  .value{
+    display: inline-block;
+    color: #06e6ae;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+  <script src="./d3.min.js"></script>
+  <script src="./dat.gui.min.js"></script>
+  <script type="text/javascript">
+  var container = document.getElementsByClassName('container')[0];
+  var width = container.offsetWidth;
+  var height = container.offsetHeight;
+
+  //画布
+  var svg = d3.select('body')
+    .append('svg')
+    .attr('width', width)
+    .attr('height', height);
+
+  //绘制地图的元素
+  var scale = 150;
+  var center = [0, 0.161532];
+
+  function raw(x, y){
+    return [x, y];
+  }
+
+  var maxLat = Math.PI / 2 - 0.001;
+  function mecator(x, y){
+    if(y >= maxLat) y = maxLat;
+    if(y <= -maxLat) y = -maxLat;
+    return [x, Math.log(Math.tan(y/2 + Math.PI/4))];
+  }
+
+
+  var maxLat = Math.PI / 2 - 0.001;
+  function mecator2(x, y){
+    if(y >= maxLat) y = maxLat;
+    if(y <= -maxLat) y = -maxLat;
+    return [x, Math.tan(y)];
+  }
+
+  var projs = {
+    raw: raw,
+    mecator: mecator,
+    mecator2: mecator2
+  };
+
+  function createProjection(project){
+    return d3
+      .geoProjection(project)
+      .scale(scale)
+      .center(center)
+      .translate([width / 2, height / 2]);
+  }
+
+  function _createPath(projection){
+    return  d3.geoPath().projection(projection);
+  }
+
+  function createPath(name){
+    var project = projs[name];
+    var projection = createProjection(project);
+    return _createPath(projection);
+  }
+
+  var curPath = createPath('raw');
+
+  const lines = [];
+  let delta = 0.02
+  for(let i = delta - 1; i < 1; i+=delta){
+    let coordinates = [];
+    let geo = {
+      type: 'Feature',
+      geometry: {
+        type: 'LineString',
+        coordinates: coordinates
+      }
+    };
+    for(let j = delta - 1; j < 1; j+=delta){
+      coordinates.push([180 * i, 80 * j])
+    }
+    let line = svg
+    .append('g')
+    .selectAll('path')
+    .data([geo])
+    .enter()
+    .append('path')
+    .attr('d', curPath)
+    .attr('stroke', '#444')
+    .attr('fill', 'transparent');
+    lines.push(line)
+  }
+
+  //获取数据
+  d3.json('./countries.geo.json', fn);
+  var geo;
+  function fn(ds){
+    geo = svg
+    .append('g')
+    .selectAll('path')
+    .data(ds.features)
+    .enter()
+    .append('path')
+    .attr('d', curPath)
+    .attr('fill', '#ccc')
+    .attr('stroke', '#fff');
+  }
+
+  var selection = { proj: 'raw' };
+  var gui = new dat.gui.GUI();
+  gui
+  .add(selection, 'proj', ['raw', 'mecator', 'mecator2'])
+  .onChange(updateProj);
+
+  function updateProj(name){
+    svg.selectAll('path')
+       .transition()
+       .duration(1000)
+       .attr('d', createPath(name));
+  }
+
+  </script>
+</body>
+</html>

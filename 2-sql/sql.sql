@@ -60,19 +60,19 @@ SELECT '{"a":1, "b":2}'::JSON;
 SELECT '{"a":{"b": 1}}'::JSON -> 'a' -> 'b';
 
 
-
 --=====建DATABASE======--
 CREATE DATABASE study;
+sElEct 1;
 
 --建立表
 DROP TABLE IF EXISTS "public"."house_lianjia_communities";
 CREATE TABLE "public"."house_lianjia_communities" (
-  "community_name" Character Varying(20) ,
+  "community_name" Character Varying(255) ,
   "plate" Character Varying(255) ,
   "site" Character Varying(100) ,
   "age" Integer,
   "building_density" Double Precision,
-  "building_type" Character Varying(20) ,
+  "building_type" Character Varying(255) ,
   "house_count" Integer,
   "building_count" Integer,
   "green_rate" Double Precision,
@@ -125,8 +125,6 @@ COPY house_lianjia_communities
 TO '/Users/zhouningyi/git/presentation/full_stack_demos/2-sql/data/house_lianjia_communities.csv'
 NULL AS 'Null'
 CSV HEADER;
-
-
 
 
 --=========如何清洗刚才的数据==========--
@@ -245,7 +243,7 @@ from (
   where avr_price is not null
   order by avr_price
   ) as t
-group by round(avr_price / 2000) * 2000
+GROUP by round(avr_price / 2000) * 2000
 order BY 价格;
 
 --用with简化
@@ -308,7 +306,7 @@ areas(
 name,
 adcode
 )
-FROM '/Users/zhouningyi/git/full_stack_demos/2-sql/data/areas.csv'
+FROM '/Users/zhouningyi/git/presentation/full_stack_demos/2-sql/data/areas.csv'
 NULL AS 'Null'
 CSV HEADER;
 
@@ -325,7 +323,7 @@ house_lianjia_plates(
 name,
 adcode
 )
-FROM '/Users/zhouningyi/git/full_stack_demos/2-sql/data/house_lianjia_plates.csv'
+FROM '/Users/zhouningyi/git/presentation/full_stack_demos/2-sql/data/house_lianjia_plates.csv'
 NULL AS 'Null'
 CSV HEADER;
 
@@ -402,11 +400,16 @@ ORDER BY from_hour, count DESC;
 
 
 
+----================同学的问题================----
+
+SELECT count(1), floor(lat * 100) / 100 AS lat,  floor(lng * 100) / 100 AS lng
+FROM track_kuaidi_source_small 
+GROUP BY floor(lat * 100) / 100, floor(lng * 100) / 100
+ORDER BY count DESC;
 
 
 
 --＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝插件＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝－－
-
 create extension if not exists pg_jieba;
 
 --== 认识unnest
@@ -444,7 +447,6 @@ group by chr
 order by avr_price desc
 ) as tb
 where cnt > 2;
-
 
 
 --建立索引

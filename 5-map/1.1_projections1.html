@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">geo</title>
+  <style>
+  body, html, div, svg{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  .key{
+    display: inline-block;
+    color: #ccc;
+    font-size: 20px;
+  }
+  .value{
+    display: inline-block;
+    color: #06e6ae;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+  <script src="./d3.min.js"></script>
+  <script src="./dat.gui.min.js"></script>
+  <script type="text/javascript">
+  var container = document.getElementsByClassName('container')[0];
+  var width = container.offsetWidth;
+  var height = container.offsetHeight;
+
+  //画布
+  var svg = 
+  d3.select('body')
+  .append('svg')
+  .attr('width', width)
+  .attr('height', height);
+
+  //绘制地图的元素
+  var scale =200;
+  var center = [108.216465, 34.161532];
+
+  var projection = d3
+  .geoMercator()
+  .scale(scale)
+  .center(center)
+  .translate([width / 2, height / 2]);
+
+  var path = d3.geoPath().projection(projection);
+
+  const lines = [];
+  let delta = 0.02
+  for(let i = delta - 1; i < 1; i+=delta){
+    let coordinates = [];
+    let geo = {
+      type: 'Feature',
+      geometry: {
+        type: 'LineString',
+        coordinates: coordinates
+      }
+    };
+    for(let j = delta - 1; j < 1; j+=delta){
+      coordinates.push([180 * i, 80 * j])
+    }
+    let line = svg
+    .append('g')
+    .selectAll('path')
+    .data([geo])
+    .enter()
+    .append('path')
+    .attr('d', path)
+    .attr('stroke', '#444')
+    .attr('fill', 'transparent');
+    lines.push(line)
+  }
+
+  //获取数据
+  d3.json('./countries.geo.json', fn);
+  var geo;
+  function fn(ds){
+    geo = svg
+    .append('g')
+    .selectAll('path')
+    .data(ds.features)
+    .enter()
+    .append('path')
+    .attr('d', path)
+    .attr('fill', '#ccc')
+    .attr('stroke', '#fff');
+  }
+
+  var projections = [
+    'geoMercator',
+    'geoStereographic', 
+    'geoOrthographic', 
+    'geoGnomonic',
+    'geoAzimuthalEqualArea'
+  ];
+
+  var selection = {
+    proj: 'geoMercator'
+  };
+  var gui = new dat.gui.GUI();
+  gui
+  .add(selection, 'proj', projections)
+  .onChange(updateProj);
+  function updateProj(proj){
+
+    proj = d3[proj]()
+    .scale(scale)
+    .center(center)
+    .translate([width / 2, height / 2]);
+
+    path.projection(proj);
+
+    svg.selectAll('path')
+       .transition()
+       .duration(1000)
+       .attr('d', path);
+  }
+
+  </script>
+</body>
+</html>

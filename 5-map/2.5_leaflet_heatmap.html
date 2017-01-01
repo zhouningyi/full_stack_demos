@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">geo</title>
+  <link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css">
+  <style>
+  body, html, div, svg{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: rgba(30, 30, 30, 1);
+    color: rgb(234, 226, 210)!important;
+    border-radius: 3px!important;
+    opacity: 1!important;
+  }
+  .leaflet-popup-content{
+    margin: 0!important;
+    padding: 2px 8px 2px 10px!important;
+    font-size: 14px;
+  }
+  .leaflet-popup-content p{
+    margin: 0!important;
+    font-size: 14px;
+  }
+  .leaflet-popup-content-wrapper{
+    border: 1px solid transparent!important;
+    padding: 4px 8px!important;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container" id="map-container"></div>
+  <script src="./leaflet/leaflet.js"></script>
+  <script src="./dat.gui.min.js"></script>
+  <script src="./d3.min.js"></script>
+  <script type="text/javascript">
+
+
+  var map = L.map('map-container', {"center":[31.132901401103307,121.40098571777344],"zoom":10});
+
+  var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
+
+  var key = 'avg_price_total';
+  var colorMap = d3.scaleLinear()
+    .domain([100000, 1000000, 3000000, 6000000, 12000000])
+    .range(['transparent', 'blue', 'green', 'yellow', 'red']);
+
+  //转化成geojson
+  function createGeojson(ds){
+    return {
+      type: 'FeatureCollection',
+      features: ds.map(function(d){
+        return {
+          type: 'Feature',
+          id: d.plate_id,
+          geometry: d.polygon
+        };
+      })
+    };
+  }
+  d3.json('./shanghai.json', function(ds){
+    var geojson = createGeojson(ds);
+    var layer = L.geoJson(geojson)
+    layer.addTo(map);
+    d3.json('./house_plate.json', function(ds){
+      var dataObject = {};
+      ds.forEach(function(d){
+        dataObject[d.plate_id] = d;
+      });
+      var lyrs = layer._layers;
+      for(var i in lyrs){
+        var lyr = lyrs[i];
+        var id = lyr.feature.id;
+        var d = dataObject[id];
+        var value = d[key];//
+        var color = colorMap(value);
+        lyr.setStyle({
+          fillColor: color,
+          fillOpacity: 0.9,
+          stroke: null
+        });
+        lyr.bindPopup(
+          `${d.name}:<br>
+           平均总价：${d[key] / 10000}万
+          `);
+      }
+    });
+  })
+
+  </script>
+</body>
+</html>

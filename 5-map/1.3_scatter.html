@@ -59,6 +59,16 @@
   .translate([width / 2, height / 2]);
   
 
+   var latlng = [40.757, -73.9]
+   var projection1 = d3
+  .geoMercator()
+  .scale(600)
+  .center(latlng)
+  .translate([container.offsetWidth / 2, container.offsetHeight / 2]);
+   console.log(projection1(latlng))
+
+
+
   //获取地理边界数据
   var path = d3.geoPath().projection(projection);
 
