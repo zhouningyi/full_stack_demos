@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <title id="title">geo</title>
-  <link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css">
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
   <style>
   body, html, div, svg{
     padding: 0;
@@ -43,9 +43,9 @@
 </head>
 <body>
   <div class="container" id="map-container"></div>
-  <script src="./leaflet/leaflet.js"></script>
-  <script src="./dat.gui.min.js"></script>
-  <script src="./d3.min.js"></script>
+  <script src="./../libs/leaflet/leaflet.js"></script>
+  <script src="./../libs/dat.gui.min.js"></script>
+  <script src="./../libs/d3.min.js"></script>
   <script type="text/javascript">
 
 
@@ -54,7 +54,8 @@
   var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
 
   var key = 'avg_price_total';
-  var colorMap = d3.scaleLinear()
+  var colorMap = 
+     d3.scaleLinear()
     .domain([100000, 1000000, 3000000, 6000000, 12000000])
     .range(['transparent', 'blue', 'green', 'yellow', 'red']);
 
@@ -71,6 +72,7 @@
       })
     };
   }
+
   d3.json('./shanghai.json', function(ds){
     var geojson = createGeojson(ds);
     var layer = L.geoJson(geojson)

@@ -17,17 +17,6 @@
     left: 35%;
     position: absolute;
   }
-  .key{
-    display: inline-block;
-    color: #ccc;
-    font-size: 20px;
-  }
-  .value{
-    display: inline-block;
-    color: #06e6ae;
-    font-size: 60px;
-    font-weight: bold;
-  }
   .dot{
     z-index: 2;
   }
@@ -38,7 +27,7 @@
 </head>
 <body>
   <div class="container"></div>
-  <script src="./d3.min.js"></script>
+  <script src="./../libs/d3.min.js"></script>
   <script type="text/javascript">
   var container = document.getElementsByClassName('container')[0];
   var width = container.offsetWidth;
@@ -58,16 +47,6 @@
   .center(center)
   .translate([width / 2, height / 2]);
   
-
-   var latlng = [40.757, -73.9]
-   var projection1 = d3
-  .geoMercator()
-  .scale(600)
-  .center(latlng)
-  .translate([container.offsetWidth / 2, container.offsetHeight / 2]);
-   console.log(projection1(latlng))
-
-
 
   //获取地理边界数据
   var path = d3.geoPath().projection(projection);
@@ -115,6 +94,7 @@ function drawDots() {
       
       .attr('r', '6px')
       .attr('fill', 'rgba(0,0,180,0.1)')
+      .attr('stroke', '#000')
       .attr('z-index', '2')
       .classed('dot', true)
   });

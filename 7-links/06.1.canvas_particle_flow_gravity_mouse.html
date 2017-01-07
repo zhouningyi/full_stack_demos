@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">canvas game</title>
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
+  <style>
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  #canvas-container{
+    z-index: 1;
+  }
+  #map-container{
+    background: #222;
+  }
+  </style>
+</head>
+<body>
+  <div class="container" id="canvas-container"></div>
+  <div class="container" id="map-container"></div>
+  <script src="./libs/leaflet/leaflet.js"></script>
+  <script type="text/javascript">
+
+  const darken = (ctx, alpha) => {
+    const {width, height} = ctx.canvas;
+    const imgdata = ctx.getImageData(0, 0, width, height)
+    const data = imgdata.data;
+    for(var i = 0; i <= data.length; i+= 4){
+      data[i + 3] = data[i + 3] *  alpha;
+    }
+    ctx.putImageData(imgdata, 0, 0);
+  }
+
+  const center = {
+    x: 500,
+    y: 500
+  };
+
+  class Particle{
+    constructor(ctx){
+      this.ctx = ctx;
+      this.x = Math.random() * 1000;
+      this.y = Math.random() * 1000;
+      this.vx = (Math.random() - 0.5 ) * 6;
+      this.vy = (Math.random() - 0.5 ) * 6;
+      this.ax = 0;
+      this.ay = 0;
+      this.r  = 3;
+      ctx.fillStyle = 'rgba(0,255,255,.3)';
+    }
+    draw(){
+      const {ctx} = this;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI);
+      ctx.fill();
+      ctx.closePath();
+    }
+    force(fn){
+      this._force = fn;
+    }
+    update(){
+      let f = this._force(this.x, this.y);
+      let ki = 0.1;
+      this.ax = f.x - ki * this.vx;
+      this.ay = f.y - ki * this.vy;
+      this.vx += this.ax;
+      this.vy += this.ay;
+      this.x  += this.vx;
+      this.y  += this.vy;
+    }
+  }
+
+  class Particles{
+    constructor(container){
+      this.container = container;
+      this.init();
+      this.loop();
+      //
+      this.initEvents();
+    }
+    init(){
+      this.initCanvas();
+      this.initParticles();
+    }
+    clean(){
+      const{ctx, canvas} = this;
+      darken(ctx, 0.9);
+    }
+    initCanvas(){
+      const {container} = this;
+      const canvas = this.canvas = document.createElement('canvas');
+      canvas.width  = container.offsetWidth;
+      canvas.height = container.offsetHeight;
+      container.appendChild(canvas);
+      this.ctx = canvas.getContext('2d');
+    }
+    initParticles(){
+      const particles = this.particles = [];
+      const {ctx} = this;
+
+      const force = (x, y) => {
+        let dx  = center.x - x;
+        let dy  = center.y - y;
+        let dist2 = Math.max(Math.pow(dx, 2) + Math.pow(dy, 2), 1);
+        let dist  = Math.sqrt(dist2);
+        let f  = 10000 / dist2;
+        let fx = f * dx / dist;
+        let fy = f * dy / dist;
+        return {x: fx, y: fy};
+      };
+
+      for(let i = 0; i < 1000; i++){
+        let particle = new Particle(ctx);
+        particle.force(force);
+        particles.push(particle);
+      }
+    }
+    updateParticles(){
+      this.clean();
+      this.particles.forEach(particle => {
+        particle.update();
+        particle.draw();
+      })
+    }
+    loop(){
+      this.updateParticles();
+      window.requestAnimationFrame(() => this.loop())
+    }
+    initEvents(){
+      this.canvas
+      .addEventListener('mousemove', (e) => {
+        center.x = e.clientX || 0;
+        center.y = e.clientY || 0;
+      })
+    }
+  }
+
+  const container = document.querySelector('#canvas-container');
+  new Particles(container);
+
+  </script>
+</body>
+</html>

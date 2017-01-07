@@ -32,8 +32,8 @@
 </head>
 <body>
   <div class="container"></div>
-  <script src="./d3.min.js"></script>
-  <script src="./dat.gui.min.js"></script>
+  <script src="./../libs/d3.min.js"></script>
+  <script src="./../libs/dat.gui.min.js"></script>
   <script type="text/javascript">
   var container = document.getElementsByClassName('container')[0];
   var width = container.offsetWidth;
@@ -53,15 +53,14 @@
     return [x, y];
   }
 
-  var maxLat = Math.PI / 2 - 0.001;
+  var maxLat = Math.PI / 2 - 0.0001;
   function mecator(x, y){
-    if(y >= maxLat) y = maxLat;
+    if(y >=  maxLat) y =  maxLat;
     if(y <= -maxLat) y = -maxLat;
     return [x, Math.log(Math.tan(y/2 + Math.PI/4))];
   }
 
-
-  var maxLat = Math.PI / 2 - 0.001;
+  var maxLat = Math.PI / 2 - 0.0001;
   function mecator2(x, y){
     if(y >= maxLat) y = maxLat;
     if(y <= -maxLat) y = -maxLat;

@@ -1,7 +1,7 @@
 
 
-import {forceCenter,forceCollide,forceLink,forceManyBody,forceSimulation,forceX,forceY} from 'd3-force'
-import {select} from 'd3-selection'
+import {forceCenter,forceCollide,forceLink,forceManyBody,forceSimulation,forceX,forceY} from 'd3-force';
+import {select} from 'd3-selection';
 
 class Circles {
 	constructor(container) {
@@ -30,7 +30,7 @@ class Circles {
 		//
 
 		const fManyBody = forceManyBody().strength(() => 5);
-		const fCollide  = forceCollide(nodesize).strength(1);
+		const fCollide = forceCollide(nodesize).strength(1);
 
 		const update = () => node.attr('cx', d => d.x).attr('cy', d => d.y);
 

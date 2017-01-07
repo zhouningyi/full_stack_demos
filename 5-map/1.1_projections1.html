@@ -32,8 +32,8 @@
 </head>
 <body>
   <div class="container"></div>
-  <script src="./d3.min.js"></script>
-  <script src="./dat.gui.min.js"></script>
+  <script src="./../libs/d3.min.js"></script>
+  <script src="./../libs/dat.gui.min.js"></script>
   <script type="text/javascript">
   var container = document.getElementsByClassName('container')[0];
   var width = container.offsetWidth;
@@ -47,8 +47,8 @@
   .attr('height', height);
 
   //绘制地图的元素
-  var scale =200;
-  var center = [108.216465, 34.161532];
+  var scale =150;
+  var center = [0, 0];
 
   var projection = d3
   .geoMercator()
@@ -70,7 +70,7 @@
       }
     };
     for(let j = delta - 1; j < 1; j+=delta){
-      coordinates.push([180 * i, 80 * j])
+      coordinates.push([180 * i, 89.99 * j])
     }
     let line = svg
     .append('g')
@@ -107,6 +107,8 @@
     'geoAzimuthalEqualArea'
   ];
 
+
+
   var selection = {
     proj: 'geoMercator'
   };
@@ -114,6 +116,8 @@
   gui
   .add(selection, 'proj', projections)
   .onChange(updateProj);
+
+  
   function updateProj(proj){
 
     proj = d3[proj]()

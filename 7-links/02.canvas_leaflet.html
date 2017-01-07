@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">canvas</title>
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
+  <style>
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  #canvas-container{
+    z-index: 1;
+    pointer-events: none; /*注意这很重要， 如果缺少pointer-events，前面的canvas会遮挡后面的交互*/
+  }
+  #map-container{
+    background: #000;
+  }
+  </style>
+</head>
+<body>
+  <div class="container" id="canvas-container"></div>
+  <div class="container" id="map-container"></div>
+  <script src="./libs/leaflet/leaflet.js"></script>
+  <script type="text/javascript">
+  
+  let map;
+  const createMap = () => {
+    map = L.map('map-container', {center:[31.132901401103307,121.40098571777344], zoom:10});
+    L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
+  };
+
+
+  let canvas, ctx;
+  const createCanvas = () => {
+    const container = document.querySelector('#canvas-container');
+    canvas = document.createElement('canvas');
+    canvas.width  = container.offsetWidth;
+    canvas.height = container.offsetHeight;
+    container.appendChild(canvas);
+    ctx = canvas.getContext('2d');
+  };
+
+
+  const rdColor = () => Math.floor(Math.random() * 255)
+
+  const drawPoints = () => {
+    fetch('./house.json')
+    .then(res => res.json())
+    .then(ds => {
+      ctx.globalCompositeOperation = 'lighter';//让叠加变亮
+      ds
+      .filter(d => d.lat && d.lng)
+      .forEach(d => {
+        let{lat, lng} = d;
+        let pt = map.latLngToContainerPoint({lat, lng});
+        ctx.beginPath();//为了让点变成独立的path
+        ctx.arc(pt.x, pt.y, 5, 0, 2 * Math.PI);
+        ctx.closePath();
+        ctx.fillStyle = `rgba(0, 255, 255, 0.6)`;
+        ctx.fill();
+      });
+    });
+  };
+
+  createMap();
+  createCanvas();
+  drawPoints();
+
+  </script>
+</body>
+</html>

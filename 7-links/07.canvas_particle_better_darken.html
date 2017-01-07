@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">canvas game</title>
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
+  <style>
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  #canvas-container{
+    z-index: 1;
+    pointer-events: none; /*注意这很重要， 如果缺少pointer-events，前面的canvas会遮挡后面的交互*/
+  }
+  #map-container{
+    background: #222;
+  }
+  </style>
+</head>
+<body>
+  <div class="container" id="canvas-container"></div>
+  <div class="container" id="map-container"></div>
+  <script src="./libs/leaflet/leaflet.js"></script>
+  <script type="text/javascript">
+
+  const darken = (ctx, alpha) => {
+    const {width, height} = ctx.canvas;
+    const globalCompositeOperation = ctx.globalCompositeOperation;
+    const fillStyle = ctx.fillStyle;
+    ctx.globalCompositeOperation = 'destination-out';
+    ctx.fillStyle = `rgba(255,255,255,${1 - alpha})`;
+    ctx.fillRect(0, 0, width, height);
+    ctx.globalCompositeOperation = globalCompositeOperation;
+    ctx.fillStyle = fillStyle;
+  }
+
+  class Particle{
+    constructor(ctx){
+      this.ctx = ctx;
+      this.x = Math.random() * 1000;
+      this.y = Math.random() * 1000;
+      this.vx = (Math.random() - 0.5 ) * 6;
+      this.vy = (Math.random() - 0.5 ) * 6;
+      this.r  = 3;
+      ctx.fillStyle = 'rgba(0,255,255,.3)';
+    }
+    draw(){
+      const {ctx} = this;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI);
+      ctx.fill();
+      ctx.closePath();
+    }
+    update(){
+      this.check();
+      this.x += this.vx;
+      this.y += this.vy;
+    }
+    check(){//检测是否碰壁了
+      const {width, height} = this.ctx.canvas;
+      if (this.x - this.r < 0 || this.x + this.r > width)  this.vx *= -1;
+      if (this.y - this.r < 0 || this.y + this.r > height) this.vy *= -1;
+    }
+  }
+
+  class Particles{
+    constructor(container){
+      this.container = container;
+      this.init();
+      this.loop();
+    }
+    init(){
+      this.initCanvas();
+      this.initParticles();
+    }
+    clean(){
+      const{ctx, canvas} = this;
+      darken(ctx, 0.9);
+    }
+    initCanvas(){
+      const {container} = this;
+      const canvas = this.canvas = document.createElement('canvas');
+      canvas.width  = container.offsetWidth;
+      canvas.height = container.offsetHeight;
+      container.appendChild(canvas);
+      this.ctx = canvas.getContext('2d');
+    }
+    initParticles(){
+      const particles = this.particles = [];
+      const {ctx} = this;
+      for(let i = 0; i < 10000; i++){
+        let particle = new Particle(ctx);
+        particles.push(particle);
+      }
+    }
+    updateParticles(){
+      this.clean();
+      this.particles.forEach(particle => {
+        particle.update();
+        particle.draw();
+      })
+    }
+    loop(){
+      this.updateParticles();
+      window.requestAnimationFrame(() => this.loop())
+    }
+  }
+
+  const container = document.querySelector('#canvas-container');
+  new Particles(container);
+
+  </script>
+</body>
+</html>

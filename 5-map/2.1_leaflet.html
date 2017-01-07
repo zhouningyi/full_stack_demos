@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <title id="title">geo</title>
-  <link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css">
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
   <style>
   body, html, div, svg{
     padding: 0;
@@ -39,11 +39,11 @@
 </head>
 <body>
   <div class="container" id="map-container"></div>
-  <script src="./leaflet/leaflet.js"></script>
+  <script src="./../libs/leaflet/leaflet.js"></script>
   <script type="text/javascript">
   
 
-  var map = L.map('map-container',{"center":[31.033519983641774,121.62483215332031],"zoom":11});
+  var map = L.map('map-container',{"center":[39.889718875996685,116.53884887695312],"zoom":10});
 
 
   // var url = 'http://cache1.arcgisonline.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer/tile/{z}/{y}/{x}'
@@ -51,7 +51,8 @@
 
   var tileLayer = L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
 
-  map.on('moveend', function(e){
+  map
+  .on('moveend', function(e){
     var center = map.getCenter();
     var zoom = map.getZoom();
     console.log(JSON.stringify({

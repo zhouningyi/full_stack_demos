@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <title id="title">geo</title>
-  <link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css">
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
   <style>
   body, html, div, svg{
     padding: 0;
@@ -39,8 +39,8 @@
 </head>
 <body>
   <div class="container" id="map-container"></div>
-  <script src="./leaflet/leaflet.js"></script>
-  <script src="./dat.gui.min.js"></script>
+  <script src="./../libs/leaflet/leaflet.js"></script>
+  <script src="./../libs/dat.gui.min.js"></script>
   <script type="text/javascript">
 
   var map = L.map('map-container', {"center":[31.132901401103307,121.40098571777344],"zoom":10});
@@ -84,7 +84,7 @@
       .addTo(map);
       circle.setRadius(size);
       circle.__data = d;
-      circle.bindPopup('小区名:' + d.community_name + '<br> 价格： ' + d.avr_price);
+      circle.bindPopup('<div style="color: #f00">小区名:</div>' + d.community_name + '<br> 价格： ' + d.avr_price);
       //
       circles.push(circle);
       //

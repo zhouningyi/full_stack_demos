@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">canvas</title>
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
+  <style>
+  body{
+    background: #222;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+  #canvas-container{
+    z-index: 1;
+    pointer-events: none; /*注意这很重要， 如果缺少pointer-events，前面的canvas会遮挡后面的交互*/
+  }
+  #map-container{
+    background: #000;
+  }
+  </style>
+</head>
+<body>
+  <div class="container" id="canvas-container"></div>
+  <div class="container" id="map-container"></div>
+  <script src="./libs/leaflet/leaflet.js"></script>
+  <script src="./libs/d3.min.js"></script>
+  <script type="text/javascript">
+
+  
+  var colorMap = 
+     d3.scaleLinear()
+    .domain([0, 1])
+    .range(['rgba(0, 0, 190, 0.01)', 'rgba(100, 255, 255, 0.9)']);
+
+  var rMap = 
+     d3.scalePow()
+    .exponent(6)
+    .domain([0, 1])
+    .range([0.1, 1]);
+
+  const createSprite = () => {
+    const canvas  = document.createElement('canvas');
+    const R = 100;
+    canvas.width  = 2 * R;
+    canvas.height = 2 * R;
+    const ctx = canvas.getContext('2d');
+    let r = 0;
+    let color;
+    for(let i = 0; i < 1; i+= 0.01){
+      color = colorMap(i);
+      r = R * rMap(1 - i);
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      ctx.arc(R, R, r, 0, Math.PI * 2);
+      ctx.closePath();
+      ctx.fill();
+    }
+    return canvas;
+  }
+  
+  let map;
+  const createMap = () => {
+    map = L.map('map-container', {center:[31.132901401103307,121.40098571777344], zoom:10});
+    L.tileLayer('//map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}').addTo(map);
+  };
+
+  let canvas, ctx;
+  const createCanvas = () => {
+    const container = document.querySelector('#canvas-container');
+    canvas = document.createElement('canvas');
+    canvas.width  = container.offsetWidth;
+    canvas.height = container.offsetHeight;
+    container.appendChild(canvas);
+    ctx = canvas.getContext('2d');
+  };
+
+  let datas;
+  const _draw = () => {
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+    ctx.fillStyle = 'rgba(0, 255, 255, 0.2)';
+    ctx.globalCompositeOperation = 'lighter';//让叠加变亮
+    const sprite = createSprite();
+    // document.querySelector('#canvas-container').appendChild(sprite);
+    const r = 10;
+    datas
+    .filter(d => d.lat && d.lng)
+    .forEach(d => {
+      let{lat, lng} = d;
+      let pt = map.latLngToContainerPoint({lat, lng});
+      ctx.drawImage(sprite, pt.x - r / 2, pt.y - r / 2, r, r);
+    });
+  }
+
+  const drawPoints = () => {
+    fetch('./house_big.json')
+    .then(res => res.json())
+    .then(ds => {
+      datas = ds;
+      _draw();
+    });
+  };
+
+  const bindEvents = () => {
+    map
+    .on('move', () => _draw())
+    .on('moveend', () => _draw())
+  }
+
+  createMap();
+  createCanvas();
+  drawPoints();
+  bindEvents();
+
+  </script>
+</body>
+</html>

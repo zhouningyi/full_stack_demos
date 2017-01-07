@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">canvas game</title>
+  <link rel="stylesheet" type="text/css" href="./libs/leaflet/leaflet.css">
+  <style>
+  body {
+    background: #222;
+  }
+  .container, body, html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    transition: 3s;
+  }
+  .displayer{
+    background: transparent;
+    transition: .5s;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    width: 50px;
+    height: 50px;
+  }
+  .container-active{
+    background: #099;
+  }
+  .displayer-state1{
+    background: #fff;
+    border-radius: 100px;
+    transform: translate3d(300px, 0px, 100px) scale3d(5,5,5);
+  }
+  .displayer-state2{
+    background: #fff;
+    border-radius: 0px;
+    transform: translate3d(0px, 0px, 0px) scale3d(12,12,12);
+  }
+  .displayer-state3{
+    background: transparent;
+    border-radius: 0px;
+    transform: rotateZ(60deg) translate3d(300px, -300px, 100px) scale3d(3,3,3);
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="displayer"></div>
+  </div>
+  <script type="text/javascript">
+
+  const displayer = document.querySelector('.displayer');
+  const bg = document.querySelector('.container');
+  console.log(displayer)
+
+  setTimeout(() => {
+    displayer.className = 'displayer displayer-state1';
+    bg.className = 'container container-active';
+  }, 1000);
+
+  setTimeout(() => {
+    displayer.className = 'displayer displayer-state2';
+  }, 3000);
+
+  setTimeout(() => {
+    displayer.className = 'displayer displayer-state3';
+  }, 5000);
+
+  setTimeout(() => {
+    bg.className = 'container';
+  }, 6000);
+  // ;
+
+  </script>
+</body>
+</html>

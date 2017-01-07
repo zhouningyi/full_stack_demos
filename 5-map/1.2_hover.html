@@ -32,7 +32,7 @@
 </head>
 <body>
   <div class="container"></div>
-  <script src="./d3.min.js"></script>
+  <script src="./../libs/d3.min.js"></script>
   <script type="text/javascript">
   var container = document.getElementsByClassName('container')[0];
   var width = container.offsetWidth;
@@ -63,7 +63,7 @@
     .append("path")
     .attr("d", path)
     .on('mouseover', onMouseOver)
-    .on('mouseout', onMouseOut)
+    .on('mouseout',  onMouseOut)
     .attr('fill', '#fff')
     .attr('stroke', '#000');
   });
