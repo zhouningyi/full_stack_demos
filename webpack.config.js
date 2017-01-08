@@ -2,7 +2,7 @@
  * @Author: zhouningyi
  * @Date:   2016-10-01 14:18:17
  * @Last Modified by:   zhouningyi
- * @Last Modified time: 2016-12-03 23:56:33
+ * @Last Modified time: 2017-01-07 18:33:33
  */
 var path = require('path');
 var config = require('./config')
@@ -34,7 +34,7 @@ var vNodeModules = path.join(__dirname, 'node_modules');
 module.exports = {
   entry: [
     'babel-polyfill',
-    path.join(src, config.path)
+     path.join(src, config.path)
   ],
   resolveLoader: {
     fallback: [vNodeModules]

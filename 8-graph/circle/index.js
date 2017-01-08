@@ -28,7 +28,7 @@ class Circles {
 			.attr('r', nodesize)
 			.attr("fill", 'rgba(255,0,0,0.8)');
 		//
-
+		
 		const fManyBody = forceManyBody().strength(() => 5);
 		const fCollide  = forceCollide(nodesize).strength(1);
 
@@ -46,7 +46,7 @@ class Circles {
 const container = document.getElementById('main-container')
 const circles = new Circles(container)
 
-fetch('/8-graph/nodes.json')
+fetch('/8-graph/data/nodes.json')
 	.then(res => res.json())
 	.then(ds => ds.filter(d => d.value > 100))
 	.then(ds => circles.render(ds));

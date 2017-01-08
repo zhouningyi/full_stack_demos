@@ -74,7 +74,7 @@
   const bindEvents = () => {
     map
     .on('move', () => _draw())
-    .on('moveend', () => _draw())
+    .on('zoom', () => _draw())
   }
 
   createMap();

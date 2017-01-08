@@ -1,3 +1,3 @@
 module.exports = {
-	path: '8-graph/circle.v1'
+	path: '8-graph/app'
 }

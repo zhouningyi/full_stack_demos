@@ -19,6 +19,7 @@
     pointer-events: none; /*注意这很重要， 如果缺少pointer-events，前面的canvas会遮挡后面的交互*/
   }
   #map-container{
+    z-index: 0;
     background: #000;
   }
   </style>
@@ -54,6 +55,7 @@
     .then(res => res.json())
     .then(ds => {
       ctx.globalCompositeOperation = 'lighter';//让叠加变亮
+      //
       ds
       .filter(d => d.lat && d.lng)
       .forEach(d => {

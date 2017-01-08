@@ -186,6 +186,7 @@
 
   const toFloat = txt => parseFloat(txt, 10);//把字符串转成浮点数
   d3.csv('./small.csv', (ds) => {
+    console.log(ds)
     ds = ds
     .filter(d => d && d.lpep_pickup_datetime && d.Pickup_latitude && d.Dropoff_latitude)
     .map(d => ({

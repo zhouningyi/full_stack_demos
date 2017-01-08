@@ -110,7 +110,7 @@
         let dy  = center.y - y;
         let dist2 = Math.max(Math.pow(dx, 2) + Math.pow(dy, 2), 1);
         let dist  = Math.sqrt(dist2);
-        let f  = .001 * dist;
+        let f  = .001 * (dist - 100);
         let fx = f * dx / dist;
         let fy = f * dy / dist;
         return {x: fx, y: fy};

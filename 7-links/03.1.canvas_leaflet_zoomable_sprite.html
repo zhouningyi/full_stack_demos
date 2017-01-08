@@ -41,13 +41,23 @@
     .exponent(6)
     .domain([0, 1])
     .range([0.1, 1]);
-
+  
+  //离线canvas
   const createSprite = () => {
     const canvas  = document.createElement('canvas');
     const R = 100;
     canvas.width  = 2 * R;
     canvas.height = 2 * R;
     const ctx = canvas.getContext('2d');
+
+    //没有变化的sprite
+    // ctx.fillStyle = 'rgba(0, 255, 255, 0.2)';
+    // ctx.beginPath();
+    // ctx.arc(R, R, R, 0, Math.PI * 2);
+    // ctx.fill();
+    // ctx.closePath();
+
+    //星光图
     let r = 0;
     let color;
     for(let i = 0; i < 1; i+= 0.01){
@@ -78,13 +88,26 @@
     ctx = canvas.getContext('2d');
   };
 
+  
+  let isFirst = true;
+  const showSprite = (sprite) => {
+    if(!isFirst) return;
+    sprite.style.position = 'absolute';
+    sprite.style.left = '0';
+    sprite.style.top = '0';
+    sprite.style.background = '#000';
+    document.querySelector('#canvas-container').appendChild(sprite);
+    isFirst = false;
+  }
+
   let datas;
   const _draw = () => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.fillStyle = 'rgba(0, 255, 255, 0.2)';
     ctx.globalCompositeOperation = 'lighter';//让叠加变亮
     const sprite = createSprite();
-    // document.querySelector('#canvas-container').appendChild(sprite);
+    showSprite(sprite);
+
     const r = 10;
     datas
     .filter(d => d.lat && d.lng)
